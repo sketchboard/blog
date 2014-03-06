@@ -10,7 +10,7 @@ You can keep documentation and images on a same repository.
 
 Example usages:
 
-- Create e.g. project intro with a diagram that makes it easier to get into the project.
+- Create project intro with a diagram that makes it easier to get into the project.
 You can refer images from the repository README.md file
 - Have an overview project design at GitHub wiki
 - Update [GitHub Pages](http://pages.github.com/) technical blog with sketch diagrams
