@@ -65,4 +65,4 @@ GitHub Markdown syntax for images
 	(https://raw.github.com/[user]/[repository]/[brach]/my-diagram-image.png)
 {% endhighlight %}
 
-[GitHub markdown heatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-images).
+[GitHub markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-images).
