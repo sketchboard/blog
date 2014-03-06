@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visualize GitHub README.md with Sketchboard.io"
+title: "Visualize GitHub README.md using Sketchboard.io"
 categories: 
 ---
 
