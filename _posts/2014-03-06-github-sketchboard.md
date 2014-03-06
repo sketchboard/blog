@@ -5,18 +5,23 @@ categories:
 ---
 
 We are exited to announce Sketchboard initial integration with GitHub. 
-Now you are able to upload diagrams directly from Sketchboard to GitHub.
-You can keep documentation and images on a same repository. 
-Create e.g. project intro with a diagram that makes it easier to get into the project.
-You can refer images from the repository README.md file or from GitHub wiki where you could keep project overview design.
+Now you are able to **upload diagrams** directly from Sketchboard to GitHub.
+You can keep documentation and images on a same repository.
+
+Example usages:
+
+- Create e.g. project intro with a diagram that makes it easier to get into the project.
+You can refer images from the repository README.md file
+- Have an overview project design at GitHub wiki
+- Update [GitHub Pages](http://pages.github.com/) technical blog with sketch diagrams
 
 See e.g. [lift-json](https://github.com/lift/lift/tree/master/framework/lift-base/lift-json) component from [Lift](http://liftweb.net) project. It has a great component intro with an image. Picture makes it much easier to understand (as a user) and how to work with the component.
 
 Now with Sketchboard GitHub integration you don't need to leave browser to make updates to the documentation. Now your workflow could be following:
 
-- sketch diagram at [Sketchboard](https://sketchboard.me)
-- export whole diagram or parts of it to GitHub
-- update README.md file at [GitHub](http://github.com) to refer just updated image. GitHub has a nice online editor.
+- Sketch diagram at [Sketchboard](https://sketchboard.me)
+- Export whole diagram or parts of it to GitHub
+- Update README.md file at [GitHub](http://github.com) to refer just updated image. GitHub has a nice online editor.
 
 Naturally GitHub keeps version for images and you can even view the difference
 directly in GitHub.
