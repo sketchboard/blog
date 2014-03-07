@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diagrams in GitHub README.md"
+title: "Diagrams in GitHub"
 categories: 
 ---
 
