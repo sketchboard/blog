@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Visualize GitHub README.md using Sketchboard.io"
+title: "Sketchboard Integrates with GitHub"
 categories: 
 ---
 
-We are exited to announce Sketchboard initial integration with GitHub. 
+We are exited to announce [Sketchboard](http://sketchboard.io) initial integration with [GitHub](http://github.com). 
 Now you are able to **upload diagrams** directly from Sketchboard to GitHub.
 You can keep documentation and images on a same repository.
 
