@@ -29,26 +29,6 @@ directly in GitHub.
 ![View Image Difference at GitHub](/img/github-image-diff.png)
 
 
-Export to GitHub
---------------------------------
-
-Currently Sketchboard GitHub integration works only on public repositories.
-
-### Steps to export
-
-- "Download" Menu => Select Export to GitHub
-- Login to GitHub
-- Select public repository where image should be uploaded
-- Select correct branch, path and name for the exported image 
-- **NOTE:** Image name cannot contain spaces
-- **NOTE:** You can change exported image type, but GitHub doesn't display svg and pdf files
-- **NOTE:** Only selected elements will be exported or all (if no selection)
-
-![GitHub export dialog](/img/github-export-dialog.png)
-
-In case image already exists in the selected path, content is just update. Sketchboard automatically fills commit message with a back link, so you can update diagram later.
-
-
 GitHub Markdown syntax for images
 ---------------------------------
 
@@ -66,3 +46,24 @@ GitHub Markdown syntax for images
 {% endhighlight %}
 
 [GitHub markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-images).
+
+
+Export to GitHub
+--------------------------------
+
+In order to export diagrams from Sketchboard you need to be logged in. Currently Sketchboard GitHub integration works only on public repositories.
+
+### Steps to export
+
+- "Download" Menu => Select Export to GitHub
+- Login to GitHub
+- Select public repository where image should be uploaded
+- Select correct branch, path and name for the exported image 
+- **NOTE:** Image name cannot contain spaces
+- **NOTE:** You can change exported image type, but GitHub doesn't display svg and pdf files
+- **NOTE:** Only selected elements will be exported or all (if no selection)
+
+![GitHub export dialog](/img/github-export-dialog.png)
+
+In case image already exists in the selected path, content is just update. Sketchboard automatically fills commit message with a back link, so you can update diagram later.
+
