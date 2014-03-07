@@ -23,7 +23,7 @@ Now with Sketchboard GitHub integration you don't need to leave browser to make 
 - Export whole diagram or parts of it to GitHub
 - Update README.md file at [GitHub](http://github.com) to refer just updated image. GitHub has a nice online editor.
 
-Naturally GitHub keeps version for images and you can even view the difference
+Naturally GitHub keeps versions for image and you can even view the difference
 directly in GitHub.
 
 ![View Image Difference at GitHub](/img/github-image-diff.png)
