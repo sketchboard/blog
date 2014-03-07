@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sketchboard Integrates with GitHub"
+title: "Diagrams in GitHub README.md"
 categories: 
 ---
 
