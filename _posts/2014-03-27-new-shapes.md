@@ -10,8 +10,7 @@ Now Sketchboard provides generic shapes category. Feature would not have worked 
 
 Have more variety to distinguish shapes from each other, without the shapes being too realistic. Still keeping the sketchiness.
 
-![Generic Shapes](/img/generic-shapes.png)
-
+<img src="/img/generic-shapes.png" alt="Generic Shapes" width="200">
 
 Move elements to foreground/background
 --------------------------------------
@@ -27,14 +26,14 @@ Sketchboard still uses "automatic" layers:
 - Bottom layer: container layer
 	- vertical and horizontal partitions, package
 
-![Move elements to foreground/background](/img/foreg-backg-menu.png)
+<img src="/img/foreg-backg-menu.png" alt="Move elements to foreground/background" width="400">
 
 Board Context Menu
 ------------------
 
 Board context menu is changed and now you can connect any element with each other. In addition to that, this is the default board context menu as well. Double click or long press (on iPad) empty area of the board and you can create any element on that place. Scroll up or down to find other elements.
 
-![Board Context Menu](/img/board-context-menu.png)
+<img src="/img/board-context-menu.png" alt="Board Context Menu" width="350">
 
 Example usages
 --------------
