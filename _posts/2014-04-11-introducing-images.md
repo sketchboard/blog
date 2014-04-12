@@ -35,14 +35,16 @@ Example usages
 
 ### Whiteboard Image
 
-Take picture from a meeting room whiteboard. Upload image directly from the iPad and continue drawing on Sketchboard. You can draw freehand on top of it and export it as a new image.
+You just had a good meeting with a potential solution on a whiteboard. Take a picture from the meeting room whiteboard. Upload image directly from your iPad and continue drawing on Sketchboard. You can draw freehand on top of it and export it as a new image.
+
+Sketchboard can act as meeting minutes form your meeting or you can continue the work using Sketchboard.
 
 
 ### Comment Visual Design
 
 You can upload image of a visual design e.g. of a web site. Add comments on top of the image and iterate design quickly and effortlessly.
 
-Take e.g. screen shot from existing user interface. Draw using Sketchboard new feature on top of the image. Get comments directly with in the board.
+Take e.g. screen shot from an existing user interface. Draw new feature on top of the image using Sketchboard freehand. Get comments directly with in the board.
 
 
 Space Usage and Library Cleanup
