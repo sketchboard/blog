@@ -12,6 +12,5 @@ What Sketchboard is doing about this?
 
 1. Sketchboard updated it's OpenSSL library version that fixed the bug on April 8th, 2014.
 2. New SSL keys were deployed.
-3. All browser sessions have been cleared. This means that you need relogin to the service.
-4. GitHub API keys were revoked.
-
+3. All browser sessions have been cleared. This means that you need to relogin to the service.
+4. GitHub application token was revoked.
