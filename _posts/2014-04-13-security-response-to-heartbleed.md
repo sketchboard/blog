@@ -15,6 +15,7 @@ What Sketchboard has done?
 3. All browser sessions have been cleared. This means that you need to relogin to the service.
 4. GitHub application token was revoked.
 5. Stripe keys were rotated.
+6. Google secret was updated.
 
 
 What you should do
