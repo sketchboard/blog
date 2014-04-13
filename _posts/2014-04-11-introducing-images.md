@@ -9,6 +9,8 @@ Happy to introduce images on Sketchboard. This has been one of the most requeste
 - first open a business board
 - drag image from your desktop to the board
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/768rBBWtsRo" frameborder="0" allowfullscreen></iframe>
+
 Images can be used as normal elements, connect and resize images as you wish. Uploaded images
 are found from an image library. Image library is accessed through board context menu. 
 Double click or long press board to open context menu and select image library.
