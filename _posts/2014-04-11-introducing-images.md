@@ -49,8 +49,8 @@ You can upload image of a visual design e.g. of a web site. Add comments on top 
 Take e.g. screen shot from an existing user interface. Draw new feature on top of the image using Sketchboard freehand. Get comments directly with in the board.
 
 
-Space Usage and Library Cleanup
--------------------------------
+Space Usage and Image Cleanup
+-----------------------------
 
 Image support is available only for business boards. Limitation is due to expenses coming from transferring and storing images on S3. This is not a backup for your images, but a very durable storage for your images.
 
