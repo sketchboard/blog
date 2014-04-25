@@ -21,7 +21,7 @@ Avatar can be changed from [Gravatar.com](http://gravatar.com).
 Team Account == Team
 --------------------
 
-Billing is based on team account. <strong>Subscription fee</strong> is calculated by number of team members in the team account. Team members are divided to Admin and Members. 
+Team is a unit of billing. <strong>Subscription fee</strong> is calculated by number of team members in the team account. Team members are divided to Admin and Members. 
 
 - Admin -- add or remove users from the team
 - Member/Admin -- able to see all team boards having team visibility
