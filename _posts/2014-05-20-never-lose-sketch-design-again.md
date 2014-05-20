@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Sketch Design and Not To Lose It"
+title: "Never Lose Sketch Design Again"
 categories: 
 ---
 
