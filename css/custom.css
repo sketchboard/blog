@@ -7,3 +7,30 @@
 strong {
 	color: #efefef;
 }
+
+body {
+	font-family: "kepler-std", Georgia, Times, serif;
+}
+
+
+section .pagetitle h1 {
+	font-family: "kepler-std", Georgia, Times, serif;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  line-height: 36px;
+}
+
+section .pagetitle p {
+	font-family: "kepler-std", Georgia, Times, serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+p
+{
+text-indent:25px;
+font-size: 1.25em;
+line-height: 1.8em;
+font-weight: 50;
+}
