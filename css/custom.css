@@ -10,6 +10,8 @@ strong {
 
 body {
 	font-family: "kepler-std", Georgia, Times, serif;
+	font-size: 1.20em;
+	font-weight: 300;
 }
 
 
@@ -30,7 +32,6 @@ section .pagetitle p {
 p
 {
 text-indent:25px;
-font-size: 1.25em;
 line-height: 1.8em;
-font-weight: 50;
+font-weight: 300;
 }
