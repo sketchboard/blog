@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Never Lose Sketch Design Again"
+title: "How To Sketch Design and Not To Lose It"
 categories: 
 ---
 
-At first I thought that versions might not be important for Sketchboard. Since Sketchboard concentrates creating sketches and concepts, not final products. Originally version control feature was added to the backlog due to <a href="http://www.colmtuite.com/three-reasons-why-wireframing-tools-suck" target="_blank">"Three reasons why wireframing tools suck."</a> as a potential feature candidate. How wrong was I, there are many situations that versions are good for sketch diagrams and especially for concepts.
+At first I thought that versions might not be important for <a href="http://sketchboard.io" target="_blank">Sketchboard</a>. Since Sketchboard concentrates creating sketches and concepts, not final products. Originally version control feature was added to the backlog due to <a href="http://www.colmtuite.com/three-reasons-why-wireframing-tools-suck" target="_blank">"Three reasons why wireframing tools suck."</a> as a potential feature candidate. How wrong was I, there are many situations that versions are good for sketch diagrams and especially for concepts.
 
 I still wanted to have a proof that it is important for Sketchboard users, not to implement a complex feature that is not significant for them. So survey was conducted. Among Sketchboard users that work with software, developers, architects, designers and managers voted version control feature to be the top priority feature. That persuaded me, and users are right, versions are important, especially when you work professionally with the diagrams.
 
