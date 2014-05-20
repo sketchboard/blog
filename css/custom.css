@@ -4,9 +4,6 @@
 	padding-bottom: 5px;
 }
 
-strong {
-	color: #efefef;
-}
 
 body {
 	font-family: "kepler-std", Georgia, Times, serif;
@@ -14,6 +11,15 @@ body {
 	font-weight: 300;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "kepler-std", Georgia, Times, serif;
+}
+
+strong {
+	color: #efefef;
+	font-family: "kepler-std", Georgia, Times, serif !important;
+	font-weight: bold;
+}
 
 section .pagetitle h1 {
 	font-family: "kepler-std", Georgia, Times, serif;

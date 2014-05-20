@@ -40,4 +40,4 @@ During the implementation there were lot of technical challenges, it was easy to
 You can version each of these steps and get tidied sketch design in the end. Still having possibility to view original ideas.
 
 
-<p style="text-align: center;"><a href="" target="_blank">Comments on Hacker News.</a></p>
+<!-- <p style="text-align: center;"><a href="" target="_blank">Comments on Hacker News.</a></p> -->
