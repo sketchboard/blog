@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sketchboard.Me Confluence"
+title: "Sketchboard.Me Confluence Plugin"
 categories: 
 ---
 
@@ -9,7 +9,8 @@ System Requirements
 -------------------
 
 - Sketchboard.Me Confluence Plugin editing requires modern web browser like Chrome, Safari or Firefox
-- Confluence installation server needs to support Arial font for image generation
+- Since version 3.1.0 plugin supports SVG rendered clickable elements directly on Confluence page. Support requires a modern web browser that supports SVG like Chrome, Safari, Firefox or IE11.
+- Confluence installation server needs to support Arial or Helvetica font for PNG image generation.
 
 
 Add Sketchboard.Me Macro
@@ -28,7 +29,15 @@ Select Sketchboard.Me Macro from Macro menu.
 ### Sketch name
 Type name for the sketch. Note that name can only include ASCII characters. It is possible to refer already existing diagrams as well. In case you want to copy sketch from some other location, copy attachment xml file and point macro to that file.
 
-<img src="/img/confluence-sketcho-name.png" width="500px">
+<span id="svg-option">
+Since version 3.1.0 it is possible to render sketch as SVG instead of PNG image. SVG rendered sketch elements are direcly clickable on Conflunce page. By default SVG is not used. You cand enable SVG rendering by clicking SVG check box.
+</span>
+
+<img src="/img/confluence-svg-render-option.png" width="500px">
+
+Diagrams that have the SVG option enabled are part of a page content and elements are clickable if those contain a link.
+
+<img src="/img/confluence-clickable-diagram-content.png" width="500px">
 
 Once you have pressed "Insert" you will see Sketchboard.Me macro on your Confluence editor. You can double click the diagram placeholder to change the name. Save page content.
 
