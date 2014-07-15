@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="150" width="50" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" fill="none" transform="translate(0.31371813,0.93672684)">
+  <g id="g3943" transform="matrix(0.97594457,0,0,0.97594457,0.28766806,49.664656)" stroke="#FFF" stroke-miterlimit="4" stroke-dasharray="none">
+   <path id="path2985" opacity="0.9" d="m374.29,200.93c0,29.981-30.061,54.286-67.143,54.286s-67.143-24.305-67.143-54.286,30.061-54.286,67.143-54.286,67.143,24.305,67.143,54.286z" transform="matrix(0.35917756,0,0,0.44424596,-85.318821,-64.263944)" stroke-dashoffset="0" stroke-width="7.51025915"/>
+   <g id="g3788" opacity="0.9" stroke-linejoin="miter" transform="translate(-0.69607807,-59.043609)" stroke-linecap="butt" stroke-width="2.8940587">
+    <path id="path3774" d="M26.666,90.191,14.498,78.023"/>
+    <path id="path3786" d="M24.726,90.064,36.894,77.896"/>
+   </g>
+  </g>
+  <g id="g3978" transform="matrix(0.97594457,0,0,0.97594457,0.28766806,49.664655)" stroke="#CCC" stroke-miterlimit="4" stroke-dasharray="none">
+   <path id="path3935" opacity="0.9" d="m374.29,200.93c0,29.981-30.061,54.286-67.143,54.286s-67.143-24.305-67.143-54.286,30.061-54.286,67.143-54.286,67.143,24.305,67.143,54.286z" transform="matrix(0.35917756,0,0,0.44424596,-85.318821,-13.031526)" stroke-dashoffset="0" stroke-width="7.51025915"/>
+   <g id="g3937" opacity="0.9" stroke-linejoin="miter" transform="translate(-0.69607807,-7.8111914)" stroke-linecap="butt" stroke-width="2.8940587">
+    <path id="path3939" d="M26.666,90.191,14.498,78.023"/>
+    <path id="path3941" d="M24.726,90.064,36.894,77.896"/>
+   </g>
+  </g>
+  <g id="g4069" transform="matrix(1.0621988,0,0,1.0621988,-1.3767606,-107.88474)">
+   <path id="path4038" opacity="0.9" d="m374.29,200.93c0,29.981-30.061,54.286-67.143,54.286s-67.143-24.305-67.143-54.286,30.061-54.286,67.143-54.286,67.143,24.305,67.143,54.286z" transform="matrix(0.35053739,0,0,0.43355943,-83.128176,37.104918)"/>
+   <g id="g4040" opacity="0.9" stroke-linejoin="miter" transform="matrix(0.97594457,0,0,0.97594457,-0.54106987,42.199675)" stroke="#FFF" stroke-linecap="butt" stroke-dasharray="none" stroke-miterlimit="4" stroke-width="2.8940587">
+    <path id="path4042" d="M26.666,90.191,14.498,78.023"/>
+    <path id="path4044" d="M24.726,90.064,36.894,77.896"/>
+   </g>
+  </g>
+ </g>
+</svg>
