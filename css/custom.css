@@ -41,7 +41,7 @@ section .pagetitle p {
 
 p
 {
-text-indent:25px;
+/*text-indent:25px;*/
 line-height: 1.8em;
 font-weight: 300;
 }
