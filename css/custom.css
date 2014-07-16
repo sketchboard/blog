@@ -9,10 +9,13 @@ body {
 	font-family: "kepler-std", Georgia, Times, serif;
 	font-size: 1.20em;
 	font-weight: 300;
+  background: #fff;
+  color: #444;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "kepler-std", Georgia, Times, serif;
+  color: #444;
 }
 
 strong {
@@ -30,6 +33,7 @@ section .pagetitle h1 {
 }
 
 section .pagetitle p {
+	color: #777;
 	font-family: "kepler-std", Georgia, Times, serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -40,4 +44,25 @@ p
 text-indent:25px;
 line-height: 1.8em;
 font-weight: 300;
+}
+
+ul {
+	list-style: none;
+  list-style-image: none;
+}
+
+#header nav li:before {
+	content: none;
+}
+li:before {
+	content: "»";
+	padding-right: 5px;
+	margin-left: -20px;
+}
+
+a {
+	color: blue;
+}
+a:hover {
+  color: #1398FF;
 }
