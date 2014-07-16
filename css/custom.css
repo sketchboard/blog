@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 strong {
-	color: #efefef;
+	color: #444;
 	font-family: "kepler-std", Georgia, Times, serif !important;
 	font-weight: bold;
 }
@@ -54,7 +54,7 @@ ul {
 #header nav li:before {
 	content: none;
 }
-li:before {
+ul li:before {
 	content: "»";
 	padding-right: 5px;
 	margin-left: -20px;
