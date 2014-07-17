@@ -51,7 +51,7 @@ During Coding
 
 You can reiterated planning meeting result at anytime, when creating e.g. concrete tasks. You could take a snapshot of the current sketch design, so you won't be destroying anything permanently, and you could always get back to the original drawing table.
 
-Sketch Design helps you to get back to the big picture when you are deep in coding details.
+Sketch Design helps you to get back to the big picture when you are deep in coding details. Sketch Design doesn't need to be pretty, it just need help you to get structure flow back in your mind. In addition it doesn't need to be maintainable, though you can extract some parts of it to your documentation, if it increases your documentation value.
 
 
 Summary
