@@ -46,10 +46,12 @@ When you sketch technical solution, sketch e.g. some servers and data flows, it 
 Example
 ![Technical Sketch Design](/img/sketch-design-technical-sketch.png)
 
-After work
-----------
+During Coding
+-------------
 
 You can reiterated planning meeting result at anytime, when creating e.g. concrete tasks. You could take a snapshot of the current sketch design, so you won't be destroying anything permanently, and you could always get back to the original drawing table.
+
+Sketch Design helps you to get back to the big picture when you are deep in coding details.
 
 
 Summary
