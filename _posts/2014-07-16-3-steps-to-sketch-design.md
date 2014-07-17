@@ -57,7 +57,7 @@ Summary
 
 Sketch Design can certainly be anything, what ever feels most natural for you. What is the most important is to orientate your self to the problem, so you know how much work there is. Different kind of views for the story reveals new consequences and you get a better over all picture. To keep things simple, make sure sketch design doesn't get too detailed or you already "implement" sketched problems on paper, when actual problems might be little bit different.
 
-You could use sketch design to create user stories or you could utilize sketch design on live planning meeting. Especially if you have a virtual meeting using Skype, Google Hangouts or like with distributed team members.
+You could use sketch design to create user stories or you could utilize sketch design on live planning meeting. Especially if you have a virtual meeting using Skype, Google Hangouts or like with remote team members.
 
 In the end your over all sketch design might look something like this.
 
