@@ -63,4 +63,4 @@ In the end your over all sketch design might look something like this.
 
 ![Over all Sketch Design](http://sketchboard.io/sketchboard.io/img/image2.png)
 
-Any thoughts or ideas related to sketch design?
+<a href="https://news.ycombinator.com/item?id=8046298" target="_blank">Comments on Hacker News</a>
