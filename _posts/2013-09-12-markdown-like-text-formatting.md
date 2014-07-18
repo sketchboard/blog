@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Markdown Like Text Formatting"
+title: "Sketchboard Flavored Markdown"
 category: 
 ---
 
