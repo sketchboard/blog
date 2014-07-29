@@ -20,8 +20,8 @@ Well enough reading, watch the video :)
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/0P4NkXXgsJ0?rel=0" frameborder="0" allowfullscreen></iframe>
 
-Introduction to Super Flow Mode
--------------------------------
+Using Super Flow Mode
+---------------------
 
 Super Flow Mode is for the time being experimental. Since it can also be annoying for some of you. You can **enable Super Flow Mode** from board context menu. Double click empty board area and select Super Flow Mode icon. Setting is stored in the cloud, so it will be enabled next time you log in. Disable the feature from the menu if it starts to annoy you.
 
