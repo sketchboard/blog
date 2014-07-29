@@ -18,6 +18,8 @@ Instead of they probably want to also to do **Mind Map like ideas** and to varia
 
 Well enough reading, watch the video :)
 
+<iframe width="640" height="480" src="//www.youtube.com/embed/0P4NkXXgsJ0?rel=0" frameborder="0" allowfullscreen></iframe>
+
 Introduction to Super Flow Mode
 -------------------------------
 
