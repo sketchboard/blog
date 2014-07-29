@@ -31,7 +31,7 @@ Super Flow Mode is for the time being experimental. Since it can also be annoyin
 
 - 1. select element
 - 2. click empty board area => creates next node
-- 3. shift + click empty board area => creates new node from previous node
+- 3. shift + click empty board area => creates new sibling node from previous node
 
 #### Cancel Created Node
 - Press ESC
