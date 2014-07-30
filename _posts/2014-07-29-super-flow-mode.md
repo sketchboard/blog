@@ -49,5 +49,6 @@ Creating connected items fast, might be good at least in the following scenarios
 - Brainstorming
 - Creating Mind Map
 - Creating Domain Model
+- Site Map
 
 <a href="mailto:info@sketchboard.io?subject=Super Flow Mode">What do you think?</a>
