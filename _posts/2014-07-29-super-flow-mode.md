@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Super Flow Mode"
+title: "Sketching Linked Ideas Quickly"
 categories: 
 ---
 
