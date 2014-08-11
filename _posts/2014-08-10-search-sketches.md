@@ -38,7 +38,7 @@ New Shortcut
 ------------
 
 ```
-Mac OSX: Cmd + P
+Mac OS X: Cmd + P
 Windows/Linux: Ctrl + P
 ```
 
