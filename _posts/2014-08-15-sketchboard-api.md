@@ -84,6 +84,8 @@ Content-Type: application/json
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 ```
+
+Example: Successful Response
 ```json
 {
 	"url":"https://sketchboard.me/<created board id>",
@@ -92,6 +94,8 @@ Content-Type: application/json; charset=utf-8
 	"msg":"Board created"
 }
 ```
+
+Example: Failure Response
 ```json
 {
 	"url":"https://sketchboard.me/service/signup",
@@ -100,7 +104,7 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-### Example
+### Example: Create Board Request
 ```
 curl -H "Content-Type: application/json" -XPOST 
 	'https://sketchboard.me/api/v1/board/new/:application_key' -d '
