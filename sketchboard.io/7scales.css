@@ -624,3 +624,7 @@ h2.landing-title span {
 .jumbotron h2 {
 	font-size: 40px;
 }
+
+.plain-text {
+	font-size: 19px;
+}
