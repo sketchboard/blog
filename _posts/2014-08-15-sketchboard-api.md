@@ -86,6 +86,7 @@ Content-Type: application/json; charset=utf-8
 ```
 
 Example: Successful Response
+
 ```json
 {
 	"url":"https://sketchboard.me/<created board id>",
@@ -96,6 +97,7 @@ Example: Successful Response
 ```
 
 Example: Failure Response
+
 ```json
 {
 	"url":"https://sketchboard.me/service/signup",
