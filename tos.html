@@ -12,12 +12,12 @@
   <title>Sketchboard | 7scales</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="bootstrap-3.0.2/css/bootstrap.css" rel="stylesheet">
+  <link href="sketchboard.io/bootstrap-3.0.2/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="justified-nav.css" rel="stylesheet">
-  <link href="navbar-static-top.css" rel="stylesheet">	
-  <link href="7scales.css" rel="stylesheet">
+  <link href="sketchboard.io/justified-nav.css" rel="stylesheet">
+  <link href="sketchboard.io/navbar-static-top.css" rel="stylesheet">	
+  <link href="sketchboard.io/7scales.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,10 +26,10 @@
       <![endif]-->
 </head>
 
-<body class="beige">
+<body class="">
   <div class="wrap">
-  	<div class="highlight" style="height: auto">
-     <div class="navbar" role="navigation">
+  	<div class="highlight">
+     <div class="navbar navbar-fixed-top navbar-custom" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -38,24 +38,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand project-name" href="#"><img src="sketchboard.io/img/sketchboard-logo-wht.png" width="45px" height="auto"> Sketchboard</a>
+          <a class="navbar-brand project-name" href="/"><img src="sketchboard.io/img/sketchboard-logo.png" width="45px" height="auto"> Sketchboard.io</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="http://7scales.com">Home</a></li>
+            <li class="active"><a id="homelink" href="#home">Home</a></li>
             <li><a id="featlink" href="#features">Features</a></li>
             <li><a id="pricinglink" href="#pricing">Pricing</a></li>
-            <li><a href="http://blog.sketchboard.me" target="_blank">Blog</a></li>
-            <li><a href="https://sketchboard.me/service/login" target="_blank">Log In</a></li>
+						<li><a id="contactlink" href="#contact">Contact</a></li>
+            <li><a href="https://sketchboard.me/service/signup" target="_blank" onClick="_gaq.push(['_trackEvent', 'Sign Up', 'Navbar', '']);">Sign Up</a></li>
+            <li><a href="https://sketchboard.me/service/login" target="_blank" onClick="_gaq.push(['_trackEvent', 'Log In', 'Navbar', '']);">Log In</a></li>
           </ul>
         </div>
       </div>
-    </div>  
-  </div>
+    </div>
+		</div>
 
 	<div class="tos beige">
 		<div class="container">
-			<h1>Sketchboard Terms of Service <span style="font-size: 40%; font-weight: normal;"> - updated	26.01.2014.</span></h1>
+			<h1>Sketchboard Terms of Service <span style="font-size: 40%; font-weight: normal;"> - updated	27.08.2014.</span></h1>
 		
 			<ol type="A" class="terms-list">
 				<li><h2>Your relationship with 7scales</h2>
@@ -83,20 +84,36 @@ You agree that you are solely responsible for (and that 7scales has no responsib
 					</ul>
 				</li>			
 				
-				<li><h2>Sketchboard Free Plan</h2>
+				<li><h2>Sketchboard Free Plans</h2>
 					<p>7scales allows you to use Sketchboard free of charge, a limited version of the Sketchboard Services (Free Plan). Sketchboard usage under Free Plan can be used anonymously, but can be at any time require an account. Free boards may not be kept in the services after 30 days and those can be removed from the service by 7scales own descretion. 7scales may at any time stop providing free services at its own discretion.</p>
 			
-			<p>Boards created under Free Plan are publicly available and are called Free Boards, anybody can view and edit Free Boards. You can convert Free Boards to Business boards if you purchase Sketchboard Subscription Plan.</p>
+					<p>Boards created under Free Plans are publicly available and are called Free Boards, anybody can view and edit Free Boards. You can convert Free Boards to Business boards if you purchase Sketchboard Subscription Plan.</p>					
+					<h3>Anonymous Free Usage</h3>
+					
+					<p>
+					You can test Sketchboard.io without sign up. Anyone can edit boards that are not owned and take ownership of the board. The first who access anonymous public board with signed up account takes the board ownership.
+						</p>
+					
+					<h3>Signed Up Free Plan</h3>
+					
+					<p>All boards are publicly available as read only, but are editable only by team members. You can have up to 3 realtime collaborators at the same time. Export diagrams directly to your public GitHub projects. Team will be automatically transferred to Free plan either when trial or paid subscription is expired. Your paid boards will not become public on expiration.</p>
+					
 		</li>	
 				
 				<li><h2>Sketchboard Subscription Plans</h2>
 				<p>7scales offers you the option of subscribing to a monthly Subscription Plan, <strong>the Service is billed in advance on a monthly basis</strong>. Subscription plans require an Sketchboard account and boards that are created during the subscription period are considered as Business boards. Business boards are not subject to limitations placed on Free Plan. Business Boards are not publicly available and need to be explicitely shared with others, means provided by Sketchboard Service.</p>
 					
 				<p>
-					Sketchboard subscription plan <strong>supports versioned boards</strong>. Board versions are saved to Amazon S3. Images related to versions are stored on S3. Files have Amazon S3 promized 99.999999999% durability. Board versions share the same quota that is given for account images, see image support.
+					Sketchboard subscription plans <strong>support versioned boards</strong>. Board versions are saved to Amazon S3. Images related to versions are stored on S3. Files have Amazon S3 promized 99.999999999% durability. Board versions share the same quota that is given for account images, see image support.
 				</p>
 					
-				<p>Sketchboard subscription plan <strong>supports uploading images</strong>. Images are stored on image library and on boards. Physically images are stored on Amazon S3 that have 99.999999999% durability. Each user in the business account increases available space with 100 MB. One user account has 100 MB, two users account has 200 MB for files and so on. Space is shared with board versions.</p>
+				<p>Sketchboard subscription plan <strong>supports uploading images</strong>. Images are stored on image library and on boards. Physically images are stored on Amazon S3 that have 99.999999999% durability. </p>
+					
+				<p>
+					Each plan have common and different capabilities. Plans are defined on pricing page and are subject to change from time to time. Available storage space is defined in the plan that user has purchased. Space is shared between images and board versions.
+				</p>
+					
+				<p><strong>Legacy Business Plan</strong> (Subscription fee is based on number or users in the team). Each user in the business account increases available space with 100 MB. One user account has 100 MB, two users account has 200 MB for files and so on. Space is shared with board versions.</p>
 					
 					<p><strong>NOTE!</strong> Due to expenses coming for storing images and versions. There will be cleanup for the images and board versions. After a business account has expired, you have 14 days to reactivate your account until images and versions are removed from the account forever without possibility to recover those. Images will be shown as empty on boards that are using removed images.</p>
 						
@@ -241,6 +258,12 @@ You agree that 7scales may provide you with notices, including those regarding c
 					<li>Each user increases availabile space in the account by 100 MB.</li>
 					<li>Images will be removed permanently after 14 days of Business Plan expiration.</li>
 				</ul>
+				<strong>Sketchboard New Plans - August 27, 2014</strong>
+				<ul>
+					<li>New Plans. Plans have different capabilities and those are defined on pricing page separately.</li>
+					<li>Storage space available for images and versions is defined in each plan separately</li>
+					<li>Sign Up free plan changed. Only team members can edit team boards. Limited realtime sharing.</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -253,11 +276,14 @@ You agree that 7scales may provide you with notices, including those regarding c
 				<div>
 					<img src="sketchboard.io/img/sketchboard-logo-wht.png" width="45px" height="auto">
 				</div>
-				<a href="mailto:info@7scales.net">Contact</a>
+				<a href="#contact">Contact</a>
+				<a href="blog/">Blog</a>
+				<a href="http://twitter.com/#!/sketchboardme" target="_blank">Twitter</a>
 				<a href="tos.html" target="_blank">Terms of Service</a>
 			</div>
     </div>
   </div> <!-- footer -->
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -1,0 +1,117 @@
+.plans-modal {
+  top: 5% !important;
+  /*width: 600px;*/
+  width: 800px;
+  /*margin-left: -300px;*/
+  margin-left: -400px;
+  color: #555;
+}
+.plans-modal-body {
+  min-height: 580px;
+}
+
+.signup-plans {
+  width: 100%;
+  margin: 20px 0 25px 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.signup-plans th, .signup-plans td {
+  padding: 9px;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+}
+.signup-plans thead th:last-child {
+  border-right-width: 1px;
+  border-radius: 0 5px 0 0;
+}
+.signup-plans tbody tr:first-child td:first-child {
+  border-top-width: 1px;
+  border-radius: 5px 0 0;
+}
+.signup-plans td:last-child {
+  border-right-width: 1px;
+}
+.signup-plans tr:last-child td:last-child {
+  border-radius: 0 0 5px;
+}
+.signup-plans tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+.signup-plans td, .signup-plans th {
+  text-align: center;
+  border-width:0 0 0 1px;
+  min-width: 100px;
+}
+
+.signup-plans tr:last-child td {
+	border-width: 0 0 1px 1px;
+}
+
+.signup-plans tr:nth-child(odd) td {
+  background-color: #f0f5fa;
+}
+.signup-plans thead .plan-first {
+  border-radius: 5px 0 0;
+}
+
+.signup-plans thead tr:last-child .plan-primary2 {
+  min-width: 135px;
+  -moz-box-shadow: 0 0 6px 0.5px #eee;
+  -webkit-box-shadow: 0 0 6px 0.5px #eee;
+/*  box-shadow: 0 -1px 4px 3.5px #eee;*/
+}
+.signup-plans tbody tr:last-child .plan-primary2 {
+  -moz-box-shadow: 0 0 6px 0.5px #eee;
+  -webkit-box-shadow: 0 0 6px 0.5px #eee;
+/*  box-shadow: 0 2px 4px 3.5px #ddd;*/
+}
+
+.plan-primary2 {
+    position: relative;
+} 
+.plan-primary2:before {
+    box-shadow: inset -15px 0 15px -15px #bbb;
+    content: " ";
+    height: 100%;
+    top: 0;
+    left: -15px;
+    position: absolute;
+    width: 15px;
+}
+.plan-primary2:after {
+    box-shadow: inset 15px 0 15px -15px #bbb;
+    content: " ";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 15px;
+}
+
+.signup-plans thead .empty {
+  border-width: 0;
+}
+.signup-plans a {
+  color: #4183c4;
+}
+.signup-plans th {
+  color: #4183c4;
+  padding: 14px 9px;
+  font-size: 20px;
+  border-width: 1px 0 1px 1px;
+}
+.signup-plans th small {
+  display: block;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+.signup-plans .row-label {
+width: 18%;
+font-weight: bold;
+text-align: right;
+}
+.plan-trial-btn {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}

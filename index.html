@@ -18,6 +18,7 @@
   <link href="sketchboard.io/justified-nav.css" rel="stylesheet">
   <link href="sketchboard.io/navbar-static-top.css" rel="stylesheet">	
   <link href="sketchboard.io/7scales.css" rel="stylesheet">
+  <link href="sketchboard.io/plans.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -91,10 +92,11 @@
 				</div>
 -->
 <!--      </div>-->
-				<p class="landing-img">
+					
+				<div class="landing-img">
 					<h3>Combine diagrams, freehand and images. Edit together in realtime.</h3>
-					<img src="sketchboard.io/img/example-board.png" class="img-responsive">
-				</p>
+          <img src="sketchboard.io/img/image1.png" class="img-responsive">
+				</div>
 			<div class="testimonials">
 				<p class="testimonial">
 				"Sketchboard.io's powerful realtime collaboration has made<br>planning easy for our distributed team."
@@ -183,20 +185,156 @@ Sketchboard.io is specialised on agile software design. It provides diagramming 
 		<div class="section-why">
 		<div class="container">
 			<div class="text-center title-text">
-					<img src="sketchboard.io/img/image1.png">
+<!--					<img src="sketchboard.io/img/image1.png">-->
 					<img src="sketchboard.io/img/image3.png">
 					<img src="sketchboard.io/img/image2.png">
 			</div>
 		</div>
 	</div>
 
-		<div id="pricing" class="pricing-section section">
+		<div id="pricing" class="pricing-section">
 			<div class="container text-center">
 				<div class="text-center title-text">
 					Pricing
 					<div class="title-underline"><hr></div>
 				</div>
-				
+						
+				<p>
+					Sketchboard is free to use for public projects. Collaborate on private projects with any of our paid plans.
+					</p>
+	<table class="signup-plans">
+    <thead>
+      <tr class="plan-headings">
+        <th class="empty"></th>
+        <!-- <th class="plan-first">
+          <a ng-click="selectPlan('free')" href="javascript:void(0)">Free</a>
+          <small>
+            <span>$0/month</span>
+          </small>
+        </th> -->
+        <th class="plan-first">
+          <a ng-click="selectPlan('personal')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('personal')">Single User</a>
+          <small>
+            <span>$7/month</span>
+          </small>
+        </th>
+        <th class="">
+          <a ng-click="selectPlan('micro')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('micro')">Starter</a>
+          <small>
+            <span>$14/month</span>
+          </small>
+        </th>
+        <th class="plan-primary2">
+          <a ng-click="selectPlan('small')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('small')">Agile Team</a>
+          <small>
+            <span>$39/month</span>
+          </small>
+        </th>
+        <th class="">
+          <a ng-click="selectPlan('medium')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('medium')">Startup</a>
+          <small>
+            <span>$79/month</span>
+          </small>
+        </th>
+        <th class="">
+          <a ng-click="selectPlan('large')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('large')">Lean Company</a>
+          <small>
+            <span>$159/month</span>
+          </small>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label">Team Members</td>
+        <!-- <td>Unlimited</td> -->
+        <td>1</td>
+        <td>up to 3</td>
+        <td class="plan-primary2">up to 7</td>
+        <td>up to 15</td>
+        <td>up to 30</td>
+      </tr>
+<!--       <tr>
+        <td class="row-label">Public boards</td>
+        <td>Unlimited</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr> -->
+      <!-- <tr>
+        <td class="row-label">GitHub Integration</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+      </tr> -->
+      <tr>
+        <td class="row-label">Private & Team Boards</td>
+        <!-- <td></td> -->
+        <td>Unlimited</td>
+        <td>Unlimited</td>
+        <td class="plan-primary2">Unlimited</td>
+        <td>Unlimited</td>
+        <td>Unlimited</td>
+      </tr>
+      <tr>
+        <td class="row-label">Images & Version Control</td>
+        <!-- <td></td> -->
+        <td>100 MB</td>
+        <td>300 MB</td>
+        <td class="plan-primary2">700 MB</td>
+        <td>1.5 GB</td>
+        <td>3 GB</td>
+      </tr>
+<!--       <tr>
+        <td class="row-label">Board Password Collaborators</td>
+        <td></td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+      </tr> -->
+      <!-- <tr>
+        <td class="row-label">Export Boards & Integrations</td>
+        <td></td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+      </tr> -->
+<!--
+      <tr>
+        <td class="row-label"></td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('personal')">Select</a>
+        </td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('micro')">Select</a>
+        </td>
+        <td class="plan-primary2">
+          <a class="btn btn-small" ng-click="selectPlan('small')">Select</a>
+        </td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('medium')">Select</a>
+        </td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('large')">Select</a>
+        </td>
+      </tr>
+-->
+    </tbody>
+  </table>
+
+				<p class="plan-trial-btn">
+					<a class="btn btn-lg btn-success btn-sb" href="https://sketchboard.me/service/signup" role="button" target="_blank" onClick="_gaq.push(['_trackEvent', 'start-trial', 'Pricing', '']);">Start free trial</a>
+				</p>
+<!--
 				<div class="prices">
 					<div class="plan plan-secondary">
 						<div class="plan-heading plan-heading-free">
@@ -219,10 +357,10 @@ Sketchboard.io is specialised on agile software design. It provides diagramming 
 							<a class="btn btn-default btn-lg plan-action" href="https://sketchboard.me" target="_blank" onClick="_gaq.push(['_trackEvent', 'Sketch Now', 'Pricing', '']);">Sketch Now</a>
 						</div>
 					</div>
-					<div class="plan plan-primary">
+					<div class="plan plan-primary2">
 						<div class="plan-heading">
 							<div class="plan-type">Business</div>
-						$5
+						$7
 							<div class="price-unit"> Per Month Per User</div>
 							<hr style="max-width: 104px;margin: 0 auto;">
 							<div style="font-size:12px;">&nbsp;</div>
@@ -246,10 +384,34 @@ Sketchboard.io is specialised on agile software design. It provides diagramming 
 							<a class="btn btn-danger btn-lg btn-red plan-action" target="_blank" href="https://sketchboard.me/service/signup" onClick="_gaq.push(['_trackEvent', 'Start Free 30 Day Trial', 'Pricing', '']);">Start Free 30 Day Trial</a>
 						</div>
 					</div>
+										
 				</div>
+-->
+				
 				<div class="note">Boards are backed up daily.<br>Images and board versions are stored on Amazon S3 that has 99.999999999% durability.<br>
 				<a class="underline" href="mailto:info@sketchboard.io?subject=Applying student discount">Apply for students and teachers</a> discount program.</div>
-				</div>
+        <a href="javascript:void(0)" id="show-more">Show More</a>
+        <div id="plan-details" class="show-more">
+          <h3>All Paid Plans</h3>
+          <p>
+            All paid plans support <strong>images and version control</strong>. Images and board versions are stored on Amazon S3 that has 99.999999999% durability. Paid plans support <strong>password sharing</strong> up to 3 collaborators/board at the same time. <strong>Export boards</strong> to GitHub, Flowdock, Google Drive or <strong>download</strong> boards as SVG, PNG or PDF. <strong>Search diagrams</strong> using visual index or keyword match. <strong>Publish</strong> board PNG publicly and embed in your web page.
+          </p>
+
+          <h3>Free Plans</h3>
+          <p>
+            <h4>Anonymous</h4>
+            You can test Sketchboard.io without sign up. Anyone can edit boards that are not owned and take ownership of the board. The first who access anonymous public board with signed up account takes the board ownership.
+          </p>
+          <p>
+            <h4>Signed Up</h4>
+            All boards are <strong>publicly available as read only</strong>, but are <strong>editable</strong> only by team members. You can have up to 3 realtime collaborators at the same time. <strong>Export</strong> diagrams directly to your public <strong>GitHub</strong> projects. Team will be automatically transferred to Free plan either when trial or paid subscription is expired. Your paid boards will not become public on expiration.
+          </p>
+          <h3>All Plans</h3>
+          <p>
+            All plans include daily board backups.
+          </p>        
+        </div>
+      </div>
 		</div>
 				
 		<div class="beige">
@@ -526,7 +688,7 @@ Sketchboard.io is specialised on agile software design. It provides diagramming 
     <div class="container text-center">
 			<div class="footer-height vertical-center">
 				<div>
-					<img src="sketchboard.io/img/sketchboard-logo.png" width="45px" height="auto">
+					<img src="sketchboard.io/img/sketchboard-logo-wht.png" width="45px" height="auto">
 				</div>
 				<a href="#contact">Contact</a>
 				<a href="blog/">Blog</a>
@@ -599,6 +761,17 @@ Sketchboard.io is specialised on agile software design. It provides diagramming 
 			smooth("#launchofferlink")
 			
 			animate()
+
+      var showDetails = false
+      $('#show-more').on('click', function() {
+        showDetails = !showDetails
+        $('#show-more').text(showDetails ? "Show Less" : "Show More")
+        if (showDetails) {
+          $('#plan-details').css('display', 'block')
+        } else {
+          $('#plan-details').css('display', 'none')
+        }
+      })
 			
 			$('#bus-feat-link').on('mousedown', function() {
 				$('#allfeatures').css('display', 'block')
