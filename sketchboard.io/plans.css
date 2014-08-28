@@ -59,12 +59,12 @@
   min-width: 135px;
   -moz-box-shadow: 0 0 6px 0.5px #eee;
   -webkit-box-shadow: 0 0 6px 0.5px #eee;
-/*  box-shadow: 0 -1px 4px 3.5px #eee;*/
+  box-shadow: 0 -1px 4px 1.5px #eee;
 }
 .signup-plans tbody tr:last-child .plan-primary2 {
   -moz-box-shadow: 0 0 6px 0.5px #eee;
   -webkit-box-shadow: 0 0 6px 0.5px #eee;
-/*  box-shadow: 0 2px 4px 3.5px #ddd;*/
+  box-shadow: 0 1px 2px 1.5px #eee;
 }
 
 .plan-primary2 {
