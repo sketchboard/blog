@@ -63,9 +63,9 @@ Content-Type: application/json
 	<td>status</td>
 	<td>
 		<p>
-		Status values <strong>above 0</strong> means, board was created, but there was some other error.<br>
+		Status values <strong>above 0</strong> means, board was created, but there was some error.<br>
 		<strong>Status value 0</strong> mean, request was successful<br>
-		Status values <strong>below 0</strong> means, board was created, but there was some other error.
+		Status values <strong>below 0</strong> means, board was not created.
 		</p>
 
 		<strong>Status values:</strong><br>
