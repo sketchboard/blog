@@ -645,3 +645,8 @@ h2.landing-title span {
 	text-align: left;
 	max-width: 450px;
 */}
+
+.centered-img {
+	margin-left:auto;
+	margin-right: auto;
+}
