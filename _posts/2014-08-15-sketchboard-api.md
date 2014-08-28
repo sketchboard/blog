@@ -62,11 +62,19 @@ Content-Type: application/json
 <tr>
 	<td>status</td>
 	<td>
+		<p>
+		Status values <strong>above 0</strong> means, board was created, but there was some other error.<br>
+		<strong>Status value 0</strong> mean, request was successful<br>
+		Status values <strong>below 0</strong> means, board was created, but there was some other error.
+		</p>
+
+		<strong>Status values:</strong><br>
+		2: Board created, but you are not admin of the team and cannot add new users.<br>
+		1: Board created, but members not added. Current plan doesn't support this many members.<br>
 		0: Board created<br>
 		-1: User not found<br>
 		-2: Trial expired<br>
 		-3: Subscription expired<br>
-		-4: Plan doesn't support this many users<br>
 		-5: Unknown error<br>
 	</td>
 </tr>
