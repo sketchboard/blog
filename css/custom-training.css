@@ -1,0 +1,79 @@
+
+.logo {
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
+
+
+body {
+	font-family: "kepler-std", Georgia, Times, serif !important;
+	font-size: 1.20em;
+	font-weight: 300;
+  background: #fff;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "kepler-std", Georgia, Times, serif !important;
+  color: #444;
+  font-weight: bold;
+}
+
+h1 {
+	margin-top: 25px;
+	text-align: center;
+font-size: 36px;
+line-height: 36px;	
+}
+
+strong {
+	color: #444;
+	font-family: "kepler-std", Georgia, Times, serif !important;
+	font-weight: bold;
+}
+
+section .pagetitle h1 {
+	font-family: "kepler-std", Georgia, Times, serif !important;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  line-height: 36px;
+}
+
+section .pagetitle p {
+	color: #777;
+	font-family: "kepler-std", Georgia, Times, serif !important;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.first-p {
+	text-indent:25px;
+}
+p
+{
+/*text-indent:25px;*/
+line-height: 1.8em;
+font-weight: 300;
+}
+
+ul {
+	list-style: none;
+  list-style-image: none;
+}
+
+#header nav li:before {
+	content: none;
+}
+ul li:before {
+	content: "»";
+	padding-right: 5px;
+	margin-left: -20px;
+}
+
+a {
+	color: blue;
+}
+a:hover {
+  color: #1398FF;
+}
