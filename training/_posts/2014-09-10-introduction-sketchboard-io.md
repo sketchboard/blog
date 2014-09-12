@@ -47,12 +47,11 @@ Basics
 
 View onboarding videos at [https://sketchboard.me](https://sketchboard.me)
 
-### Realtime collaboration
+### Demonstration
 
-
-### Flows, Class & Sequence Diagrams
-
-### Mind & Concept Maps
+- Realtime collaboration
+- Flows, Class & Sequence Diagrams
+- Mind & Concept Maps
 
 
 Teams
@@ -68,14 +67,60 @@ Teams
 
 Send team admin email addresses to me.
 
-Installation
-------------
+Team Setup
+----------
 
-Direct Launch
+1. **Team admin** signs up first [https://sketchboard.me/service/signup](https://sketchboard.me/service/signup)
+	- you can use @metropolia.fi email address or sign up using your gmail account
+	- with @metropolia.fi email address you need to create a separate password. Do not use metropolia password. Different services need have different passwords!
+	- Students who signed up with Google can continue from step 3
+![Sign Up](/training/images/signup.png)
+2. if you used @metropolia.fi address
+	- Log in to your metropolia.fi email account - look for **Welcome to Sketchboard.io - Confirm your email address** email
+	- Open the email and confirm your email address
+![Set a Password](/training/images/confirmationemail.png)
+	- Set at password
+![Set a Password](/training/images/setpassword.png)
 
-[https://sketchboard.me](https://sketchboard.me)
+3. Set a Team Name (name can be changed later)
+![Set a Team Name](/training/images/teamname.png)
+4. Add Teammates (team members can be modified/added later too)
+![Add Teammates](/training/images/addteammates.png)
+5. Now teammates can sign up to the service. You will automatically belong to the team created by the team admin
+6. Accept the team you were added
+![Accept the Team](/training/images/acceptteam.png)
 
-Installation and launch from Google Chrome (optional)
+## Share board with team members
+
+You need to share boards to collaborate with teammates.
+
+![Share Board with Team Members](/training/images/shareboard.png)
+
+## Open Shared Team Board
+
+Select view all boards
+
+![Share Board with Team Members](/training/images/boards.png)
+
+View boards that are shared with me
+![Share Board with Team Members](/training/images/boardssharedwithme.png)
+
+Open team board by clicking
+![Share Board with Team Members](/training/images/sharedboards.png)
+
+## Troubleshooting
+
+- In case you have created your own team before admin added you to the team.
+- In case you want to modify/add team members
+
+![Share Board with Team Members](/training/images/teamsmenu.png)
+
+Change default team to your Metropolia team. Otherwise boards are not shared with correct team.
+![Share Board with Team Members](/training/images/setdefaultteam.png)
+
+
+Installation and launch from Google Chrome Browser (optional)
+------------------------------------------------
 
 [Install from Chrome Web Store](https://chrome.google.com/webstore/detail/sketchboardio/bgafhjpdkfjfmmjbebbdckolonomaoil)
 
@@ -87,12 +132,6 @@ Makes possible to open Sketchboard.io directly from Google Chrome Apps
 ![Launch Sketchboard.io from Google Chrome](/training/images/launch-from-google-chrome.png)
 
 
-Sign Up
--------
-
-[https://sketchboard.me/service/signup](https://sketchboard.me/service/signup)
-
-
 Feedback
 --------
 
@@ -100,8 +139,9 @@ Sketchboard.io is new product and your feedback is valuable to make it better in
 
 - onboarding problems
 - finding usability problems
-- team working improvements
+- team working improvements and simplifications
 - you can [give public review on Chrome Web Store](https://chrome.google.com/webstore/detail/sketchboardio/bgafhjpdkfjfmmjbebbdckolonomaoil/reviews)
+	- public rating helps to spread Sketchboard.io
 - private feedback can be sent directly from application or by <a href="mailto:info@sketchboard.me">using email</a>
 
 
