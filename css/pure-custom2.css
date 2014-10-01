@@ -1,0 +1,27 @@
+.header {
+	margin-top: 30px;
+}
+
+.header h1 {
+    font-size: 250%;
+    font-weight: 100;
+    margin: 0;
+}
+ .header h2 {
+    font-size: 100%;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0;
+    color: #666;
+}
+
+.header {
+	font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+.content h2 {
+margin: 2em 0 1em 0;
+font-weight: 300;
+color: #888;
+position: relative;
+}
