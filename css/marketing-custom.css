@@ -51,7 +51,7 @@ a.pure-button-secondary {
 }
 
 .pure-menu-fixed {
-	position: absolute;
+	position: relative;
 }
 
 /*.splash-container {
@@ -192,6 +192,6 @@ strong {
 	margin-top: 50px;
 }
 .langing-sketch img {
-	width: 600px;
+	width: 70%;
 	margin: 0 auto;
 }
