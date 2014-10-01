@@ -187,3 +187,7 @@ strong {
 .langing-sketch {
 	margin-top: 50px;
 }
+.langing-sketch img {
+	width: 600px;
+	margin: 0 auto;
+}
