@@ -1,0 +1,811 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+  <title>Sketchboard.io</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="sketchboard.io/bootstrap-3.0.2/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="sketchboard.io/justified-nav.css" rel="stylesheet">
+  <link href="sketchboard.io/navbar-static-top.css" rel="stylesheet">	
+  <link href="sketchboard.io/7scales.css" rel="stylesheet">
+  <link href="sketchboard.io/plans.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push([ '_setAccount', 'UA-26995893-1' ]);
+		_gaq.push([ '_trackPageview' ]);
+	
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+					: 'http://www')
+					+ '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	
+</head>
+
+<body id="home">
+  <div class="wrap">
+  	<div class="highlight">
+     <div class="navbar navbar-fixed-top navbar-custom" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand project-name" href="/"><img src="sketchboard.io/img/sketchboard-logo.png" width="45px" height="auto"> Sketchboard.io</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a id="homelink" href="#home">Home</a></li>
+            <li><a id="featlink" href="#features">Features</a></li>
+            <li><a id="pricinglink" href="#pricing">Pricing</a></li>
+            <li><a href="/blog">Blog</a></li>
+						<li><a id="contactlink" href="#contact">Contact</a></li>
+            <li><a href="https://sketchboard.me/service/signup" target="_blank" onClick="_gaq.push(['_trackEvent', 'Sign Up', 'Navbar', '']);">Sign Up</a></li>
+            <li><a href="https://sketchboard.me/service/login" target="_blank" onClick="_gaq.push(['_trackEvent', 'Log In', 'Navbar', '']);">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+		</div>
+  
+    <div class="container">
+      <div class="jumbotron">
+        <h2 class="landing-title">Create sketches <span>and</span> concepts <span>to solve problems and </span> design <span>with your</span> team <span>in</span> realtime
+</h2>
+<!--				<h1>for Your Team</h1>-->
+ 
+        <p style="margin-top: 160px; margin-bottom: 120px;">
+					<a class="btn btn-lg btn-success btn-sb" href="https://sketchboard.me/service/signup" role="button" target="_blank" onClick="_gaq.push(['_trackEvent', 'Get Started', 'Landing', '']);">Start your 14 day free trial</a>
+					<a class="btn btn-default btn-lg" href="https://sketchboard.me" target="_blank" onClick="_gaq.push(['_trackEvent', 'Sketch Now', 'Landing', '']);">Sketch Now</a>					
+				</p>
+					
+					<!--
+					<a class="btn btn-lg btn-plain" style="margin-top: 10px;" href="https://sketchboard.me" role="button" target="_blank" onClick="_gaq.push(['_trackEvent', 'Try Now', 'Landing', '']);">Try Now</a>
+-->
+<!--				</p>-->
+
+<!--
+				<div style="margin-top: 80px;"><a id="launchofferlink" class="launchoffermain" href="http://youtu.be/ztQ2QkEmFqg" onclick="_gaq.push(['_trackEvent', 'Watch a Video', 'Landing', '']);" target="_blank"><img class="watch-video-landing" src="sketchboard.io/img/play-video-2.png"> Watch a video </a>
+				</div>
+-->
+<!--      </div>-->
+					
+				<div class="landing-img">
+					<h3>Combine diagrams, freehand and images. Edit together in realtime.</h3>
+          <img src="sketchboard.io/img/image1.png" class="img-responsive centered-img">
+				</div>
+			<div class="testimonials">
+				<p class="testimonial">
+				"Sketchboard.io's powerful realtime collaboration has made<br>planning easy for our distributed team."
+				</p>
+				Mikko Virkkilä, Co-Founder and CEO of <a href="http://www.nimbledevices.com/" target="_blank">Nimble Devices</a>
+			</div>
+    </div>
+			
+  </div>
+	
+	<div id="features" class="beige">
+		<div class="container text-center">
+			<div class="animation-section">
+				<div class="text-center title-text">
+					Sketchboard.io
+					<div class="title-underline"><hr style="max-width: 200px"></div>
+				</div>
+<!--					<div style="" id="placeholder"></div>-->
+				<div class="compbg">
+				<div id="animation" class="computers">
+					<a href="http://youtu.be/ztQ2QkEmFqg" target="_blank" onClick="_gaq.push(['_trackEvent', 'watch a video', '', '']);">
+					<img class="anim-base" src="sketchboard.io/img/computers.png">
+					<img id="astep1" class="anim1" src="sketchboard.io/img/anim1.png">
+					<img id="astep2" class="anim2" src="sketchboard.io/img/anim2.png">
+					<img id="astep3" class="anim3" src="sketchboard.io/img/anim3.png">
+					<img id="astep4" class="anim4" src="sketchboard.io/img/anim4.png">
+					<img id="astep5" class="anim5" src="sketchboard.io/img/anim5.png">
+					<img id="astep6" class="anim6" src="sketchboard.io/img/anim6.png">
+					<span class="watch-video-link">Watch a video</span>
+					<img class="watch-video-play" src="sketchboard.io/img/play-video-2.png">
+					</a>
+				</div>
+				</div>
+<!--			</div>-->
+<!--				<sketchboard-anim class="text-center"></sketchboard-anim>-->
+<!--				<img id="theanim" src="sketchboard.io/img/sketchboard-animation-base2.svg" width="600px">-->
+			</div>
+		</div>
+	</div>
+
+    <div class="section-why beige">
+      <div class="container">
+
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+						<div class="title-img"><span class="icons design-is-communication"></span>
+<!--							<img src="sketchboard.io/img/design-is-communication.png">-->
+						</div>
+            <h3>Design is Communication</h3>
+            <p>Creating Software Design should be simple and effortless to achieve its goal, to clarify abstract problems, to communicate with each others and create innovations. 
+
+							<p>
+Sketchboard.io is specialised on agile software design. It provides diagramming elements and drawing style that you don't concentrate on details. To get most important out, your idea, not how it looks like.</p>
+
+          </div>
+          <div class="col-md-4">
+						<div class="title-img"><span class="icons collaborate"></span>
+<!--							<img src="sketchboard.io/img/collaborate.png">-->
+						</div>
+            <h3>Realtime Collaboration</h3>
+            <p>Sketchboard.io makes collaboration extremely easy, just open your browser and share the board url. Create  ideas together with clients, team members and contractors, in real time.</p>
+
+<p>Work from multiple locations and from different computers, everything is stored in the cloud. You will always have your latest diagrams and sketches with you.</p>
+          </div>
+          <div class="col-md-4">
+						<div class="title-img">
+							<span class="icons sketch-freely"></span>
+<!--							<img src="sketchboard.io/img/sketch-freely.png">-->
+						</div>
+            <h3>UML, Freehand, Mind Map, Notes and Roadmap</h3>
+            <p>Sketch UML not to forget the big picture. Brainstrom with Mind Map. Draft sketches using freehand. Visualize complex flows. Use Notes to draft daily ideas and highlight objectives using Roadmap.
+</p>
+						<p>Mix and match elements on virtual infinite board. Fit all related ideas on one "paper".</p>
+
+          </div>
+        </div>
+<!--
+				<div class="animation-section text-center">
+					<img src="sketchboard.io/img/sb-animation.png" width="600px">
+				</div>
+-->
+      </div>
+    </div>
+
+		<div class="section-why">
+		<div class="container">
+			<div class="text-center title-text">
+<!--					<img src="sketchboard.io/img/image1.png">-->
+					<img src="sketchboard.io/img/image3.png">
+					<img src="sketchboard.io/img/image2.png">
+			</div>
+		</div>
+	</div>
+
+		<div id="pricing" class="pricing-section">
+			<div class="container text-center">
+				<div class="text-center title-text">
+					Pricing
+					<div class="title-underline"><hr></div>
+				</div>
+				
+				<p>
+					Try Sketchboard on us with our 14-day fully functional free trial. Don't worry there are no hidden fees or variable costs and fee is fixed according to the plan and you can cancel or change your plan at any time.
+				</p>
+						
+				<p>
+					Sketchboard is free to use for public projects. Collaborate on private projects with any of our paid plans.
+					</p>
+	<table class="signup-plans">
+    <thead>
+      <tr class="plan-headings">
+        <th class="empty"></th>
+        <!-- <th class="plan-first">
+          <a ng-click="selectPlan('free')" href="javascript:void(0)">Free</a>
+          <small>
+            <span>$0/month</span>
+          </small>
+        </th> -->
+<!--
+        <th class="plan-first">
+          <a ng-click="selectPlan('personal')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('personal')">Single User</a>
+          <small>
+            <span>$7/month</span>
+          </small>
+        </th>
+-->
+        <th class="plan-first">
+          <a ng-click="selectPlan('micro')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('micro')">Starter</a>
+          <small>
+            <span>$14/month</span>
+          </small>
+        </th>
+        <th class="plan-primary2">
+          <a ng-click="selectPlan('small')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('small')">Agile Team</a>
+          <small>
+            <span>$36/month</span>
+          </small>
+        </th>
+        <th class="">
+          <a ng-click="selectPlan('medium')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('medium')">Startup</a>
+          <small>
+            <span>$79/month</span>
+          </small>
+        </th>
+<!--
+        <th class="">
+          <a ng-click="selectPlan('large')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('large')">Lean Company</a>
+          <small>
+            <span>$159/month</span>
+          </small>
+        </th>
+-->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label">Team Members</td>
+        <!-- <td>Unlimited</td> -->
+<!--        <td>1</td>-->
+        <td>up to 3</td>
+        <td class="plan-primary2">up to 7</td>
+        <td>up to 15</td>
+<!--        <td>up to 30</td>-->
+      </tr>
+<!--       <tr>
+        <td class="row-label">Public boards</td>
+        <td>Unlimited</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr> -->
+      <!-- <tr>
+        <td class="row-label">GitHub Integration</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+      </tr> -->
+      <tr>
+        <td class="row-label">Private & Team Boards</td>
+        <!-- <td></td> -->
+<!--        <td>Unlimited</td>-->
+        <td>Unlimited</td>
+        <td class="plan-primary2">Unlimited</td>
+        <td>Unlimited</td>
+<!--        <td>Unlimited</td>-->
+      </tr>
+      <tr>
+        <td class="row-label">Images & Version Control</td>
+        <!-- <td></td> -->
+<!--        <td>100 MB</td>-->
+        <td>300 MB</td>
+        <td class="plan-primary2">700 MB</td>
+        <td>1.5 GB</td>
+<!--        <td>3 GB</td>-->
+      </tr>
+<!--       <tr>
+        <td class="row-label">Board Password Collaborators</td>
+        <td></td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+      </tr> -->
+      <!-- <tr>
+        <td class="row-label">Export Boards & Integrations</td>
+        <td></td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>yes</td>
+      </tr> -->
+<!--
+      <tr>
+        <td class="row-label"></td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('personal')">Select</a>
+        </td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('micro')">Select</a>
+        </td>
+        <td class="plan-primary2">
+          <a class="btn btn-small" ng-click="selectPlan('small')">Select</a>
+        </td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('medium')">Select</a>
+        </td>
+        <td>
+          <a class="btn btn-small" ng-click="selectPlan('large')">Select</a>
+        </td>
+      </tr>
+-->
+    </tbody>
+  </table>
+
+				<p>
+					We also have plan for <strong><a href="https://sketchboard.me/service/signup">Single Users</a></strong> (1 user, $7/mo) and a <strong><a href="https://sketchboard.me/service/signup">Lean Company plan</a> </strong>(30 members, $159/mo)
+				</p>
+				<p class="plan-trial-btn">
+					<a class="btn btn-lg btn-success btn-sb" href="https://sketchboard.me/service/signup" role="button" target="_blank" onClick="_gaq.push(['_trackEvent', 'start-trial', 'Pricing', '']);">Start free trial - no credit card required</a>
+				</p>
+<!--
+				<div class="prices">
+					<div class="plan plan-secondary">
+						<div class="plan-heading plan-heading-free">
+							<div>
+							<div class="plan-type">Free</div>
+							<span class="price">$0</span>
+							</div>
+						</div>
+						<div class="plan-details">
+							<ul class="list-unstyled plan-features">
+								<li>No Sign Up</li>
+								<li>Realtime Collaboration</li>
+								<li>Free boards are publicly available</li>
+								<li>Https</li>
+								<li>Chat</li>
+							</ul>
+						</div>
+						<div>
+							<hr>
+							<a class="btn btn-default btn-lg plan-action" href="https://sketchboard.me" target="_blank" onClick="_gaq.push(['_trackEvent', 'Sketch Now', 'Pricing', '']);">Sketch Now</a>
+						</div>
+					</div>
+					<div class="plan plan-primary2">
+						<div class="plan-heading">
+							<div class="plan-type">Business</div>
+						$7
+							<div class="price-unit"> Per Month Per User</div>
+							<hr style="max-width: 104px;margin: 0 auto;">
+							<div style="font-size:12px;">&nbsp;</div>
+						</div>
+						<div class="plan-details">
+							<ul class="list-unstyled plan-features">
+								<li>Unlimited Boards</li>
+								<li>Realtime Secure Collaboration</li>
+								<li>Private and Team Boards</li>
+								<li>Download Boards</li>
+								<li><a id="version-feat-link" href="#version-feature" style="color: #333;" class="underline">Versioned Boards</a></li>
+								<li><a id="image-feat-link" href="#image-feature" style="color: #333;"  class="underline">Images</a></li>
+								<li>Https</li>
+								<li>Chat</li>
+								<li>Integrations</li>
+								<li><a id="bus-feat-link" href="#allfeatures" style="color: #333;"  class="underline">+All Other Features</a></li>
+							</ul>
+						</div>
+						<div>
+							<hr>
+							<a class="btn btn-danger btn-lg btn-red plan-action" target="_blank" href="https://sketchboard.me/service/signup" onClick="_gaq.push(['_trackEvent', 'Start Free 30 Day Trial', 'Pricing', '']);">Start Free 30 Day Trial</a>
+						</div>
+					</div>
+										
+				</div>
+-->
+				
+				<div class="note">Boards are backed up daily.<br>Images and board versions are stored on Amazon S3 that has 99.999999999% durability.<br>
+				<a class="underline" href="mailto:info@sketchboard.io?subject=Applying student discount">Apply for students and teachers</a> discount program.</div>
+        <a href="javascript:void(0)" id="show-more">Show More</a>
+        <div id="plan-details" class="show-more">
+          <h3>All Paid Plans</h3>
+          <p>
+            All paid plans support <strong>images and version control</strong>. Images and board versions are stored on Amazon S3 that has 99.999999999% durability. Paid plans support <strong>password sharing</strong> up to 3 collaborators/board at the same time. <strong>Export boards</strong> to GitHub, Flowdock, Google Drive or <strong>download</strong> boards as SVG, PNG or PDF. <strong>Search diagrams</strong> using visual index or keyword match. <strong>Publish</strong> board PNG publicly and embed in your web page.
+          </p>
+
+          <h3>Free Plans</h3>
+          <p>
+            <h4>Anonymous</h4>
+            You can test Sketchboard.io without sign up. Anyone can edit boards that are not owned and take ownership of the board. The first who access anonymous public board with signed up account takes the board ownership.
+          </p>
+          <p>
+            <h4>Signed Up</h4>
+            All boards are <strong>publicly available as read only</strong>, but are <strong>editable</strong> only by team members. You can have up to 3 realtime collaborators at the same time. <strong>Export</strong> diagrams directly to your public <strong>GitHub</strong> projects. Team will be automatically transferred to Free plan either when trial or paid subscription is expired. Your paid boards will not become public on expiration.
+          </p>
+          <h3>All Plans</h3>
+          <p>
+            All plans include daily board backups.
+          </p>        
+        </div>
+      </div>
+		</div>
+				
+		<div class="">
+			<div class="container">
+				<div class="integrations section-small text-center">
+					<div class="text-center title-text">Integrations & Confluence Plugin
+						<div class="title-underline"><hr style="max-width: 460px;"></div>
+					</div>
+					
+					<div class="text-center">
+						<a target="_blank" href="https://chrome.google.com/webstore/detail/bgafhjpdkfjfmmjbebbdckolonomaoil"><img src="sketchboard.io/img/Drive_Badge_medium-border.png" style="height: 80px; width: auto;" alt="Sketchboard.io works with Google Drive"></a>
+						<a href="http://github.com" target="_blank"><img src="sketchboard.io/img/GitHub_Logo.png" width="130"></a>
+						<a href="https://www.flowdock.com" target="_blank"><img width="120" height="auto" src="sketchboard.io/img/flowdock_logo.png" alt="Integrate with Flowdock"></a>
+						<a href="https://marketplace.atlassian.com/plugins/net.sevenscales.confluence.plugins.sketcho-confluence" target="blank"><img src="sketchboard.io/img/marketplace_available_black_180x80.png" alt="Sketchboard.io Confluence Plugin available at Atlassian Marketplace"></a>
+					</div>
+					Integrate Sketchboard.io with Google Drive, <a href="/blog/2014/03/06/github-sketchboard.io.html" target="_blank">GitHub</a> and <a href="/blog/2013/08/30/integrate-flowdock.html" target="_blank">Flowdock</a>. Are you a Confluence user? Get a separate Sketchboard.Me Confluence Plugin. 
+				</div>
+			</div>
+		</div>
+
+			<div id="contact" class="contact-section section">
+			<div class="container text-center">
+				<div class="text-center title-text">
+					Contact
+					<div class="title-underline"><hr></div>
+				</div>
+				<a href="mailto:info@sketchboard.io">info [ at ] sketchboard.io</a><br>
+				<span>Tel. +358400898949</span><br>
+				<a href="http://twitter.com/#!/sketchboardme" target="_blank">@SketchboardMe</a><br>
+				<a href="blog/" target="_blank">Blog</a><br>
+				<span>Espoo, Finland</span>
+			</div>
+		</div>
+		
+		<div class="">
+			<div class="container text-center">
+				<div class="singnup-section">
+					<h1>Join over 100,000 boards.</h1>
+					<a class="btn btn-danger btn-red btn-hg" href="https://sketchboard.me/service/signup" target="_blank"  onClick="_gaq.push(['_trackEvent', 'Sign Up Free', 'End', '']);">Sign Up Free</a>
+<!--					<h4></h4>-->
+				</div>
+			</div>
+		</div>
+		
+		<div id="allfeatures" class="features beige" style="display: none;">
+			<div class="container">
+				<div class="text-center title-text">All Features
+					<div class="title-underline"><hr style="max-width: 180px;"></div>
+				</div>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Feature</th>
+							<th>Purpose/Description</th>
+              <th class="plan-col">Free</th>
+              <th class="plan-col">Business</th>
+							<th>Example Usage</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="feature-col">Realtime Collaboration</td>
+							<td>Edit board together in realtime.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Keep online meetings or ad hoc sessions to solve problems as you would sketch on a white board in a same room.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Virtual Endless Board</td>
+							<td>You will never get out of drawing space. Combine multiple sketches on a one board.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Create multiple sketches on a same board. E.g. sketch freehand user interface + flows from UI actions + highlevel software internal design. You got a map to follow when concentrating details of each topic. Link e.g. from User Story to the board using URL.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Markdown Notes</td>
+							<td>Decorate text on the board. Works for Notes and Just Text elements.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Write e.g. content of a web page. Just place elements roughly where those belong and concentrate on the content.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Agile UML</td>
+							<td>Agile UML is not strict and allows you to combine any elements with each other. You don't need to be strict on your design. Understanding and communication is the most important thing.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Combine e.g. server and database with component elements. Sketch some freehand on top of that. </td>
+						</tr>
+						<tr>
+							<td class="feature-col">Mind Mapping</td>
+							<td>Idea to provide Mind Mapping elements is to brainstorm ideas.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Try to e.g. find out what kind of things are related to the problem at hand. Use mind maps to innovate features or services. Mind Maps are good to structure and find related topics.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Continuous Freehand Drawing</td>
+							<td>Enrich your sketch with freehand drawing.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Create e.g. freehand annotations to highlight certain areas. Use freehand when shape diagramming would be too limiting.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Flow Charts</td>
+							<td>Visualize complex flows.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>With flow chart you can even build site maps. 
+								What is the application navigation logic. 
+								Clarify complex flows to be more understandable.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Roadmap</td>
+							<td>Highlight Team objectives using Roadmap elements.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Visual Roadmaps simplifies understanding the goals. It also streamlines different team activities.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Undo/Redo</td>
+							<td>Made a mistake, quickly undo what you did.</td>
+							<td class="plan-col">&#10004;</td>
+							<td class="plan-col">&#10004;</td>
+							<td>Accidentally deleted some of the items from the board. Press Cmd-Z and you got element back to the board.</td>
+						</tr>
+            <tr>
+              <td class="feature-col">Map View</td>
+              <td>Map View shows whole board at once. Press Z key to enable it.</td>
+              <td class="plan-col">&#10004;</td>
+              <td class="plan-col">&#10004;</td>
+              <td>Map View is especially useful when big board do not fit to the screen. To enable Map View keep z key down. Recenter the board by moving your mouse and release z key. Map View is only enabled when elements are not edited.</td>
+            </tr>
+            <tr>
+              <td class="feature-col">Zoom</td>
+              <td>Zoom board using shortcuts, + and - keys.</td>
+              <td class="plan-col">&#10004;</td>
+              <td class="plan-col">&#10004;</td>
+              <td>Sometimes you want to zoom out to see bigger area of the board at once.</td>
+            </tr>
+            <tr>
+              <td class="feature-col">Shows users on Board</td>
+              <td>See other users on the same board.</td>
+              <td class="plan-col">&#10004;</td>
+              <td class="plan-col">&#10004;</td>
+              <td>Makes easier to see what others are doing. Prevents you to edit same diagram elements.</td>
+            </tr>
+            <tr>
+              <td class="feature-col">Chat</td>
+              <td>Board level chat</td>
+              <td class="plan-col">&#10004;</td>
+              <td class="plan-col">&#10004;</td>
+              <td>Users on the same board can chat with each other.</td>
+            </tr>
+            <tr>
+              <td class="feature-col">Https</td>
+              <td>All server communications use HTTPS.</td>
+              <td class="plan-col">&#10004;</td>
+              <td class="plan-col">&#10004;</td>
+              <td>HTTPS protects data from eavesdropping.</td>
+            </tr>
+						<tr>
+							<td class="feature-col">Download Board</td>
+							<td>Download board as PDF, PNG or SVG.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Sometimes it is not enough to collaborate realtime on a board. You might want to have boards on your local machine to work offline. Make e.g. annotations on top of PDF.</td>
+						</tr>
+						<tr id="image-feature">
+							<td class="feature-col">Images</td>
+							<td>Upload images on your board.
+							Space is increased by 100 MB per user in the account.<br>
+							Example: <br>
+								1 user => 100 MB<br>
+								2 users => 200 MB<br></td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Drag and drop e.g. whiteboard drawing, keep meeting minutes as a whole in Sketchboard.io or draw on top of whiteboard drawing. <br>
+							<strong>NOTE: expired account images are removed after 14 days.</strong> <a href="blog/2014/04/11/introducing-images.html" target="_blank"  class="underline">Read more.</a></td>
+						</tr>
+						<tr id="version-feature">
+							<td class="feature-col">Versioned Boards</td>
+							<td>Create named versions, list versions, view and revert versions.<br>Versioned boards provides top most protection for your data. Versions are stored on Amazon S3.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Versions provide e.g. protection from accidental element deletion or possibility to switch between alternate designs.<br>
+							<strong>NOTE: expired account versioned boards are removed after 14 days.</strong><br><a href="blog/2014/05/20/never-lose-sketch-design-again.html" target="_blank" class="underline">Read more</a> how versions can be used in your planning meeting or check out potential version usage in sketch design breakdown.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Print Board</td>
+							<td>Quickly print a board directly from the browser.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>You don't need to download PDF first and then print.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Change Background Color</td>
+							<td>Possible background options: White, Sepia, Black and Paper.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Sometimes white background is too harsh for your eyes. Especially when you are working in a dark room, black or sepia backgrounds are better for you eyes.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Comments & Annotations</td>
+							<td>Have offline collaboration or raise open items. Comments visibility can be toggled.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Team members are not always using a board at the same time. Sometimes they look sketch at different times. Since sketching is mostly about communication, clarifying the problem for your self or with others, comments makes possible to communicate questions or ideas without using realtime collaboration. Once you are done with comments you can close them. <a href="/blog/2013/10/18/comments-introduced/" target="_blank" class="underline">Read More.</a></td>
+						</tr>
+						<tr>
+							<td class="feature-col">Share Boards Securely</td>
+							<td>Share boards securely within your account. All members of an account can view and edit boards. <br> Note that <strong>pricing</strong> is based on number of users in the account.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>You can e.g. add your team to your account and enable secure and easy sharing between team members. <a href="/blog/2013/07/22/accounts-introduced/">Read More.</a></td>
+						</tr>
+						<tr>
+							<td class="feature-col">Private Boards</td>
+							<td>By default board is private and no one else is not able to access the board.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>When you want to draft things out by your self without worrying others to see your work. Set board visibility to private. You can toggle board visibility from "Switch Board" or from "Share Board" menu.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Password Protected Boards</td>
+							<td>Share boards using a password, password sharing is not calculated into pricing.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Give e.g. temporary access to clients when you don't want to share all account boards.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Named Boards</td>
+							<td>Give name to your boards.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Name is visible on browser tab as well.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Account Management</td>
+							<td>Manage who can see account level boards. <strong>Pricing</strong> is based on number of users in the account.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Add your team members to the account and everybody can create and edit boards by them selves or together. All users can have unlimited number of private boards.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">Google Drive Integration</td>
+							<td>Add shortcut to Google Drive.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Access boards from the same place where you keep your other artifacts. See directly from Google Drive when the board is edited and by whom.</td>
+						</tr>
+						<tr>
+							<td class="feature-col">GitHub Integration</td>
+							<td>You can upload diagrams directly from Sketchboard.io to GitHub. You can keep documentation and images on a same repository.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>GitHub integration works only on public repositories at the moment, <a href="blog/2014/03/06/github-sketchboard.io.html" target="_blank">read more</a></td>
+						</tr>
+						<tr>
+							<td class="feature-col">Flowdock Integration</td>
+							<td>Keep your team up to date, what is just designed. Send board snapshot image to a flow.</td>
+							<td class="plan-col"></td>
+							<td class="plan-col red">&#10004;</td>
+							<td>Sketchboard.io sends automatic messages to a flow when board is shared within an account or board is commented.</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>		
+		
+  </div> <!-- wrap -->
+
+  <!-- Site footer -->
+  <div class="footer">
+    <div class="container text-center">
+			<div class="footer-height vertical-center">
+				<div>
+					<img src="sketchboard.io/img/sketchboard-logo-wht.png" width="45px" height="auto">
+				</div>
+				<a href="#contact">Contact</a>
+				<a href="blog/">Blog</a>
+				<a href="http://twitter.com/#!/sketchboardme" target="_blank">Twitter</a>
+				<a href="tos.html" target="_blank">Terms of Service</a>
+			</div>
+    </div>
+  </div> <!-- footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+	<script>
+		function startAnim() {
+		}
+
+		var anims = [{step: '#astep1', delay: 1000}, 
+								 {step: '#astep2', delay: 1500}, 
+								 {step: '#astep3', delay: 3000}, 
+								 {step: '#astep4', delay: 3500}, 
+								 {step: '#astep5', delay: 5000}, 
+								 {step: '#astep6', delay: 5500}]
+
+						 		
+		function animate() {
+			function start(animation) {
+				setTimeout(function() {
+					$(animation.step).css('display', 'inline-block')
+				}, animation.delay)
+			}
+
+			function clearAll() {
+				for (var i = 0; i < anims.length; ++i) {
+					$(anims[i].step).css('display', 'none')
+				}
+				animate()
+			}
+
+			for (var i = 0; i < anims.length; ++i) {
+				start(anims[i])
+			}
+
+			setTimeout(function() {
+				clearAll()
+			}, 8000)
+		}
+		
+		$( document ).ready(function() {
+			var $root = $('html, body')
+			var smooth = function(id) {
+				$(id).click(function() {
+						var href = $.attr(this, 'href');
+						$root.animate({
+								scrollTop: $(href).offset().top - 72
+						}, 500, function () {
+								window.location.hash = href;
+						});
+						return false;
+				});
+			}
+			smooth("#homelink")
+			smooth("#featlink")
+			smooth("#pricinglink")
+			smooth("#contactlink")
+			smooth("#bus-feat-link")
+			smooth("#image-feat-link")
+			smooth("#version-feat-link")
+			smooth("#toanimlink")
+			smooth("#launchofferlink")
+			
+			animate()
+
+      var showDetails = false
+      $('#show-more').on('click', function() {
+        showDetails = !showDetails
+        $('#show-more').text(showDetails ? "Show Less" : "Show More")
+        if (showDetails) {
+          $('#plan-details').css('display', 'block')
+        } else {
+          $('#plan-details').css('display', 'none')
+        }
+      })
+			
+			$('#bus-feat-link').on('mousedown', function() {
+				$('#allfeatures').css('display', 'block')
+			})
+
+			$('#image-feat-link').on('mousedown', function() {
+				$('#allfeatures').css('display', 'block')
+			})
+
+			$('#version-feat-link').on('mousedown', function() {
+				$('#allfeatures').css('display', 'block')
+			})
+
+			$("#placeholder").load("sketchboard.io/img/sketchboard-animation-base2.svg")
+			
+			$("body").on('startanim',function(){
+				console.log("starting...")
+				var $anim = $("#client1first")
+  			$anim.get()[0].beginElement();
+			});
+		});
+	</script>
+</body>
+</html>
