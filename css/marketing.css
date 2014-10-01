@@ -134,7 +134,7 @@ a.pure-button-primary {
 
 .splash-container {
     background: #1f8dd6;
-    padding: 8% 0;
+    padding: 60px 0;
     /*z-index: 1;*/
     /*overflow: hidden;*/
     /* The following styles are required for the "scroll-over" effect */
@@ -223,6 +223,13 @@ a.pure-button-primary {
     background: #111;
 }
 
+@media (max-width: 48em) {
+.splash-container {
+    padding: 30px 0;
+}    
+}
+
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -255,6 +262,7 @@ a.pure-button-primary {
 
     /* We decrease the width of the .splash, since we have more width
     to work with */
+
     .splash {
         width: 80%;
         height: 50%;
