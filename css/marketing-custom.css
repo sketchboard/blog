@@ -50,6 +50,10 @@ a.pure-button-secondary {
     font-size: 120%;
 }
 
+.pure-menu-fixed {
+	position: absolute;
+}
+
 /*.splash-container {
 	background-image: linear-gradient(rgba(221, 221, 221,.3) 1px, transparent 1px),
 	linear-gradient(90deg, rgba(221, 221, 221,.3) 1px, transparent 1px),
