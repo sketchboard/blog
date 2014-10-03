@@ -4,16 +4,6 @@ title: "Slack DEV Command Line API"
 categories: 
 ---
 
-Slack Integration with Command Line API
----------------------------------------
-
-Slack can initiate Sketchboard session using Slash command conventions. Slash command can be sent almost as is. Current user needs to be sent and @username command line references needs to be changed to Slack account related email addresses.
-
-<ul>
-	<li><strong>/devsketch user@email.com</strong> - user@email.com should be current Slack user account email address</li>
-	<li><strong>/devsketch user@email.com add @username</strong> - @username should be changed to Slack user account email address</li>
-</ul>
-
 Usage Guide
 -----------
 
@@ -84,6 +74,17 @@ Failure:
  "url":"http://localhost:8080/service/apimsg?code=-6"
 }</code>
 </pre>
+
+
+Slack Integration with Command Line API
+---------------------------------------
+
+Slack can initiate Sketchboard session using Slash command conventions. Slash command can be sent almost as is. Current user needs to be sent and @username command line references need to be changed to Slack account related email addresses.
+
+<ul>
+	<li><strong>/devsketch user@email.com</strong> - user@email.com should be current Slack user account email address</li>
+	<li><strong>/devsketch user@email.com add @username</strong> - @username should be changed to Slack user account email address</li>
+</ul>
 
 
 Slack Channel Slash Command Examples
