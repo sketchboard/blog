@@ -1,0 +1,20 @@
+---
+layout: default
+title: Sketchboard.io Slack Integration
+---
+
+<div class="pagetitle">
+  <h1>Sketchboard.io Training</h1>
+  <p>http://sketchboard.io/slack</p>
+</div>
+
+<div id="home">
+  <h1>Topics</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+    	{% if post.categories contains 'slack' %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

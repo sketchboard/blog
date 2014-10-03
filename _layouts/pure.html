@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"> -->
+    <!-- <link rel="stylesheet" href="/css/pure-side-menu.css"> -->
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/pure-custom.css">
+    <link rel="stylesheet" href="/css/pure-custom2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="/"><img class="logo" src="/img/sketchboard-logo-wht.png" width="30"> Sketchboard.io</a></li>
+					<li class="title"><a href="https://sketchboard.me/new" target="_blank">NEW BOARD</a></li>
+          <li class="title"><a href="/blog">HOME</a></li>
+        </nav>
+      </div>
+
+    <div class="wrapper">
+
+      <section>
+<!--         <div class="pagetitle">
+          <h1>{{ page.title }}</h1>
+          <p>blog.sketchboard.io</p>
+        </div> -->
+
+				{{ content }}
+
+				<div class="footer">
+          <nav>
+            <li class="fork"><a href="http://twitter.com/#!/sketchboardme" target="_blank">@SketchboardMe</a></li>
+          </nav>
+				</div>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-26995893-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
