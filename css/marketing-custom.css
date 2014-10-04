@@ -22,6 +22,14 @@ body {
     padding: 0;
 }
 
+.splash-head {
+	font-weight: 400;
+}
+.splash-head span {
+	font-weight: 100;
+}
+
+
 .home-menu.pure-menu-open {
     background: #1f8dd6;
 }
