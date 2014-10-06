@@ -4,6 +4,8 @@ title: "Slack DEV Command Line API"
 categories: 
 ---
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/fXCUIc_UmyI" frameborder="0" allowfullscreen></iframe>
+
 Usage Guide
 -----------
 
