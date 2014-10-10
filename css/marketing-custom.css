@@ -205,12 +205,8 @@ strong {
 }
 
 .browser {
+	line-height: 0;
 	margin: 0 auto;
-	border: 1px solid red;
-	background: url(/sketchboard.io/images/browser.png) no-repeat;
-	background-size: 100%;
-	border: 1px solid #dedede;
-	height: 60px;
 	width: 720px;
 }
 .browser-url {
@@ -221,43 +217,120 @@ strong {
 	margin-left: -85px;
 	font-size: 12px;
 }
+
+.browser-users {
+}
+.browser-user {
+	border: none !important;
+}
+
 .browser2 {
-	position: relative;
-	left: 50%;
-	margin-left: -360px;
-	border: 1px solid #dedede;
-	height: 100%;
-	width: 334px;
+	line-height: 0;
+	white-space: nowrap;
 }
 .browser-url2 {
 	position: absolute;
 	color: #939393;
 	left: 50%;
-	margin-top: -30px;
-	margin-left: -265px;
-	font-size: 10px;
+	margin-top: -12px;
+	margin-left: -75px;
+	font-size: 9px;
+	line-height: 10px;
 }
+
+.mini-browser {
+	display: inline-block;
+	border: 1px solid #dedede;
+	/*height: 100%;*/
+	width: 333px;
+}
+.mini-browser-left {
+	margin-right: 50px;
+}
+
+
 .video-demo {
 	width: 100%;
 	text-align: center;
 }
 .video-feature {
+	display: block;
+	margin: 0 auto;
   width: 720px;
 }
 .video-replay {
 	position: absolute;
-	display: inline-block;
+	left: 50%;
+	margin-left: -360px;
+	display: block;
 	background: rgba(255,255,255,0.6);
 	width: 720px;
-	height: 405px;
+	height: 470px;
 	z-index: 100;
 }
 .video-replay a {
-	margin-top: 23%;
+	margin-top: 28%;
 	text-transform: uppercase;
 }
 
 
 .hide {
 	display: none;
+}
+
+@media (max-width: 800px) {
+	.browser {
+		margin: 0 auto;
+		width: 500px;
+	}
+	.browser-url {
+		display: none;
+	}
+
+	.video-replay {
+		margin-left: -250px;
+		width: 500px;
+		height: 341px;
+	}
+
+  .mini-browser {
+    width: 231px;
+  }
+
+  .mini-browser-left {
+		margin-right: 34px;
+	}
+
+  .video-feature {
+	  width: 500px;
+  }
+}
+
+@media (max-width: 530px) {
+	.browser {
+		margin: 0 auto;
+		width: 300px;
+		line-height: 0;
+	}
+	.browser-url {
+		display: none;
+	}
+
+	.video-replay {
+		margin-left: -150px;
+		width: 300px;
+		height: 194px;
+	}
+
+  .mini-browser {
+    width: 139px;
+  }
+
+  .mini-browser-left {
+		margin-right: 18px;
+	}
+
+  .video-feature {
+	  width: 300px;
+  }
 }
