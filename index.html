@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app='ngApp'>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -114,7 +114,63 @@
     <div class="content">
         <h2 class="content-head is-center">Over <strong>23,000 users</strong> solve problems together visually</h2>
 
-        <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
+<!--       <video height="100%" class="feature-video" preload="none" poster="/assets/images/cover_create-e6646e64.jpg">
+        <source src="/assets/video/create-a27a9cbd.mp4" type="video/mp4">
+        <source src="/assets/video/create-e68d7b3c.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video> -->        
+
+        <div class="video-demo" ng-controller='DemoController'>
+          <div class="video-replay hide" show-on='video-ended-share' hide-on='replay'>
+            <a class="pure-button font-large" ng-click='replay()'>Replay</a>
+          </div>
+
+          <div class="" hide-on='video-ended-features' show-on='replay'>
+            <div class="browser">
+              <img src='/sketchboard.io/images/browser.png' width="100%">
+            </div>
+            <div class="browser-url">https://sketchboard.me/abcdefghij</div>
+            <video features-video class="video-feature">
+              <source type="video/webm" src="/videos/intro-features.webm" type="video/webm">
+              <source type="video/mp4" src="/videos/intro-features2.mp4" type="video/mp4">
+              
+            Your browser does not support the video tag.
+            <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
+            </video>
+          </div>
+
+          <div class="hide" show-on='video-ended-features' hide-on='replay'>
+            <div class="browser-users">
+              <div class="mini-browser mini-browser-left browser-user">
+                Saiki@Helsinki
+              </div>
+              <div class="mini-browser browser-user">
+                Rita@Denver
+              </div>
+            </div>
+            <div class="browser2">
+              <div class="mini-browser mini-browser-left">
+                <img src='/sketchboard.io/images/browser.png' width="100%">
+                <!-- <div class="browser-url2">https://sketchboard.me/abcdefghij</div> -->
+              </div>
+
+              <div class="mini-browser">
+                <img src='/sketchboard.io/images/browser.png' width="100%">
+                <!-- <div class="browser-url2">https://sketchboard.me/abcdefghij</div> -->
+              </div>
+            </div>
+            <video share-video class="video-feature pure-img">
+              <source type="video/webm" src="/videos/intro-share-white.webm" type="video/webm">
+              <source type="video/mp4" src="/videos/intro-share-white2.mp4" type="video/mp4">
+              
+            Your browser does not support the video tag.
+            <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
+            </video>
+          </div>
+
+        </div>
+
+        <!-- <img src="sketchboard.io/img/image1.png" class="pure-img centered-img"> -->
 
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
@@ -207,6 +263,8 @@
             </div> -->
         </div>
 
+        <h2 class="content-head is-center">Combine diagrams, freehand and images on endless board</h2>
+        <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
         <img src="sketchboard.io/img/image3.png" class="pure-img centered-img">
         <img src="sketchboard.io/img/image2.png" class="pure-img centered-img">
     </div>
@@ -752,6 +810,8 @@
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.5/angular.min.js"></script>
+<script src="/javascripts/app.js"></script>
 <script>
   $(document).ready(function() {
     var $root = $('html, body')

@@ -203,3 +203,61 @@ strong {
 	width: 70%;
 	margin: 0 auto;
 }
+
+.browser {
+	margin: 0 auto;
+	border: 1px solid red;
+	background: url(/sketchboard.io/images/browser.png) no-repeat;
+	background-size: 100%;
+	border: 1px solid #dedede;
+	height: 60px;
+	width: 720px;
+}
+.browser-url {
+	position: absolute;
+	color: #939393;
+	left: 50%;
+	margin-top: -32px;
+	margin-left: -85px;
+	font-size: 12px;
+}
+.browser2 {
+	position: relative;
+	left: 50%;
+	margin-left: -360px;
+	border: 1px solid #dedede;
+	height: 100%;
+	width: 334px;
+}
+.browser-url2 {
+	position: absolute;
+	color: #939393;
+	left: 50%;
+	margin-top: -30px;
+	margin-left: -265px;
+	font-size: 10px;
+}
+.video-demo {
+	width: 100%;
+	text-align: center;
+}
+.video-feature {
+  width: 720px;
+}
+.video-replay {
+	position: absolute;
+	display: inline-block;
+	background: rgba(255,255,255,0.6);
+	width: 720px;
+	height: 405px;
+	z-index: 100;
+}
+.video-replay a {
+	margin-top: 23%;
+	text-transform: uppercase;
+}
+
+
+.hide {
+	display: none;
+}
