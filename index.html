@@ -28,7 +28,7 @@
     <![endif]-->
     <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="/css/marketing.css">
-    <link rel="stylesheet" href="/css/marketing-custom.css">
+    <link rel="stylesheet" href="/css/marketing-custom2.css">
     <link rel="stylesheet" href="/sketchboard.io/plans.css">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -114,33 +114,65 @@
     <div class="content">
         <h2 class="content-head is-center">Over <strong>23,000 users</strong> solve problems together visually</h2>
 
-<!--       <video height="100%" class="feature-video" preload="none" poster="/assets/images/cover_create-e6646e64.jpg">
-        <source src="/assets/video/create-a27a9cbd.mp4" type="video/mp4">
-        <source src="/assets/video/create-e68d7b3c.webm" type="video/webm">
-        Your browser does not support the video tag.
-      </video> -->        
-
-        <div class="video-demo" ng-controller='DemoController'>
-          <div class="video-replay hide" show-on='video-ended-share' hide-on='replay'>
-            <a class="pure-button font-large" ng-click='replay()'>Replay</a>
-          </div>
-
-          <div class="" hide-on='video-ended-features' show-on='replay'>
-            <div class="browser">
-              <img src='sketchboard.io/img/browser.png' width="100%">
+        <div class="b-demo demo-wrapper" ng-controller='DemoController'>
+          <div class="b-browser" show-on='replay' hide-on='video-ended-features'>
+            <div>
+              <img src='sketchboard.io/img/browser.png' class="b-browser2">
             </div>
-            <div class="browser-url">https://sketchboard.me/abcdefghij</div>
-            <video features-video class="video-feature">
-              <source type="video/webm" src="/videos/intro-features.webm" type="video/webm">
-              <source type="video/mp4" src="/videos/intro-features2.mp4" type="video/mp4">
-              
-            Your browser does not support the video tag.
-            <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
+
+            <p class="b-url">https://sketchboard.me/jee</p>
+
+            <video height="100%" class="b-feature-video" features-video>
+              <source type="video/webm" src="/videos/intro-add-shapes.webm" type="video/webm">
+              <source type="video/mp4" src="/videos/intro-add-shapes2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
             </video>
           </div>
 
-          <div class="hide" show-on='video-ended-features' hide-on='replay'>
-            <div class="browser-users">
+          <div class="b-browser hide" show-on='video-ended-features' hide-on='video-end-connect'>
+            <div>
+              <img src='sketchboard.io/img/browser.png' class="b-browser2">
+            </div>
+
+            <p class="b-url">https://sketchboard.me/jee</p>
+
+            <video height="100%" class="b-feature-video" play-on='video-ended-features' data-end-event='video-end-connect' data-play-event='video-play-connect'>
+              <source type="video/webm" src="/videos/intro-connect-shapes.webm" type="video/webm">
+              <source type="video/mp4" src="/videos/intro-connect-shapes2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="b-browser hide" show-on='video-end-connect' hide-on='video-end-images'>
+            <div>
+              <img src='sketchboard.io/img/browser.png' class="b-browser2">
+            </div>
+
+            <p class="b-url">https://sketchboard.me/jee</p>
+
+            <video height="100%" class="b-feature-video" play-on='video-end-connect' data-end-event='video-end-images' data-play-event="video-play-images">
+              <source type="video/webm" src="/videos/intro-add-images.webm" type="video/webm">
+              <source type="video/mp4" src="/videos/intro-add-images2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="b-browser hide" show-on='video-end-images' hide-on='video-end-freehand'>
+            <div>
+              <img src='sketchboard.io/img/browser.png' class="b-browser2">
+            </div>
+
+            <p class="b-url">https://sketchboard.me/jee</p>
+
+            <video height="100%" class="b-feature-video" play-on='video-end-images' data-end-event='video-end-freehand' data-play-event="video-play-freehand">
+              <source type="video/webm" src="/videos/intro-freehand.webm" type="video/webm">
+              <source type="video/mp4" src="/videos/intro-freehand2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="hide" show-on='video-end-freehand' hide-on='replay'>
+            <div class="b-browser-users">
               <div class="mini-browser mini-browser-left browser-user">
                 Saiki@Helsinki
               </div>
@@ -148,34 +180,152 @@
                 Rita@Denver
               </div>
             </div>
-            <div class="browser2">
-              <div class="mini-browser mini-browser-left">
-                <img src='sketchboard.io/img/browser.png' width="100%">
-                <!-- <div class="browser-url2">https://sketchboard.me/abcdefghij</div> -->
-              </div>
 
-              <div class="mini-browser">
-                <img src='sketchboard.io/img/browser.png' width="100%">
-                <!-- <div class="browser-url2">https://sketchboard.me/abcdefghij</div> -->
+            <div class="b-browser b-browser-two">
+              <div>
+                <img src='sketchboard.io/img/browser.png' class="mini-browser2" style="float: left;">
+                <img src='sketchboard.io/img/browser.png' class="mini-browser2" style="float: right;">
               </div>
+              <div class="b-last-vid hide" show-on='video-end-share' hide-on='replay'>
+                <a class="pure-button font-large" ng-click='replay()'>Replay</a>
+              </div>
+              <video height="100%" class="b-feature-video" play-on='video-end-freehand' data-end-event='video-end-share' data-play-event="video-play-share">
+                <source type="video/webm" src="/videos/intro-share-white.webm" type="video/webm">
+                <source type="video/mp4" src="/videos/intro-share-white2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
             </div>
-            <video share-video class="video-feature pure-img">
-              <source type="video/webm" src="/videos/intro-share-white.webm" type="video/webm">
-              <source type="video/mp4" src="/videos/intro-share-white2.mp4" type="video/mp4">
-              
-            Your browser does not support the video tag.
-            <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
-            </video>
           </div>
 
+          <div class="features-wrapper">
+            <ul id="feature-controls" class="feature-controls">
+              <li class="add-shapes" show-on='replay' hide-on='video-ended-features'>
+                <!-- <a href="#"> -->
+                  <div class="icon">
+                    <i class="fa fa-plus"></i>
+                  </div>
+                  <h3>Add Shapes</h3>
+                  <div class="feature">
+                    <div>Double click background</div>
+                    <div>Drag & drop shapes from the library</div>
+                  </div>
+                <!-- </a> -->
+              </li>
+              <li class="create-connections hide" show-on='video-ended-features' hide-on='video-end-connect'>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-share-alt"></i>
+                  </div>
+                  <h3>Create Connections</h3>
+                  <div class="feature">
+                    <div>Select and double click background.</div>
+                    <div>Drag connections after shape selection</div>
+                  </div>
+                </a>
+              </li>
+              <li class="add-images hide" show-on='video-end-connect' hide-on='video-end-images'>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-image"></i>
+                  </div>
+                  <h3>Add Images</h3>
+                  <div>Drag and drop images straight from your desktop.</div>
+                </a>
+              </li>
+              <li class="freehand hide" show-on='video-end-images' hide-on='video-end-freehand'>
+                <a href="#">
+                  <div class="icon">
+                    <i class="fa fa-pencil"></i>
+                  </div>
+                  <h3>Freehand Drawing</h3>
+                  <div>
+                    Draw freehand on top.
+                  </div>
+                </a>
+              </li>
+              <li class="share hide" show-on='video-end-freehand' hide-on='replay'>
+                <!-- <a href="#"> -->
+                  <div class="icon">
+                    <i class="fa fa-users"></i>
+                  </div>
+                  <h3>Edit together in real-time</h3>
+                  <div>
+                    Share with teammates and simplify complex problems without email.
+                  </div>
+                <!-- </a> -->
+              </li>
+            </ul>  
+          </div>
+          <!-- <div class="pure-g">
+            <div class="pure-u-4-5 video-container">
+              <div class="" hide-on='video-ended-features' show-on='replay'>
+                <div class="video-replay" show-on='video-ended-share' hide-on='replay'>
+                  <a class="pure-button font-large" ng-click='replay()'>Replay</a>
+                </div>
+
+                <div class="browser">
+                  <img src='sketchboard.io/img/browser.png' width="100%">
+                </div>
+                <div class="browser-url">https://sketchboard.me/abcdefghij</div>
+                <video features-video class="video-feature">
+                  <source type="video/webm" src="/videos/intro-features.webm" type="video/webm">
+                  <source type="video/mp4" src="/videos/intro-features2.mp4" type="video/mp4">
+                  
+                Your browser does not support the video tag.
+                <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
+                </video>
+              </div>
+
+              <div class="hide" show-on='video-ended-features' hide-on='replay'>
+                <div class="browser-users">
+                  <div class="mini-browser mini-browser-left browser-user">
+                    Saiki@Helsinki
+                  </div>
+                  <div class="mini-browser browser-user">
+                    Rita@Denver
+                  </div>
+                </div>
+                <div class="browser2">
+                  <div class="mini-browser mini-browser-left">
+                    <img src='sketchboard.io/img/browser.png' width="100%">
+                  </div>
+
+                  <div class="mini-browser">
+                    <img src='sketchboard.io/img/browser.png' width="100%">
+                  </div>
+                </div>
+                <video share-video class="video-feature pure-img">
+                  <source type="video/webm" src="/videos/intro-share-white.webm" type="video/webm">
+                  <source type="video/mp4" src="/videos/intro-share-white2.mp4" type="video/mp4">
+                  
+                Your browser does not support the video tag.
+                <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
+                </video>
+              </div>
+            </div>
+            <div class="pure-u-1-5">
+              <div class="video-steps">
+                <div class="step step-active">
+                  <h2>Add Shapes</h2>
+                  <h2>Create Connection</h2>
+                  <h2>Add Images</h2>
+                  <h2>Draw Freehand</h2>
+                  <h2>Share in real-time with teammates</h2>
+                </div>
+              </div>
+            </div>
+          </div> -->
         </div>
+
+
 
         <!-- <img src="sketchboard.io/img/image1.png" class="pure-img centered-img"> -->
 
+        <div style="clear: both;">
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
               <h3 class="content-subhead">
-                  <i class="fa fa-share-alt"></i>
+                  <i class="fa fa-comments"></i>
                   Design is Communication
               </h3>
               <p>
@@ -220,6 +370,7 @@
                     Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                 </p>
             </div> -->
+        </div>
         </div>
 
 
@@ -332,23 +483,29 @@
         </th>
 -->
         <th class="plan-first">
-          <a ng-click="selectPlan('micro')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('micro')">Starter</a>
+          <a href="https://sketchboard.me/service/signup" target="_blank">Single User</a>
+          <small>
+            <span>$7/month</span>
+          </small>
+        </th>
+        <th class="plan-primary2">
+          <a href="https://sketchboard.me/service/signup" target="_blank">Starter</a>
           <small>
             <span>$14/month</span>
           </small>
         </th>
-        <th class="plan-primary2">
-          <a ng-click="selectPlan('small')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('small')">Agile Team</a>
+        <th class="">
+          <a href="https://sketchboard.me/service/signup" target="_blank">Agile Team</a>
           <small>
             <span>$36/month</span>
           </small>
         </th>
-        <th class="">
-          <a ng-click="selectPlan('medium')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('medium')">Startup</a>
+<!--         <th class="">
+          <a href="https://sketchboard.me/service/signup" target="_blank">Startup</a>
           <small>
             <span>$79/month</span>
           </small>
-        </th>
+        </th> -->
 <!--
         <th class="">
           <a ng-click="selectPlan('large')" href="https://sketchboard.me/service/signup" target="_blank" ng-bind="planName('large')">Lean Company</a>
@@ -364,9 +521,9 @@
         <td class="row-label">Teammates</td>
         <!-- <td>Unlimited</td> -->
 <!--        <td>1</td>-->
-        <td>up to 3</td>
-        <td class="plan-primary2">up to 7</td>
-        <td>up to 15</td>
+        <td>1</td>
+        <td class="plan-primary2">up to 3</td>
+        <td>up to 7</td>
 <!--        <td>up to 30</td>-->
       </tr>
 <!--       <tr>
@@ -409,9 +566,9 @@
         <td class="row-label">Images & Version Control</td>
         <!-- <td></td> -->
 <!--        <td>100 MB</td>-->
-        <td>300 MB</td>
-        <td class="plan-primary2">700 MB</td>
-        <td>1.5 GB</td>
+        <td>100 MB</td>
+        <td class="plan-primary2">300 MB</td>
+        <td>700 MB</td>
 <!--        <td>3 GB</td>-->
       </tr>
 <!--       <tr>
@@ -452,7 +609,7 @@
 
       <div class="description">
         <p class="text-center">
-          We also have plan for <strong class="highlight"><a href="https://sketchboard.me/service/signup">Single Users</a></strong> (1 user, $7/mo) and a <strong class="highlight"><a href="https://sketchboard.me/service/signup">Lean Company plan</a> </strong>(30 members, $159/mo)
+          We also have plan for <strong class="highlight"><a href="https://sketchboard.me/service/signup">Startup</a></strong> (15 users, $79/mo) and a <strong class="highlight"><a href="https://sketchboard.me/service/signup">Lean Company plan</a> </strong>(30 members, $159/mo)
         </p>
         <div class="start-trial text-center">
           <a class="pure-button font-xlarge" href="https://sketchboard.me/service/signup" role="button" target="_blank" onClick="_gaq.push(['_trackEvent', 'start-trial', 'Pricing', '']);">Start free trial - no credit card required</a>
