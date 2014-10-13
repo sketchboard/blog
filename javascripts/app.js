@@ -39,6 +39,22 @@ app.directive('featuresVideo', ['$rootScope', '$timeout', function featuresVideo
 	}
 }])
 
+app.directive('playOn', ['$rootScope', function playOn($rootScope) {
+	return function(scope, elem, attr) {
+		$rootScope.$on(attr.playOn, function() {
+			elem[0].play()
+		})
+
+		elem[0].addEventListener("ended", function() {
+			$rootScope.$broadcast(attr.endEvent)
+		})
+
+		elem[0].addEventListener("play", function() {
+			$rootScope.$broadcast(attr.playEvent)
+		})
+	}
+}])
+
 app.directive('shareVideo', ['$rootScope', '$timeout', function shareVideo($rootScope, $timeout) {
 	return function(scope, elem, attr) {
 		function play(delay) {
@@ -47,6 +63,10 @@ app.directive('shareVideo', ['$rootScope', '$timeout', function shareVideo($root
 
 		elem[0].addEventListener("ended", function() {
 			$rootScope.$broadcast('video-ended-share')
+		})
+
+		elem[0].addEventListener("play", function() {
+			$rootScope.$broadcast('video-play-share')
 		})
 
 
