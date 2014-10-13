@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Sketchboard.io Slack Integration
+title: Sketchboard.io EduCloud Integration
 ---
 
 <div class="pagetitle">
   <h1>Sketchboard.io</h1>
-  <p>http://sketchboard.io/slack</p>
+  <p>http://sketchboard.io/educloud</p>
 </div>
 
 <div id="home">
   <h1>Topics</h1>
-  <ul class="posts">
+  <ul class="educloud">
     {% for post in site.posts %}
-    	{% if post.categories contains 'slack' %}
+    	{% if post.categories contains 'educloud' %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
