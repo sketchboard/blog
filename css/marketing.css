@@ -157,6 +157,11 @@ a.pure-button-primary {
     /*text-transform: uppercase;*/
 }
 
+.splash-without-img {
+    padding-top: 35px;
+    min-height: 400px;
+}
+
 /* This is the main heading that appears on the blue section */
 .splash-head {
     font-size: 36px;
