@@ -12,14 +12,23 @@ body {
 
 
 .home-menu .pure-menu-heading {
-	color: white;
+	color: #777;
 	font-weight: 100;
 	font-size: 120%;
+}
+
+.splash-container {
+	background: #ece8e6 url("/img/sb_bg.svg") repeat center center;
+}
+
+.splash {
+background: none;
 }
 
 .splash-head {
     border: none;
     padding: 0;
+    color: #333333;
 }
 
 .splash-head {
@@ -28,10 +37,15 @@ body {
 .splash-head span {
 	font-weight: 100;
 }
+.splash-subhead {
+	color: #333333;
+}
 
-
+.home-menu a {
+ color: #777; 
+}
 .home-menu.pure-menu-open {
-    background: #1f8dd6;
+    background: #ece8e6 url("/img/sb_bg.svg") repeat center center;
 }
 .home-menu {
   box-shadow: none;
@@ -522,4 +536,10 @@ li.freehand .icon {
 }
 li.share .icon {
 	background-color: #B47CFF;
+}
+
+a.pure-button-primary {
+    color: #00642A !important;
+    font-weight: normal;
+    font-size: 150%;
 }
