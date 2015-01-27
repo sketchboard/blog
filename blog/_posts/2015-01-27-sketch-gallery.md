@@ -5,7 +5,7 @@ categories:
 ---
 
 
-Sketch Gallery supports a way to share how you think about Sketch Design. Share how you approach problems by sketching. Site is like GitHub for public projects, get inspired or inspire others.
+Sketch Gallery is a new service that supports a way to share how you think about Sketch Design. Share how you approach problems by sketching. Site is like GitHub for public projects, get inspired or inspire others.
 
 ![Sketch Gallery](/img/sketch-gallery.png)
 
