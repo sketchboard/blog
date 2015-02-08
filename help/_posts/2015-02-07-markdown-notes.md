@@ -1,6 +1,6 @@
 ---
 layout: pure-post
-title: "Markdown Notes"
+title: "Markdown Text Formatting"
 categories: 
 ---
 
