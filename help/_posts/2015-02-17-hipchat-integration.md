@@ -1,7 +1,7 @@
 ---
 layout: pure-post
 title: "HipChat Integration"
-category: "hipchat"
+cat: "hipchat"
 ---
 
 Description
