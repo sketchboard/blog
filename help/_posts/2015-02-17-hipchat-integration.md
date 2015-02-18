@@ -4,6 +4,9 @@ title: "HipChat Integration"
 cat: "hipchat"
 ---
 
+<p class='hipchat-sketchboard'>
+</p>
+
 Description
 -----------
 
