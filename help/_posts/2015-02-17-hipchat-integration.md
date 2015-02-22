@@ -48,6 +48,14 @@ Please note: When using **add** command you must be team admin in Sketchboard.io
 </aside>
 
 
+Free Plan and Subscription
+--------------------------
+
+After sign up you are using free plan. On free plan boards are <strong>public</strong> and you can create up to <strong>10 public boards</strong>. You can view public boards from <strong>[Sketch Gallery](https://gallery.sketchboard.me)</strong>.
+
+When you subscribe you can create <strong>private boards</strong> that are visible only for your team. Private boards are not shown on Sketch Gallery. See <strong>[plans](http://sketchboard.io#pricing)</strong>.
+
+
 Installation
 ------------
 
