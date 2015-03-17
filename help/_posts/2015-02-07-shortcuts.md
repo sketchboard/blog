@@ -14,6 +14,17 @@ categories:
     </thead>
     <tbody class="">
         <tr>
+          <td>Space key</td>
+          <td>
+            <ul>
+              <li>Shows board context menu</li>
+              <li>If shape is selected, shows shape switch</li>
+              <li>If relationship is selected, shows connection type switch</li>
+              <li>Selects shape/connection on context menu</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
             <td>Z key</td>
             <td>Shows Map View of the board. Move mouse to new location. Release z key to recenter the board.</td>
         </tr>
