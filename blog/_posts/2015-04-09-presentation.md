@@ -34,6 +34,8 @@ Open edit mode to add new slides. Click <strong>+Add Slide</strong> to create a 
 
 Drag board to create the slide. All shapes within the slide boundaries will be part of the slide. Organize your slides by drag and dropping. Slide can be removed normally as any other shape, using trash icon. Editing will be shown in real-time for everyone participating the board session.
 
+Presentation is available on private personal or team boards.
+
 Shortcuts
 ---------
 
