@@ -76,3 +76,24 @@ a {
 a:hover {
   color: #1398FF;
 }
+
+
+.share-page {
+    text-align: center;
+    background: #118BD9;
+    color: #efefef;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 48px 0;
+}
+
+.share-page a {
+	font-size: 125%;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+
+    &:hover {
+        border-bottom: 1px dashed #fff;
+    }
+}
