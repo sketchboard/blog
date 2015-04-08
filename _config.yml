@@ -1,4 +1,5 @@
-name: Sketchboard Blog
+name: Sketchboard.io Blog
 markdown: redcarpet
 pygments: true
+url: http://sketchboard.io
 # permalink: /blog/:categories/:year/:month/:day/:title.html
