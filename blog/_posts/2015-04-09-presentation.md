@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Real-time Presentation (Alpha)"
+title: "Sketchboard.io Meets Real-time Presentation"
 categories: 
 ---
 
