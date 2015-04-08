@@ -4,11 +4,11 @@ title: "Real-time Presentation (Alpha)"
 categories: 
 ---
 
-To be honest, this is a feature that I needed my self. It is a weekend project inside Sketchboard.io. 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/QGfjf4Z_ZRY?rel=0" frameborder="0" allowfullscreen></iframe>
 
-![Edit Presentation](/img/presentation-edit.png)
+To be honest, this is a feature that I needed my self. I needed to present Sketchboard.io and didn't want to use Keynote or PowerPoint.
 
-I needed to present Sketchboard.io and didn't want to use Keynote or PowerPoint. Instead I have always liked how [Impress.js](http://bartaz.github.io/impress.js/#/bored) allows you to keep presentation using a virtual endless canvas. I could have extracted parts of a sketchboard and add those to a separate impress.js presentation, but I didn't. Impress.js mindset is so close to Sketchboard.io using endless canvas that I wanted to use Sketchboard.io itself to have the presentation.
+I have always liked how [Impress.js](http://bartaz.github.io/impress.js/#/bored) allows you to keep presentation using an endless canvas. I could have extracted parts of a sketchboard and add those to a separate impress.js presentation, but I didn't. Impress.js mindset is so close to Sketchboard.io using endless canvas that I wanted to use Sketchboard.io itself to have the presentation.
 
 Presentation just touches the features impress.js has, but there were other requirements presentation should fulfill. Sketchboard.io presentation should achieve the same kind of experience as you normally have with Sketchboard.io. All teammates can view, create and edit presentation at the same time. When you create a presentation, those are just shapes as anything else.
 
@@ -18,7 +18,9 @@ When you start the presentation all teammates starts the presentation as well. S
 
 I kept the presentation using iPad and Macbook was connected to a projector. I didn't need to touch Macbook, but instead I switched slides using iPad. Certainly idea was to show Sketchboard.io real-time capabilities as well.
 
-After the presentation there were comments that I could use Sketchboard.io presentation just to keep my training session. It sets the mindset correct way for my training, it doesn't look too official, it is a simple and fresh way to present ideas.
+After the presentation one of the comments was 
+
+> I could use Sketchboard.io presentation to keep my training sessions. It sets the mindset correct way where users should participate actively, it doesn't look too official, it is a simple and fresh way to present ideas.
 
 Presentation doesn't try to compete with full blown presentation tools, but when you want to quickly and remotely share your ideas in logical order on sketch level, Sketchboard.io just might do the job for you.
 
