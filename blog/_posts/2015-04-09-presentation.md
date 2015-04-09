@@ -26,6 +26,8 @@ Presentation doesn't try to compete with full blown presentation tools, but when
 
 ![Presentation Example](/img/presentation-example.png)
 
+> <a href="/example-presentation/example-presentation.html">View example presentation</a> saved statically from Sketchboard.io. Example doesn't have real-time capabilities. Change slide with space or arrow keys.
+
 Usage
 -----
 
