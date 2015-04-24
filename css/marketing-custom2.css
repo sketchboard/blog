@@ -549,3 +549,15 @@ a.cta {
 	background-color: #DB3838 !important;
 	color: #fff !important;
 }
+
+ul.testimonial-ul {
+	list-style: none;
+}
+.testimonial-ul li {
+	display: inline;
+	margin-right: 4px;
+}
+
+.hidden {
+	display: none;
+}

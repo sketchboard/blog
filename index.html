@@ -117,7 +117,7 @@
 
 <div class="content-wrapper">
     <div class="content">
-        <h2 class="content-head is-center">Over <strong>23,000 users</strong> solve problems together visually</h2>
+        <h2 class="content-head is-center">Over <strong>34,000 users</strong> solve problems together visually</h2>
 
         <div class="b-demo demo-wrapper" ng-controller='DemoController'>
           <div class="b-browser" show-on='replay' hide-on='video-ended-features'>
@@ -444,8 +444,8 @@
         </div>
     </div>-->
 
-    <div class="content ribbon">
-      <div class="testimonials is-center">
+    <div ng-controller="TestimonialsCtrl" class="content ribbon" testimonials>
+      <div class="testimonials is-center" testimonial>
         <div class="testimonial">
         "Sketchboard.io's powerful realtime collaboration has made<br>planning easy for our distributed team."
         </div>
@@ -454,6 +454,20 @@
           <div class="testimonial-desc">Co-Founder and CEO of Nimble Devices</div>
         </div>
       </div>
+
+      <div class="testimonials is-center" testimonial>
+        <div class="testimonial">
+        "Sketchboard gives distributed development teams <br>the collaboration tools, that Skype is missing!"
+        </div>
+        <div class="testimonial-user">
+          <a href="http://www.bitsofmine.com/" target="_blank">Anreas Myka</a>
+          <div class="testimonial-desc">Founder of bitsofYours Software Oy</div>
+        </div>
+      </div>
+
+      <ul class="testimonial-ul is-center">
+        <li ng-repeat='testimonial in testimonials' navigation='{{$index}}' ng-click="show(testimonial)"><i class="fa"></i></li>
+      </ul>
     </div>
 
     <div class="content" id="pricing">
@@ -691,7 +705,7 @@
 
     <div class="content is-center">
       <div class="join">
-        <h2 class="content-head is-center">Join over 150,000 boards.</h2>
+        <h2 class="content-head is-center">Join over 200,000 boards.</h2>
 
         <a class="pure-button font-xlarge" href="https://sketchboard.me/service/signup" target="_blank"  onClick="_gaq.push(['_trackEvent', 'Sign Up Free', 'End', '']);">Sign Up Free</a>
       </div>

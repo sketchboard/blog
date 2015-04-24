@@ -93,4 +93,90 @@ app.directive('hideOn', ['$rootScope', function hideOn($rootScope) {
 	}
 }])
 
+app.controller('TestimonialsCtrl', ['$scope', '$timeout', function TestimonialsCtrl($scope, $timeout) {
+	var currentIndex = 0
+	$scope.testimonials = []
+
+	$scope.addTestimonial = function(elem) {
+		var testimonial = {
+			index: $scope.testimonials.length,
+			el:elem
+		}
+		$scope.testimonials.push(testimonial)
+	}
+
+	$scope.show = function(testimonial) {
+		testimonial.nav.trigger('active')
+		testimonial.el.trigger('active')
+
+		var i = $scope.testimonials.indexOf(testimonial)
+		if (i >= 0) {
+			currentIndex = i
+		}
+
+		for (var i = 0; i < $scope.testimonials.length; ++i) {
+			var t = $scope.testimonials[i]
+			if (t != testimonial) {
+				t.nav.trigger('non-active')
+				t.el.trigger('non-active')
+			}
+		}
+	}
+
+	function loop() {
+		$timeout(function() {
+			var next = ((currentIndex + 1) % $scope.testimonials.length)
+			if (next >= 0 && next < $scope.testimonials.length) {
+				$scope.show($scope.testimonials[next])
+			}
+			loop()
+		}, 5000)
+	}
+
+	loop()
+}])
+
+app.directive('testimonial', function testimonial() {
+	return function(scope, elem, attr) {
+		elem.on('active', function() {
+			elem.fadeIn()
+		})
+
+		elem.on('non-active', function() {
+			elem.hide()
+		})
+		scope.addTestimonial(elem)
+	}
+})
+
+app.directive('navigation', ['$compile', function navigation($compile) {
+	return function(scope, elem, attr) {
+		var iel = elem.find('i')
+		var i = parseInt(attr.navigation)
+		if (i == 0) {
+			iel.addClass("fa-circle")
+		} else {
+			iel.addClass("fa-circle-thin")
+			scope.testimonial.el.addClass("hidden")
+		}
+
+		// create mapping
+		scope.testimonial.nav = elem
+
+		elem.on('active', function() {
+			iel.removeClass("fa-circle-thin")
+			iel.addClass("fa-circle")
+		})
+		elem.on('non-active', function() {
+			iel.removeClass("fa-circle")
+			iel.addClass("fa-circle-thin")
+		})
+	}
+}])
+
+app.directive('testimonials', ['$compile', function testimonials($compile) {
+	return function(scope, elem, attr) {
+	}
+}])
+
 
