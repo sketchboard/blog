@@ -21,7 +21,9 @@ categories:
               <li>If shape is selected, shows shape switch</li>
               <li>If relationship is selected, shows connection type switch</li>
               <li>Selects shape/connection on context menu</li>
+              <li>Arrow keys change focused shape or connection type</li>
             </ul>
+            <a href="/blog/2015/03/17/new-shapes-search.html#new-context-menu" target="_blank" style="text-decoration: underline;">Learn More</a>
           </td>
         </tr>
         <tr>
@@ -35,6 +37,10 @@ categories:
         <tr>
             <td>+ key</td>
             <td>Zoom In</td>
+        </tr>
+        <tr>
+            <td>0 key</td>
+            <td>Reset zoom</td>
         </tr>
         <tr>
             <td>F key</td>
@@ -53,12 +59,16 @@ categories:
             <td><strong class="guide-highlight">Resize shape</strong> and <strong>keep aspect ratio</strong>. Drag from resize handle and keep shift key down.</td>
         </tr>        
         <tr>
+            <td>DEL key or Backspace</td>
+            <td>Deletes selected elements.</td>
+        </tr>
+        <tr>
             <td>Cmd/Ctrl + P key</td>
             <td>Show visual board index, search boards and switch boards quickly</td>
         </tr>
         <tr>
-            <td>DEL key or Backspace</td>
-            <td>Deletes selected elements.</td>
+            <td>Alt + N key</td>
+            <td>Create new board</td>
         </tr>
         <tr>
             <td>Cmd/Ctrl + Shift + Click</td>
@@ -72,5 +82,14 @@ categories:
             <td>Cmd + V (Mac)<br>Ctrl + V (Win/Linux)</td>
             <td>Paste copied elements. Paste individual items e.g. to an other board.</td>
         </tr>
+        <tr>
+            <td>Alt + E key</td>
+            <td>Edit presentation</td>
+        </tr>
+        <tr>
+            <td>Alt + P key</td>
+            <td>Start real-time presentation</td>
+        </tr>
+
   </tbody>
 </table>

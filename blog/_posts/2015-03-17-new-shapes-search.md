@@ -29,8 +29,7 @@ New Shapes
 	</tr>
 </table>
 
-New Context Menu
-----------------
+<h2 id="new-context-menu">New Context Menu</h2>
 
 Now all shapes are available on context menu. **Create** new shapes on spot or quickly **switch** shape to another.
 
@@ -45,4 +44,4 @@ Now all shapes are available on context menu. **Create** new shapes on spot or q
 <img alt="New Board Context Menu" src="/img/new-board-context-menu.png" width="320">
 <img alt="Change Connection Type" src="/img/change-connection-type.png" width="170">
 
-Change focused shape with arrow keys and make selection with space key.
+**Change focused** shape with **arrow keys** and make selection with space key.
