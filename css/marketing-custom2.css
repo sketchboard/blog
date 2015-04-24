@@ -544,3 +544,8 @@ a.pure-button-primary {
     font-weight: normal;
     font-size: 150%;
 }
+
+a.cta {
+	background-color: #DB3838 !important;
+	color: #fff !important;
+}
