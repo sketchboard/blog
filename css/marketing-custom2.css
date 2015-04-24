@@ -57,10 +57,15 @@ background: none;
 }
 
 .ribbon {
-	background: #EEF1F2;
+	/*background: #EEF1F2;*/
+	background: #ece8e6 url("/img/sb_bg.svg") repeat center center;	
 	color: #454545;
 }
 
+/*.content a {
+	color: #DB3838 !important;
+}
+*/
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 400;
 }
@@ -162,6 +167,9 @@ text-transform: none;
 }
 .testimonial-user {
 	margin-top: 60px;
+}
+.testimonial-user a {
+	color: #DB3838 !important;
 }
 .testimonial-desc {
 	margin-top: 10px;
