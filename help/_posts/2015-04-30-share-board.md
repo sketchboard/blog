@@ -8,11 +8,11 @@ permalink: /help/share-board.html
 Share Private Board
 -------------------
 
-You can **share private board** with your teammates by clicking board name and selecting "Team Board". Teammates that are online are circled with a green icon.
+You can **share private personal board** with your teammates by clicking board name and selecting "Team Board". Teammates that are online are circled with a green icon.
 
 <img alt="Share board with teammates" src="/help/images/share-team-board.png" width="300px">
 
-You can find boards shared with you from the boards menu.
+You can find team boards from the boards menu.
 
 <img alt="Boards Menu" src="/help/images/board-menu.png" width="300px">
 
