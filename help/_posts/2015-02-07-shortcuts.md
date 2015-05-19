@@ -4,6 +4,8 @@ title: "Shortcuts"
 categories: 
 ---
 
+Drawing Area Shortcuts
+----------------------
 
 <table class="pure-table pure-table-bordered">
     <thead>
@@ -92,4 +94,39 @@ categories:
         </tr>
 
   </tbody>
+</table>
+
+Markdown Editor Shortcuts
+-------------------------
+
+<table class="pure-table pure-table-bordered">
+    <thead>
+        <tr>
+            <th class="">Shortcut</th>
+            <th class="">What it does</th>
+        </tr>
+    </thead>
+    <tbody class="">
+        <tr>
+          <td style="white-space:nowrap;">
+          Cmd+B (Mac)<br>
+          Cntr+B (Win/Linux)
+          </td>
+          <td style="width: 100%;vertical-align:top;">Bold selected text</td>
+        </tr>
+        <tr>
+          <td>
+          Cmd+I (Mac)<br>
+          Cntr+I (Win/Linux)
+          </td>
+          <td style="width: 100%;vertical-align:top;">Make selected text italic</td>
+        </tr>
+        <tr>
+          <td>
+          Cmd+L (Mac)<br>
+          Cntr+L (Win/Linux)
+          </td>
+          <td style="width: 100%;vertical-align:top;">Create a link from the selected text</td>
+        </tr>
+    </tbody>
 </table>
