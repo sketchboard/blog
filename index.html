@@ -76,44 +76,93 @@
 
 
 
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="http://sketchboard.io"><img src='/sketchboard.io/img/sketchboard-logo.png' width="30px" style='vertical-align: middle;margin:0 5px 0 0;'>Sketchboard.io</a>
+<div class="main">
+  <div class="sub-main">
+  <div class="header">
+      <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+          <a class="pure-menu-heading" href="http://sketchboard.io">
+            <!-- <img src='/sketchboard.io/img/sketchboard-logo.png' width="30px" style='vertical-align: middle;margin:0 5px 0 0;'>Sketchboard.io -->
+            <img src='/sketchboard.io/img/logo-text2.png' width="150">
+          </a>
 
-        <ul>
-            <!-- <li class="pure-menu-selected"><a href="#">Home</a></li> -->
-            <!-- <li><a href="#">Tour</a></li> -->
-            <li><a id="pricinglink" href="#pricing">Pricing</a></li>
-            <!-- <li><a id="contactlink" href="#contact">Contact</a></li> -->
-            <li><a href="/help">Help</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="https://gallery.sketchboard.me" target="_blank">Examples</a></li>
-            <li><a href="https://sketchboard.me/service/signup" target="_blank">Sign Up</a></li>
-            <li><a href="https://sketchboard.me/service/login" target="_blank">Log In</a></li>
-        </ul>
-    </div>
-</div>
+          <ul>
+              <!-- <li class="pure-menu-selected"><a href="#">Home</a></li> -->
+              <!-- <li><a href="#">Tour</a></li> -->
+              <li><a id="pricinglink" href="#pricing">Pricing</a></li>
+              <!-- <li><a id="contactlink" href="#contact">Contact</a></li> -->
+              <li><a href="/help">Help</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="https://gallery.sketchboard.me" target="_blank">Examples</a></li>
+              <li><a href="https://sketchboard.me/service/signup" target="_blank">Sign Up</a></li>
+              <li><a href="https://sketchboard.me/service/login" target="_blank">Log In</a></li>
+          </ul>
+      </div>
+  </div>
 
-<div class="splash-container">
+  <div class="splash-container">
     <div class="splash splash-without-img">
         <!-- <h1 class="splash-head">Create sketches <span>and</span> concepts <span>to solve problems and </span> design <span>with your</span> team <span>in</span> realtime</h1> -->
-        <h1 class="splash-head">Team Visual Communication</h1>
+        <h1 class="splash-head">Visual Teamwork</h1>
         <!-- <h1 class="splash-head">Visual Teamwork</h1> -->
         <!-- <h1 class="splash-head">Together by Sketching.</h1> -->
 <!--         <p class="splash-subhead">
             Collaborative Real-time Sketching + Multiple Mouse Cursors + Chrystal Clear Drawings
         </p> -->
-        <h2 class="splash-subhead">Realtime sketch collaboration for modern teams with emphasis on solving problems and creating ideas rather than making documentation.</h2>
-        <p style="margin-top: 60px;">
-            <!-- <a href="https://sketchboard.me/service/signup" class="pure-button pure-button-primary">Start your 14 day free trial</a> -->
-            <a href="https://sketchboard.me/" class="pure-button pure-button-primary font-xlarge cta" onClick="_gaq.push(['_trackEvent', 'sketch-now', 'landing', '']);">Sketch something.</a>
-            <br>
-        </p>
-<!--         <div class="langing-sketch">
-          <img class="pure-img" src="/img/landing-sketch-got-it-user2.png" alt="Simplify problems visually together with teammates, to solve those.">
-        </div> -->
-    </div>
-</div>
+        
+        <h2 class="splash-subhead">Solve problems and create ideas on endless whiteboard with your teammates.</h2>
+
+        <div class="anim" ng-congroller="AnimController">
+          <div class="anim-bg"></div>
+          <!-- <img src='/sketchboard.io/img/sample-sketchboard.png' width='600'> -->
+          <div class="anim-board">
+          </div>
+          <!-- <div class="anim-uc-teamwork"></div> -->
+          <!-- <div class="anim-user1"></div> -->
+          <div class="anim-user anim-shape" user1>
+            <svg height="35" width="35" style="background-color:transparent;"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g class="board-user">
+                <clipPath id="gfx_clip1">
+                  <ellipse cx="17" cy="17" rx="17" ry="17"/>
+                </clipPath>
+                <image clip-path="url(#gfx_clip1)" fill-opacity="0" height="35" preserveAspectRatio="none" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="0" stroke-width="1" width="35" x="0" xlink:href="/sketchboard.io/img/anim/user1.png" xmlns:xlink="http://www.w3.org/1999/xlink" y="0"/>
+              </g>
+            </svg>
+          </div>
+          <div class="anim-user anim-user2 anim-shape anim-user2-step2" user2>
+            <svg height="35" width="35" style="background-color:transparent;"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g class="board-user">
+                <clipPath id="gfx_clip2">
+                  <ellipse cx="17" cy="17" rx="17" ry="17"/>
+                </clipPath>
+                <image clip-path="url(#gfx_clip2)" fill-opacity="0" height="35" preserveAspectRatio="none" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="0" stroke-width="1" width="35" x="0" xlink:href="/sketchboard.io/img/anim/user2.png" xmlns:xlink="http://www.w3.org/1999/xlink" y="0"/>
+              </g>
+            </svg>
+          </div>
+
+          <div class="anim-edit anim-shape">Edit together in real-time</div>
+
+          <div class="anim-rect anim-shape"></div>
+          <div class="anim-circle anim-shape"></div>
+          <div class="anim-arrow-top anim-shape"></div>
+          <div class="anim-arrow-below anim-shape"></div>
+          <!-- <div class="anim-problem"></div> -->
+          <!-- <div class="anim-sketch"></div> -->
+          <!-- <div class="anim-got-it"></div> -->
+        </div>
+
+<!--         <div class="pens">
+          <img src='/sketchboard.io/img/anim/pens.png' width='150'>
+        </div>
+ -->
+        <div class="call-action">
+
+          <a href="https://sketchboard.me/" class="pure-button pure-button-primary font-xlarge cta" onClick="_gaq.push(['_trackEvent', 'sketch-now', 'landing', '']);">Sketch something.</a>
+        </div>
+
+      </div> <!-- splash -->
+    </div> <!-- splash-container -->
+  </div> <!-- sub-main -->
+</div> <!-- main -->
 
 <div class="content-wrapper">
     <div class="content">

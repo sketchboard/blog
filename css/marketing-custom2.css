@@ -2,6 +2,503 @@ body {
 	font-weight: 300;
 }
 
+.main {
+	/*background: url("/img/sb_bg.svg") repeat center center;*/
+	background-color: #D7C9B8;
+  background-image: url(/img/sb_bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#fff), to(#D7C9B8));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #fff, #D7C9B8);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #fff, #D7C9B8);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #fff, #D7C9B8);	
+}
+
+.sub-main {
+	/*background: url("/img/sb_bg.svg") repeat center center;*/
+}
+
+.pens {
+	position: absolute;
+	left: 50%;
+	margin-left: -375px;
+}
+
+@keyframes start-anim {
+  0% {
+  	opacity: 0.1;
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px); }
+  100% {
+  	opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+}
+@keyframes edit-real-time {
+  0% {
+  }
+  100% {
+  	opacity: 1;
+  }
+}
+
+@keyframes user1-step0 {
+  100% {
+  	opacity: 1;
+  }
+}
+
+@keyframes user1 {
+  0% {
+  	opacity: 1;
+  }
+  100% {
+  	opacity: 1;
+  	left: 150px;
+    top: 100px;
+  }
+}
+@keyframes user1-step2 {
+  0% {
+  	opacity: 1;
+  	left: 150px;
+    top: 100px;
+  }
+  100% {
+  	opacity: 1;
+  	left: 200px;
+    top: 70px;
+  }
+}
+
+@keyframes user2-step0 {
+  100% {
+  	opacity: 1;
+  }
+}
+@keyframes user2 {
+  0% {
+  	opacity: 1;
+  }
+  100% {
+  	opacity: 1;
+  	left: 430px;
+    top: 100px;
+  }
+}
+@keyframes user2-step2 {
+  0% {
+  	opacity: 1;
+  	left: 430px;
+    top: 100px;
+  }
+  100% {
+  	opacity: 1;
+  	left: 380px;
+    top: 250px;
+  }
+}
+@keyframes rect {
+  0% {
+  }
+  100% {
+  	opacity: 1;
+  }
+}
+@keyframes circle {
+  0% {
+  }
+  100% {
+  	opacity: 1;
+  }
+}
+@keyframes arrow-top {
+  0% {
+  }
+  100% {
+  	opacity: 1;
+  }
+}
+@keyframes arrow-below {
+  0% {
+  }
+  100% {
+  	opacity: 1;
+  }
+}
+
+.anim {
+	position: relative;
+	margin: 0 auto;
+	width: 620px;
+	animation-name: start-anim;
+	animation-duration: 1s;
+
+	/*animation-delay: 0.5s;*/
+}
+
+.anim-shape {
+   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+   -moz-animation-fill-mode:forwards; /*FF 5+*/
+   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+   -ms-animation-fill-mode:forwards; /*IE 10+*/
+   animation-fill-mode:forwards; /*when the spec is finished*/	
+}
+
+.anim-bg {
+	/*margin: 0 auto;*/
+	/*padding: 15px;*/
+	position: absolute;
+  display: inline-block;
+	background: url("/sketchboard.io/img/anim/whiteboard-frame.svg");
+  background-size: cover;
+  /*vertical-align: middle;*/
+	width: 620px;
+  height: 365px;
+	/*border-radius: 6px;*/
+}
+.anim img {
+	margin: 10px;
+}
+.anim-board {
+	margin: 10px;
+	display: inline-block;
+	/*background: #E8E4E2 url(/img/sb_bg.svg) repeat center center;*/
+	background: #F7F2F0 url(/img/sb_bg.svg) repeat center center;
+	width: 600px;
+	height: 353px;
+}
+
+/*.anim-uc-teamwork {
+	position: absolute;
+	display: inline-block;
+	background-image: url(/sketchboard.io/img/anim/uc-teamwork.svg);
+	right: 40px;
+	top: 20px;
+	width: 136px;
+	height: 63px;
+}
+*/
+.anim-edit {
+	opacity: 0;
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	top: 20px;
+	margin-left: -87.5px;
+	color: #666;
+	font-weight: bold;
+
+	animation-name: edit-real-time;
+	animation-duration: 1s;
+	animation-delay: 1s;
+}
+
+.anim-user {
+	opacity: 0;
+	position: absolute;
+	display: inline-block;
+	left: 50px;
+	top: 30px;
+	width: 35px;
+	height: 35px;
+	animation: user1-step0 0.5s 1s forwards, user1 0.5s 2.5s forwards, user1-step2 0.5s 4.5s forwards;
+}
+.anim-user2 {
+	left: 540px;
+	animation: user2-step0 0.5s 1s forwards, user2 0.5s 3.5s forwards, user2-step2 0.5s 6s forwards;
+}
+.anim-rect {
+	opacity: 0;
+	position: absolute;
+	display: inline-block;
+	background-image: url(/sketchboard.io/img/anim/sketch-rect.svg);
+	background-repeat: no-repeat;
+	left: 205px;
+	top: 140px;
+	width: 79.800331px;
+	height: 78.133965px;
+
+	animation-name: rect;
+	animation-duration: 1s;
+	animation-delay: 3s;
+}
+.anim-circle {
+	opacity: 0;
+	position: absolute;
+	display: inline-block;
+	background-image: url(/sketchboard.io/img/anim/sketch-circle.svg);
+	background-repeat: no-repeat;
+	left: 335px;
+	top: 140px;
+	width: 87.250641px;
+	height: 80.956001px;
+	animation-name: circle;
+	animation-duration: 1s;
+	animation-delay: 4s;
+}
+.anim-arrow-top {
+	opacity: 0;
+	position: absolute;
+	display: inline-block;
+	background-image: url(/sketchboard.io/img/anim/sketch-arrow-top.svg);
+	background-repeat: no-repeat;
+	left: 240px;
+	top: 70px;
+	width: 148.73109px;
+	height: 68.035461px;
+	animation-name: arrow-top;
+	animation-duration: 1s;
+	animation-delay: 5s;
+}
+.anim-arrow-below {
+	opacity: 0;
+	position: absolute;
+	display: inline-block;
+	background-image: url(/sketchboard.io/img/anim/sketch-arrow-below.svg);
+	background-repeat: no-repeat;
+	left: 235px;
+	top: 225px;
+	width: 149.68329px;
+	height: 67.892097px;
+	animation-name: arrow-below;
+	animation-duration: 1s;
+	animation-delay: 6.5s;
+}
+
+
+@media (max-width: 800px) {
+	.anim {
+		width: 465px;
+	}
+	.anim-bg {
+		width: 464px;
+		height: 273px;
+	}
+	.anim-board {
+		width: 452px;
+		max-height: 262px;
+	}
+	.anim-user {
+		left: 10px;
+		top: 10px;
+	}
+	.anim-user2 {
+		left: 430px;
+	}
+	.anim-rect {
+		left: 150px;
+		top: 120px;
+	  background-size: cover;
+		width: 59px;
+		height: 58px;
+	}
+	.anim-circle {
+		left: 250px;
+		top: 120px;
+	  background-size: cover;
+		width: 65px;
+		height: 61px;
+	}
+	.anim-arrow-top {
+		background-size: cover;
+		left: 175px;
+		top: 70px;
+		width: 112px;
+		height: 50px;
+	}
+	.anim-arrow-below {
+		background-size: cover;
+		left: 175px;
+		top: 185px;
+		width: 112px;
+		height: 51px;
+	}
+
+	@keyframes user1 {
+	  0% {
+	  }
+	  100% {
+	  	left: 100px;
+	    top: 100px;
+	  }
+	}
+
+	@keyframes user1-step2 {
+	  0% {
+	  	left: 100px;
+	    top: 100px;
+	  }
+	  100% {
+	  	left: 150px;
+	    top: 60px;
+	  }
+	}
+
+	@keyframes user2 {
+	  0% {
+	  }
+	  100% {
+	  	left: 320px;
+	    top: 100px;
+	  }
+	}
+
+	@keyframes user2-step2 {
+	  0% {
+	  	left: 320px;
+	    top: 100px;
+	  }
+	  100% {
+	  	left: 280px;
+	    top: 200px;
+	  }
+	}
+
+}
+
+@media (max-width: 530px) {
+	.b-demo {
+		display: none;
+	}
+	.pens {
+		display: none;
+	}
+
+	.anim-edit {
+		top: -25px;
+		margin-left: -72px;
+	}
+	.anim {
+		width: 233px;
+	}
+
+	.anim-bg {
+		width: 233px;
+		height: 137px;
+	}
+	.anim-board {
+		margin: 4px;
+		width: 226px;
+		max-height: 131px;
+	}
+	.anim-user {
+		left: 0px;
+		top: 10px;
+	}
+	.anim-user2 {
+		left: 200px;
+	}
+	.anim-rect {
+		left: 80px;
+		top: 50px;
+	  background-size: cover;
+		width: 29.5px;
+		height: 29px;
+	}
+	.anim-circle {
+		left: 130px;
+		top: 50px;
+	  background-size: cover;
+		width: 33.5px;
+		height: 30.5px;
+	}
+	.anim-arrow-top {
+		background-size: cover;
+		left: 95px;
+		top: 20px;
+		width: 56px;
+		height: 25px;
+	}
+	.anim-arrow-below {
+		background-size: cover;
+		left: 90px;
+		top: 85px;
+		width: 57px;
+		height: 25.5px;
+	}
+
+	@keyframes user1 {
+	  0% {
+	  }
+	  100% {
+	  	left: 30px;
+	    top: 20px;
+	  }
+	}
+
+	@keyframes user1-step2 {
+	  0% {
+	  	left: 40px;
+	    top: 20px;
+	  }
+	  100% {
+	  	left: 60px;
+	    top: 10px;
+	  }
+	}
+
+	@keyframes user2 {
+	  0% {
+	  }
+	  100% {
+	  	left: 170px;
+	    top: 20px;
+	  }
+	}
+
+	@keyframes user2-step2 {
+	  0% {
+	  	left: 170px;
+	    top: 20px;
+	  }
+	  100% {
+	  	left: 140px;
+	    top: 90px;
+	  }
+	}
+
+
+}
+
+/*.anim-sketch {
+	position: absolute;
+	display: inline-block;
+	background-image: url(/sketchboard.io/img/anim/sketching.svg);
+	left: 150px;
+	top: 60px;
+	width: 258px;
+	height: 297px;
+}
+.anim-got-it {
+	position: absolute;
+	display: inline-block;
+	background-image: url(/sketchboard.io/img/anim/got-it.svg);
+	left: 450px;
+	top: 100px;
+	width: 130px;
+	height: 179px;
+}
+*/
+.call-action {
+	margin-top: 40px;
+}
+
 .header {
 	font-weight: 100;
 }
@@ -18,7 +515,17 @@ body {
 }
 
 .splash-container {
-	background: #ece8e6 url("/img/sb_bg.svg") repeat center center;
+	/*background: #ece8e6 url("/img/sb_bg.svg") repeat center center;*/
+	/*background: url("/img/sb_bg.svg") repeat center center;*/
+	background: none;
+ 	padding: 0 0 60px 0;
+}
+
+.splash-container h1 {
+	margin: 0;
+}
+.splash-container h2 {
+	margin: 10px 0 53px 0;
 }
 
 .splash {
@@ -42,14 +549,36 @@ background: none;
 	font-size: 115%;
 }
 
+.splash-without-img {
+    padding-top: 0px;
+    min-height: 400px;
+}
+
 .home-menu a {
  color: #777; 
 }
+.home-menu a:hover {
+ color: #efefef !important; 
+}
+.home-menu ul {
+	margin-right: 40px;
+}
+
+@media (max-width: 800px) {
+  .home-menu ul {
+		margin-right: 0;
+	}
+}
+
 .home-menu.pure-menu-open {
-    background: #ece8e6 url("/img/sb_bg.svg") repeat center center;
+    /*background: #ece8e6 url("/img/sb_bg.svg") repeat center center;*/
+    background: none;
 }
 .home-menu {
   box-shadow: none;
+}
+.home-menu ul {
+	margin-top: 25px;
 }
 
 .content-subhead {
