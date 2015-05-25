@@ -58,33 +58,19 @@ body {
     -o-transform: translateY(0);
     transform: translateY(0); }
 }
-@keyframes edit-real-time {
-  0% {
-  }
-  100% {
-  	opacity: 1;
-  }
-}
-
-@keyframes arrow-top {
-  0% {
-  }
-  100% {
-  	opacity: 1;
-  }
-}
-@keyframes arrow-below {
-  0% {
-  }
-  100% {
-  	opacity: 1;
-  }
-}
 
 .anim {
 	position: relative;
 	margin: 0 auto;
 	width: 620px;
+	-webkit-animation-name: start-anim;
+	-webkit-animation-duration: 1s;
+	-moz-animation-name: start-anim;
+	-moz-animation-duration: 1s;
+	-o-animation-name: start-anim;
+	-o-animation-duration: 1s;
+	-ms-animation-name: start-anim;
+	-ms-animation-duration: 1s;
 	animation-name: start-anim;
 	animation-duration: 1s;
 
@@ -98,29 +84,60 @@ body {
 }
 #triangle {
 	opacity: 0;
+	-webkit-animation: triangle 1s 3s forwards;
+	-moz-animation: triangle 1s 3s forwards;
+	-o-animation: triangle 1s 3s forwards;
+	-ms-animation: triangle 1s 3s forwards;
 	animation: triangle 1s 3s forwards;
 }
 #rect {
 	opacity: 0;
+	-webkit-animation: rect 1s 6s forwards;
+	-moz-animation: rect 1s 6s forwards;
+	-o-animation: rect 1s 6s forwards;
+	-ms-animation: rect 1s 6s forwards;
 	animation: rect 1s 6s forwards;
 }
 #circle {
 	opacity: 0;
+	-webkit-animation: circle 1s 4s forwards;
+	-moz-animation: circle 1s 4s forwards;
+	-o-animation: circle 1s 4s forwards;
+	-ms-animation: circle 1s 4s forwards;
 	animation: circle 1s 4s forwards;
 }
 #arrow1 {
 	opacity: 0;
+	-webkit-animation: arrow1 1s 5s forwards;
+	-moz-animation: arrow1 1s 5s forwards;
+	-o-animation: arrow1 1s 5s forwards;
+	-ms-animation: arrow1 1s 5s forwards;
 	animation: arrow1 1s 5s forwards;
 }
 #arrow2 {
 	opacity: 0;
+	-webkit-animation: arrow2 1s 7.5s forwards;
+	-moz-animation: arrow2 1s 7.5s forwards;
+	-o-animation: arrow2 1s 7.5s forwards;
+	-ms-animation: arrow2 1s 7.5s forwards;
 	animation: arrow2 1s 7.5s forwards;
 }
 #arrow3 {
 	opacity: 0;
+	-webkit-animation: arrow2 1s 8.5s forwards;
+	-moz-animation: arrow2 1s 8.5s forwards;
+	-o-animation: arrow2 1s 8.5s forwards;
+	-ms-animation: arrow2 1s 8.5s forwards;
 	animation: arrow2 1s 8.5s forwards;
 }
 
+@keyframes edit-real-time {
+  0% {
+  }
+  100% {
+  	opacity: 1;
+  }
+}
 @keyframes triangle {
   0% {
   }
@@ -299,6 +316,18 @@ body {
 	color: #666;
 	font-weight: bold;
 
+	-webkit-animation-name: edit-real-time;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-name: edit-real-time;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-name: edit-real-time;
+	-o-animation-duration: 1s;
+	-o-animation-delay: 1s;
+	-ms-animation-name: edit-real-time;
+	-ms-animation-duration: 1s;
+	-ms-animation-delay: 1s;
 	animation-name: edit-real-time;
 	animation-duration: 1s;
 	animation-delay: 1s;
@@ -312,6 +341,10 @@ body {
 	top: 30px;
 	width: 35px;
 	height: 35px;
+	-webkit-animation: user1-step0 0.5s 1s forwards, user1 0.5s 2.5s forwards, user1-step2 0.5s 4.5s forwards, user1-step3 0.5s 5.5s forwards;
+	-moz-animation: user1-step0 0.5s 1s forwards, user1 0.5s 2.5s forwards, user1-step2 0.5s 4.5s forwards, user1-step3 0.5s 5.5s forwards;
+	-o-animation: user1-step0 0.5s 1s forwards, user1 0.5s 2.5s forwards, user1-step2 0.5s 4.5s forwards, user1-step3 0.5s 5.5s forwards;
+	-ms-animation: user1-step0 0.5s 1s forwards, user1 0.5s 2.5s forwards, user1-step2 0.5s 4.5s forwards, user1-step3 0.5s 5.5s forwards;
 	animation: user1-step0 0.5s 1s forwards, user1 0.5s 2.5s forwards, user1-step2 0.5s 4.5s forwards, user1-step3 0.5s 5.5s forwards;
 }
 
@@ -322,66 +355,12 @@ body {
 
 .anim-user2 {
 	left: 540px;
+	-webkit-animation: user2-step0 0.5s 1s forwards, user2 0.5s 3.5s forwards, user2-step2 0.5s 7s forwards, user2-step3 0.5s 8s forwards;
+	-moz-animation: user2-step0 0.5s 1s forwards, user2 0.5s 3.5s forwards, user2-step2 0.5s 7s forwards, user2-step3 0.5s 8s forwards;
+	-o-animation: user2-step0 0.5s 1s forwards, user2 0.5s 3.5s forwards, user2-step2 0.5s 7s forwards, user2-step3 0.5s 8s forwards;
+	-ms-animation: user2-step0 0.5s 1s forwards, user2 0.5s 3.5s forwards, user2-step2 0.5s 7s forwards, user2-step3 0.5s 8s forwards;
 	animation: user2-step0 0.5s 1s forwards, user2 0.5s 3.5s forwards, user2-step2 0.5s 7s forwards, user2-step3 0.5s 8s forwards;
 }
-.anim-rect {
-	opacity: 0;
-	position: absolute;
-	display: inline-block;
-	background-image: url(/sketchboard.io/img/anim/sketch-rect.svg);
-	background-repeat: no-repeat;
-	left: 205px;
-	top: 140px;
-	width: 79.800331px;
-	height: 78.133965px;
-
-	animation-name: rect;
-	animation-duration: 1s;
-	animation-delay: 3s;
-}
-.anim-circle {
-	opacity: 0;
-	position: absolute;
-	display: inline-block;
-	background-image: url(/sketchboard.io/img/anim/sketch-circle.svg);
-	background-repeat: no-repeat;
-	left: 335px;
-	top: 140px;
-	width: 87.250641px;
-	height: 80.956001px;
-	animation-name: circle;
-	animation-duration: 1s;
-	animation-delay: 4s;
-}
-.anim-arrow-top {
-	opacity: 0;
-	position: absolute;
-	display: inline-block;
-	background-image: url(/sketchboard.io/img/anim/sketch-arrow-top.svg);
-	background-repeat: no-repeat;
-	left: 240px;
-	top: 70px;
-	width: 148.73109px;
-	height: 68.035461px;
-	animation-name: arrow-top;
-	animation-duration: 1s;
-	animation-delay: 5s;
-}
-.anim-arrow-below {
-	opacity: 0;
-	position: absolute;
-	display: inline-block;
-	background-image: url(/sketchboard.io/img/anim/sketch-arrow-below.svg);
-	background-repeat: no-repeat;
-	left: 235px;
-	top: 225px;
-	width: 149.68329px;
-	height: 67.892097px;
-	animation-name: arrow-below;
-	animation-duration: 1s;
-	animation-delay: 6.5s;
-}
-
 
 @media (max-width: 800px) {
 	.anim-sample {
@@ -1105,13 +1084,10 @@ strong {
 }
 
 .b-browser {
-	/*float: left*/;
 	margin: 0 auto;
 	height: 100%;
 	width: 720px;
 	height: 463px;
-	/*height: 483px;*/
-	/*margin-right: 50px;*/
 	background: url("/sketchboard.io/img/browser.png") no-repeat;
 	position: relative;
 	background-size: 100%;
