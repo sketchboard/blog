@@ -1,0 +1,8 @@
+<svg height="35" width="35" style="background-color:transparent;"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g class="board-user">
+		<clipPath id="gfx_clip1">
+			<ellipse cx="17" cy="17" rx="17" ry="17"/>
+		</clipPath>
+		<image clip-path="url(#gfx_clip1)" fill-opacity="0" height="35" preserveAspectRatio="none" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="0" stroke-width="1" width="35" x="0" xlink:href="/sketchboard.io/img/anim/user1.png" xmlns:xlink="http://www.w3.org/1999/xlink" y="0"/>
+	</g>
+</svg>

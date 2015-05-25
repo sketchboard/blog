@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   preserveAspectRatio="xMinYMin meet"
+   viewBox="394 208 87.250641 80.956001"
+   width="87.250641"
+   height="80.956001">
+  <metadata
+     id="metadata44">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs42" />
+  <g
+     id="g10"
+     transform="translate(-171.12376,-136.473)">
+    <g
+       id="g12"
+       transform="translate(558,333)">
+      <path
+         id="path14"
+         d="m 51.595,11.473 c -1.874,0 -3.778,0.112 -5.683,0.334 -0.894,0.114 -1.783,0.247 -2.64,0.394 -0.552,0.085 -1.06,0.248 -1.518,0.483 C 23.807,15.073 10.068,28.525 7.507,46.28 4.369,68.033 20.848,88.531 44.24,91.973 c 2.057,0.303 4.174,0.456 6.292,0.456 0.001,0 0,0 0.002,0 21.474,0 40.128,-14.601 43.39,-33.962 C 95.804,47.31 91.743,35.067 82.783,24.876 75.183,16.233 64.106,11.473 51.595,11.473 Z m 2.517,9.985 c 8.348,0.589 15.595,4.048 21.553,10.29 7.009,7.343 10.136,17.666 8.16,26.94 -2.513,11.805 -14.926,23.755 -33.785,23.755 -2.189,0 -4.344,-0.191 -6.404,-0.569 C 26.3,78.693 14.578,62.699 17.506,46.219 20.018,32.086 32.455,22.216 47.754,22.216 c 1.032,0 2.081,0.046 3.116,0.138 1.274,0.111998 2.366,-0.211002 3.242,-0.896001 z"
+         style="fill:#333333;stroke:none;stroke-width:3" />
+    </g>
+  </g>
+  <text
+     style="font-size:12px;font-family:arial, helvetica;text-anchor:middle;fill:#333333"
+     y="208.44797"
+     x="480.49792"
+     id="text22" />
+  <text
+     style="font-size:12px;font-family:arial, helvetica;text-anchor:start;fill:#333333"
+     y="158.44797"
+     x="432.49792"
+     id="text24" />
+  <text
+     style="font-size:12px;font-family:arial, helvetica;text-anchor:middle;fill:#333333"
+     y="204.44797"
+     x="381.49792"
+     id="text26" />
+</svg>

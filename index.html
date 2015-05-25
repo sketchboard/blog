@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en" ng-app='ngApp'>
-<head>
+<head profile="http://www.w3.org/2005/10/profile">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sketchboard.io</title>
+    <link rel="icon" type="image/png" href="/sketchboard.io/img/sketchboard-icon.png">
     <link rel="stylesheet" href="/css/pre.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
@@ -76,44 +77,169 @@
 
 
 
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="http://sketchboard.io"><img src='/sketchboard.io/img/sketchboard-logo.png' width="30px" style='vertical-align: middle;margin:0 5px 0 0;'>Sketchboard.io</a>
+<div class="main">
+  <div class="sub-main">
+  <div class="header">
+      <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+          <a class="pure-menu-heading" href="http://sketchboard.io">
+            <!-- <img src='/sketchboard.io/img/sketchboard-logo.png' width="30px" style='vertical-align: middle;margin:0 5px 0 0;'>Sketchboard.io -->
+            <img src='/sketchboard.io/img/logo-text3.png' width="150">
+          </a>
 
-        <ul>
-            <!-- <li class="pure-menu-selected"><a href="#">Home</a></li> -->
-            <!-- <li><a href="#">Tour</a></li> -->
-            <li><a id="pricinglink" href="#pricing">Pricing</a></li>
-            <!-- <li><a id="contactlink" href="#contact">Contact</a></li> -->
-            <li><a href="/help">Help</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="https://gallery.sketchboard.me" target="_blank">Examples</a></li>
-            <li><a href="https://sketchboard.me/service/signup" target="_blank">Sign Up</a></li>
-            <li><a href="https://sketchboard.me/service/login" target="_blank">Log In</a></li>
-        </ul>
-    </div>
-</div>
+          <ul>
+              <!-- <li class="pure-menu-selected"><a href="#">Home</a></li> -->
+              <!-- <li><a href="#">Tour</a></li> -->
+              <li><a id="pricinglink" href="#pricing">Pricing</a></li>
+              <!-- <li><a id="contactlink" href="#contact">Contact</a></li> -->
+              <li><a href="/help">Help</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="https://gallery.sketchboard.me" target="_blank">Examples</a></li>
+              <li><a href="https://sketchboard.me/service/signup" target="_blank">Sign Up</a></li>
+              <li><a href="https://sketchboard.me/service/login" target="_blank">Log In</a></li>
+          </ul>
+      </div>
+  </div>
 
-<div class="splash-container">
+  <div class="splash-container">
     <div class="splash splash-without-img">
         <!-- <h1 class="splash-head">Create sketches <span>and</span> concepts <span>to solve problems and </span> design <span>with your</span> team <span>in</span> realtime</h1> -->
-        <h1 class="splash-head">Team Visual Communication</h1>
+        <h1 class="splash-head">Visual Teamwork</h1>
         <!-- <h1 class="splash-head">Visual Teamwork</h1> -->
         <!-- <h1 class="splash-head">Together by Sketching.</h1> -->
 <!--         <p class="splash-subhead">
             Collaborative Real-time Sketching + Multiple Mouse Cursors + Chrystal Clear Drawings
         </p> -->
-        <h2 class="splash-subhead">Realtime sketch collaboration for modern teams with emphasis on solving problems and creating ideas rather than making documentation.</h2>
-        <p style="margin-top: 60px;">
-            <!-- <a href="https://sketchboard.me/service/signup" class="pure-button pure-button-primary">Start your 14 day free trial</a> -->
-            <a href="https://sketchboard.me/" class="pure-button pure-button-primary font-xlarge cta" onClick="_gaq.push(['_trackEvent', 'sketch-now', 'landing', '']);">Sketch something.</a>
-            <br>
-        </p>
-<!--         <div class="langing-sketch">
-          <img class="pure-img" src="/img/landing-sketch-got-it-user2.png" alt="Simplify problems visually together with teammates, to solve those.">
-        </div> -->
-    </div>
-</div>
+        
+        <h2 class="splash-subhead">Solve problems and create ideas on endless whiteboard with your teammates.</h2>
+
+        <div class="anim">
+          <div class="anim-bg"></div>
+          <!-- <img src='/sketchboard.io/img/sample-sketchboard.png' width='600'> -->
+          <div class="anim-board">
+          </div>
+          <!-- <div class="anim-uc-teamwork"></div> -->
+          <!-- <div class="anim-user1"></div> -->
+          <div class="anim-user anim-shape" user1>
+            <svg style="background-color:transparent;"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g class="board-user">
+                <clipPath id="gfx_clip1">
+                  <ellipse cx="17" cy="17" rx="17" ry="17"/>
+                </clipPath>
+                <image clip-path="url(#gfx_clip1)" fill-opacity="0" preserveAspectRatio="none" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="0" stroke-width="1" x="0" xlink:href="/sketchboard.io/img/anim/user1.png" xmlns:xlink="http://www.w3.org/1999/xlink" y="0"/>
+              </g>
+            </svg>
+          </div>
+          <div class="anim-user anim-user2 anim-shape anim-user2-step2" user2>
+            <svg height="35" width="35" style="background-color:transparent;"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g class="board-user">
+                <clipPath id="gfx_clip2">
+                  <ellipse cx="17" cy="17" rx="17" ry="17"/>
+                </clipPath>
+                <image clip-path="url(#gfx_clip2)" fill-opacity="0" height="35" preserveAspectRatio="none" stroke="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="0" stroke-width="1" width="35" x="0" xlink:href="/sketchboard.io/img/anim/user2.png" xmlns:xlink="http://www.w3.org/1999/xlink" y="0"/>
+              </g>
+            </svg>
+          </div>
+
+          <div class="anim-edit anim-shape">Edit together in real-time</div>
+
+          <div class="anim-sample">
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="anim-svg"
+   preserveAspectRatio="xMinYMin meet"
+   viewBox="394 208 283.75302 252.32846"
+   >
+  <metadata
+     id="metadata44">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs42" />
+  <path
+     style="fill:#f15a29;fill-opacity:1;stroke:#f15a29;stroke-width:1.54168129;stroke-opacity:1"
+     id="triangle"
+     d="m 456.5014,321.5373 c 9.59335,-7.2845 18.49665,-3.25537 19.92816,8.75139 l 7.93955,68.60191 c 1.43151,12.00677 -6.43103,17.95223 -17.45589,13.22996 l -63.11986,-27.29909 c -11.02485,-4.72227 -12.07087,-14.54174 -2.48278,-21.67111 L 456.5014,321.5373 Z" />
+  <path
+     id="rect"
+     d="m 577.67213,209.41659 c 13.9802,-0.0215 19.54838,-0.96566 18.29858,10.4339 0.24763,8.40926 0.0174,43.44725 0.13468,51.88606 0.73046,13.82344 1.12223,15.85325 -15.83192,14.51241 -10.68494,-0.17641 -41.18488,-0.12134 -52.47035,-0.0327 -8.94534,0.7327 -11.32159,-2.33841 -10.23408,-13.11298 0.69885,-20.92863 0.82374,-41.97771 0.48787,-56.82556 -0.0133,-4.96784 -2.58546,-8.62991 10.7544,-7.6037 10.99566,0.64364 32.70847,0.9467 48.86082,0.74255 z"
+     style="fill:#fbb040;fill-opacity:1;fill-rule:evenodd;stroke:#fbb040;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     style="fill:#6dc0ba;fill-opacity:1;fill-rule:evenodd;stroke:#6dc0ba;stroke-width:1.01547968px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 619.55163,365.46561 c -26.51164,7.83034 -34.86919,29.89654 -34.07439,45.40646 0.27056,33.41779 38.23624,51.10357 74.04662,29.6714 30.88233,-22.55423 8.56856,-84.24852 -39.97223,-75.07786 z"
+     id="circle" />
+  <g
+     id="arrow3">
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#6dc0ba;stroke-width:6;stroke-linecap:round;stroke-opacity:1"
+       d="m 585.78557,441.55515 c -26.23915,13.01384 -90.86255,10.00912 -116.17559,-20.29929"
+       id="path5767" />
+    <path
+       id="path5769"
+       d="m 501.75243,426.91272 c -40.67005,-7.33744 -43.16632,-21.64947 -18.54064,30.3771"
+       style="fill:none;fill-rule:evenodd;stroke:#6dc0ba;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="arrow1">
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#f15a29;stroke-width:6;stroke-linecap:round;stroke-opacity:1"
+       d="m 441.78887,323.93257 c 5.648,-31.96875 36.77173,-64.59745 62.98761,-75.29125"
+       id="path5771" />
+    <path
+       id="path5773"
+       d="m 489.85313,277.44224 c 20.78113,-35.72162 35.0855,-33.18189 -22.2224,-27.79728"
+       style="fill:none;fill-rule:evenodd;stroke:#f15a29;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="arrow2">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#fbb040;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 639.32973,329.49883 c 18.76966,36.81834 8.8862,47.46646 35.40346,-3.62193"
+       id="path5765" />
+    <path
+       id="path5775"
+       d="M 654.77641,355.40978 C 651.30296,318.69939 642.59734,286.70534 605.10532,258.5063"
+       style="fill:#000000;fill-opacity:0;stroke:#fbb040;stroke-width:6;stroke-linecap:round;stroke-opacity:1" />
+  </g>
+</svg>
+            
+          </div>
+
+
+<!--           <div class="anim-rect anim-shape"></div>
+          <div class="anim-circle anim-shape"></div>
+          <div class="anim-arrow-top anim-shape"></div>
+          <div class="anim-arrow-below anim-shape"></div> -->
+          <!-- <div class="anim-problem"></div> -->
+          <!-- <div class="anim-sketch"></div> -->
+          <!-- <div class="anim-got-it"></div> -->
+        </div>
+
+<!--         <div class="pens">
+          <img src='/sketchboard.io/img/anim/pens.png' width='150'>
+        </div>
+ -->
+        <div class="call-action">
+
+          <a href="https://sketchboard.me/" class="pure-button pure-button-primary font-xlarge cta" onClick="_gaq.push(['_trackEvent', 'sketch-now', 'landing', '']);">Sketch something.</a>
+        </div>
+
+      </div> <!-- splash -->
+    </div> <!-- splash-container -->
+  </div> <!-- sub-main -->
+</div> <!-- main -->
 
 <div class="content-wrapper">
     <div class="content">
