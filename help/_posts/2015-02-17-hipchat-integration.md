@@ -56,20 +56,13 @@ After sign up you are using free plan. On free plan boards are <strong>public</s
 When you subscribe you can create <strong>private boards</strong> that are visible only for your team. Private boards are not shown on Sketch Gallery. See <strong>[plans](http://sketchboard.io#pricing)</strong>.
 
 
-Installation
-------------
+<h2 id='installation'>Installation</h2>
 
-Until there is an official Sketchboard.io HipChat integration available on Atlassian Marketplace. Sketchboard.io Add-On can be installed manually using 
+- Go to your [Integrations](https://www.hipchat.com/sign_in?d=%2Fadmin%2Faddons) page
+- Log in as an HipChat admin
+- Find Sketchboard.io Slash Command and click Install
 
-<pre class='code'>
-<code>
-	https://sketchboard.me/hipchat/addon/descriptor
-</code>
-</pre>
-
-<img src='/help/images/install-from-descriptor.png' alt='Install from descriptor' width="100%">
-
-<img src='/help/images/descriptor-url.png' alt='Descriptor URL' width="100%">
+<img src='/help/images/hipchat-sketchboard-install.png' alt='Install Sketchboard.io Slash Command' width="100%">
 
 
 Sketchboard.io integration uses
