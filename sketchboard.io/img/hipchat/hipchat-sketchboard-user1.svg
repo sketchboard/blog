@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="321"
+   width="564"
+   viewBox="71 2 564 321"
+   style="background-color:transparent;"
+   preserveAspectRatio="xMinYMin meet"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="hipchat-sketchboard-user1.svg">
+  <metadata
+     id="metadata86">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs84" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1320"
+     inkscape:window-height="700"
+     id="namedview82"
+     showgrid="false"
+     inkscape:zoom="1.0992908"
+     inkscape:cx="282"
+     inkscape:cy="160.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     transform="translate(0,0)"
+     id="g24">
+    <g
+       transform="matrix(1,0,0,1,86,99)"
+       id="g26">
+      <path
+         style="fill:rgb(153,204,0);stroke:rgb(133,178,0);stroke-width:3.0;"
+         d="m13.974593747481775,20.011507760112895c25.691755703658043,-36.55577119498101 106.7182720672339,-21.512115068648015 110.67527836100018,34.39474633852652c3.94933023888021,55.90477346045332 -39.52592562206788,86.01275638565932 -84.98352265734212,62.356528828998634c-45.44992098038819,-23.63973277756312 -48.46661055061156,-64.34028700882223 -25.691755703658043,-96.75127516752515z"
+         id="path28" />
+    </g>
+    <text
+       style="font-weight:bold; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #ffffff;"
+       y="165"
+       x="148"
+       id="text30">HipChat</text>
+  </g>
+  <g
+     transform="translate(0,0)"
+     id="g40">
+    <path
+       style="fill:none;stroke:#333333;stroke-width:2;"
+       d="M148,97 C148,17 396,12  396,92"
+       id="path42" />
+    <polyline
+       style="fill:#ffffff;stroke:#333333;stroke-width:2;fill-opacity:0;"
+       points="383,76 396,92 403,73"
+       id="polyline44" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #333333;"
+       y="80"
+       x="380"
+       id="text46" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: start; font-family: arial,helvetica; fill: #333333;"
+       y="34"
+       x="272"
+       id="text48" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #333333;"
+       y="82"
+       x="160"
+       id="text50" />
+  </g>
+  <g
+     transform="translate(0,0)"
+     id="g52">
+    <rect
+       style="fill: #ffffff;fill-opacity: 1;stroke-opacity:0;stroke-width: 1;stroke:%stroke%;"
+       rx="4"
+       height="13"
+       width="38"
+       y="16"
+       x="272"
+       id="rect54" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: start; font-family: arial,helvetica; fill: #333333;"
+       y="16"
+       x="272"
+       id="text56">
+      <tspan
+         alignment-baseline="before-edge"
+         x="272"
+         id="tspan58">/sketch</tspan>
+    </text>
+  </g>
+</svg>

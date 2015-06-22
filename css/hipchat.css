@@ -213,6 +213,38 @@ section, header {
 	color: #333;
 }
 
+#click {
+  position: absolute;
+  top: 106px;
+  left: 237px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 127, 125, 0.7);
+}
+
+.letter {
+  opacity: 0;
+  transition: opacity 1000ms cubic-bezier(0.645, 0.045, 0.355, 1) 0ms, transform;
+  -webkit-transition: opacity 1000ms cubic-bezier(0.645, 0.045, 0.355, 1) 0ms, transform; 
+}
+
+.clip-circle {
+  clip-path: circle(18px at center);
+  -webkit-clip-path: circle(18px at center);
+}
+
+#user1 {
+  position: absolute;
+  top: 69px;
+  left: 65px;
+}
+#user2 {
+  position: absolute;
+  top: 96px;
+  left: 442px;
+}
+
 .hipchat-msg-table {
 	border-collapse: collapse;
 	width: 100%;
