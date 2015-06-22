@@ -10,5 +10,10 @@ build:
 	make -C ../aslides build
 	cp ../aslides/*-aslides.min.js js/
 	cleancss css/hipchat.css -o css/hipchat.min.css
-	echo `md5 -q css/hipchat.min.css`-hipchat.min.css
+	@echo `md5 -q css/hipchat.min.css`-hipchat.min.css
 	mv css/hipchat.min.css css/`md5 -q css/hipchat.min.css`-hipchat.min.css
+	minish js/header.js js
+	cleancss css/header.css -o css/header.min.css
+	@echo `md5 -q css/header.min.css`-header.min.css
+	mv css/header.min.css css/`md5 -q css/header.min.css`-header.min.css
+	

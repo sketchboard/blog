@@ -1274,3 +1274,14 @@ ul.testimonial-ul {
 .hidden {
 	display: none;
 }
+
+.submenu {
+	padding: 5px 0;
+}
+
+.submenu li a {
+	display: block;
+	cursor: pointer;
+	padding: 0px 20px !important;
+	margin: 0;
+}
