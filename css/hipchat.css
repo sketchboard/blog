@@ -129,6 +129,8 @@ section, header {
 	display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
   text-align: center;
 }
 
@@ -366,8 +368,8 @@ a.hipchat-link {
   display: flex;
   height: 180px;
   background-color: #fff;  
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
   color: #333;
 }
 
