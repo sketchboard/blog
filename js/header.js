@@ -3,6 +3,7 @@
 	var showing = false
 
 	function showHide(e) {
+		e.preventDefault()
 		e.stopPropagation()
 
 		var menu = integrations.parentNode.querySelector('ul')
