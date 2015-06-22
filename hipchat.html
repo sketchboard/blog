@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en" ng-app='ngApp'>
+<head profile="http://www.w3.org/2005/10/profile">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sketchboard.io for HipChat</title>
+  <link rel="icon" type="image/png" href="/sketchboard.io/img/sketchboard-icon.png">
+  <!-- <link rel="stylesheet" href="/css/hipchat.css"> -->
+  <link rel="stylesheet" href="/css/20ccc04c0b539027f567cff6969bfd9e-hipchat.min.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push([ '_setAccount', 'UA-26995893-1' ]);
+    _gaq.push([ '_trackPageview' ]);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www')
+      + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+<body>
+  <div id="main">
+    <header>
+      <div class="inner">
+        <h1>
+          <a href='/' title='Sketchboard.io'></a>
+        </h1>
+        <nav>
+          <ul class='links'>
+            <li><a href='/#pricing'>Pricing</a></li>
+            <li><a href='/help'>Help</a></li>
+            <li><a href='/blog'>Blog</a></li>
+            <li><a href='https://gallery.sketchboard.me' target="_blank">Examples</a></li>
+            <li><a href="https://sketchboard.me/service/signup" target="_blank">Sign Up</a></li>
+            <li><a href="https://sketchboard.me/service/login" target="_blank">Log In</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id='main-content'>
+      <section id='animation'>
+
+        <section class="slide start-end" data-delay-next='3000' data-translate-start-x='-350' data-duration='700' data-easing='easeInCubic'>
+          <table class='hipchat-integration'>
+            <tr>
+              <td>
+                <img src='/sketchboard.io/img/hipchat/hipchat-icon.svg' height='65'>
+              </td>
+              <td>
+                <img src='/sketchboard.io/img/hipchat/integration.svg' width='50'>
+              </td>
+              <td>
+                <img src='/sketchboard.io/img/hipchat/logo-plain.png' height='70'>
+              </td>
+            </tr>
+          </table>
+          <div class='step' data-translate-start-y='100' data-scale='.6' data-duration='500' data-delay-next='2000'>
+            <!-- <h1>Start Team Sketching</h1> -->
+            <h1>Integrate HipChat with Sketchboard.io</h1>
+            <h2>Easiest way to improve understanding</h2>
+          </div>
+        </section>
+
+        <section class='slide' data-easing='easeInOutCubic' data-scale='1' data-translate-start-y='40'>
+          <div class='slide-info' data-type-writer='true' data-translate-start-y='-40' data-duration='500'>
+            <h1 class='letter-effect'>Neatly integrated.</h1>
+            <p class='letter-effect'>/sketch command starts team sketching</p>
+          </div>
+
+          <div class='hipchat'>
+            <img src='/sketchboard.io/img/hipchat/hipchat-bg.png' style="width:100%;">
+            <span class='step sketch-command' data-delay='2000' data-type-writer='true' data-hide-after='500'>/sketch Awesome Idea</span>
+          </div>
+
+          <div class='hipchat hipchat-content'>
+            <table class='hipchat-msg-table'>
+              <tr class='hipchat-msg-blue hipchat-msg-first step'>
+                <td>Saiki</td>
+                <td>/sketch Awesome Idea</td>
+                <td>13:52</td>
+              </tr>
+              <tr class='hipchat-msg-yellow step' data-delay='300'>
+                <td>Sketchboard</td>
+                <td>Join to sketch <a class='hipchat-link'>Awesome Idea</a></td>
+                <td>13:52</td>
+              </tr>
+            </table>
+            <img id='cursor' class='step' src='/img/cursor.svg' width='20' data-translate-y='-118' data-translate-x='37' data-duration='500' data-delay='500'>
+            <span id='click' class='step' data-click='true' data-delay='100' data-duration='700'></span>
+          </div>
+        </section>
+
+        <section class='slide test-slide' data-duration='1000' data-translate-start-y='40' data-easing='easeInOutCubic' data-scale='1'>
+          <div class='slide-info'>
+            <h1 class='letter-effect'>Team Sketching.</h1>
+            <p class='letter-effect'>Solve problems or create ideas by sketching.</p>
+          </div>
+
+          <div class='hipchat'>
+            <div class="anim-bg"></div>
+            <div class="anim-board">
+              <img id='user1' src='/sketchboard.io/img/anim/user1.png' class='step clip-circle' data-duration='300' data-translate-start-y='-40' data-translate-start-x='-40'>
+              <img class='step' id='sketchboard' src='/sketchboard.io/img/hipchat/hipchat-sketchboard-user1.svg' style="width:100%;" data-duration='300' data-scale-start='0.8' data-translate-start-x='-40'>
+              <img id='user2' src='/sketchboard.io/img/anim/user2.png' class='step clip-circle' data-duration='300' data-translate-start-y='-40' data-translate-start-x='40'>
+              <img class='step' id='sketchboard' src='/sketchboard.io/img/hipchat/hipchat-sketchboard-user2.svg' style="width:100%;" data-duration='300' data-scale-start='0.8'>
+            </div>
+
+            <a class='pure-button share-in-hipchat step' data-delay='1000'><img id='hipchat-icon' src='/sketchboard.io/img/hipchat/hipchat-icon.svg' width='20'>Share in HipChat</a>
+
+            <a class='pure-button share-in-hipchat step pure-button-press' data-delay='0' data-duration='100' data-delay-next='200'><img id='hipchat-icon' src='/sketchboard.io/img/hipchat/hipchat-icon.svg' width='20'>Share in HipChat</a>
+
+            <a class='pure-button share-in-hipchat step' data-delay='0' data-duration='100' data-delay-next='200'><img id='hipchat-icon' src='/sketchboard.io/img/hipchat/hipchat-icon.svg' width='20'>Share in HipChat</a>
+
+            <div id='share-dialog' class='step' data-delay='100'>
+              <h1>Share in HipChat</h1>
+              <p><span class='step' data-type-writer='true' data-delay='0' data-delay-next='1000'>What do you think?</span></p>
+              <a class='pure-button pure-button-primary send-hipchat'>Send</a>
+              <a class='step pure-button pure-button-primary send-hipchat pure-button-press' data-delay='0' data-duration='100' data-delay-next='200'>Send</a>
+              <a class='step pure-button pure-button-primary send-hipchat' data-delay='0' data-duration='100'>Send</a>
+            </div>
+
+          </div>
+        </section>
+
+        <section class='slide' data-duration='1000' data-translate-start-y='40' data-easing='easeInOutCubic' data-scale='1'>
+          <div class='slide-info'>
+            <h1 class='letter-effect'>Continue discussion on HipChat.</h1>
+            <p class='letter-effect'>Sketch is uploaded back to the same room where you started.</p>
+          </div>
+
+          <div class='hipchat'>
+            <img src='/sketchboard.io/img/hipchat/hipchat-bg.png' style="width:100%;">
+          </div>
+
+          <div class='hipchat hipchat-content'>
+            <table class='hipchat-msg-table'>
+              <tr class='hipchat-msg-yellow'>
+                <td>Sketchboard</td>
+                <td>Join to sketch <a class='hipchat-link'>Awesome Idea</a></td>
+                <td>13:52</td>
+              </tr>
+              <tr class='hipchat-msg-blue step' data-delay='2000'>
+                <td>Rita</td>
+                <td style='height: 121px;'>
+                  <img src='/sketchboard.io/img/hipchat/hipchat-sketchboard.svg' style="height:100%;">
+                  <p>
+                    What do you think?
+                  </p>
+                </td>
+                <td>14:00</td>
+              </tr>
+              <tr class='hipchat-msg-yellow step' data-delay-next='2000'>
+                <td>Ben</td>
+                <td>Good idea!</td>
+                <td>14:00</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section id='test-stuff' class="slide start-end" data-duration='1000' data-translate-start-y='40' data-easing='easeInOutCubic' data-scale='1' style='margin-top:60px;'>
+          <div>
+            <table class='hipchat-integration' style='top:calc(50% - 187px);'>
+              <tr>
+                <td>
+                  <img src='/sketchboard.io/img/hipchat/hipchat-icon.svg' height='65'>
+                </td>
+                <td>
+                  <img src='/sketchboard.io/img/hipchat/integration.svg' width='50'>
+                </td>
+                <td>
+                  <img src='/sketchboard.io/img/hipchat/logo-plain.png' height='70'>
+                </td>
+              </tr>
+            </table>
+
+            <h1 style='margin-top:60px;'>Sketchboard.io for HipChat</h1>
+            <!-- <h2>Bring Sketching Power for Your HipChat Team.</h2> -->
+            <h2>Power Your HipChat Team with Visual Communication</h2>
+            <div id="call-to-action">
+              <h2><a href='/help/2015/02/17/hipchat-integration.html'><i class='fa fa-arrow-circle-right'></i> Documentation</a></h2>
+              <a href="https://marketplace.atlassian.com/plugins/io.sketchboard.hipchat.addon" class="pure-button cta">Install Integration.</a>
+            </div>
+          </div>
+        </section>
+
+      </section> <!-- animation -->
+
+      <section id="details" class="nav-animation-element slide-1-1 hidden">
+        <ul class="inner-col">
+          <li>
+            <strong><i class='fa fa-arrow-circle-o-right'></i> Simple Integration</strong>
+            <p>
+              Use /sketch command to start whiteboard sharing.
+            </p>
+          </li>
+          <li>
+            <strong><i class='fa fa-users'></i> Team Sketching</strong>
+            <p>
+              See in real-time what teammates are drawing like in Google Docs.
+             </p> 
+          </li>
+          <li>
+            <strong><i class='fa fa-comments-o'></i> Continue Discussion</strong>
+            <p>
+              Upload sketch back to HipChat room to discuss more about the idea.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+    </div> <!-- main-content -->
+
+  </div> <!-- main -->
+
+  <script src="/js/animate.min.js"></script>
+  <!-- <script src="http://localhost:8081/aslides.js"></script> -->
+  <script src="/js/5e30c0519e1b52a0e2912bc782091925-aslides.min.js"></script>
+
+</body>
+</html>

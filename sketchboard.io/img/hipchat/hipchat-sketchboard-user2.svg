@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="321"
+   width="564"
+   viewBox="71 2 564 321"
+   style="background-color:transparent;"
+   preserveAspectRatio="xMinYMin meet"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="hipchat-sketchboard-user2.svg">
+  <metadata
+     id="metadata86">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs84" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="986"
+     inkscape:window-height="563"
+     id="namedview82"
+     showgrid="false"
+     inkscape:zoom="0.54964539"
+     inkscape:cx="282"
+     inkscape:cy="160.5"
+     inkscape:window-x="453"
+     inkscape:window-y="234"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     transform="translate(0,0)"
+     id="g4">
+    <path
+       style="fill:none;stroke:#333333;stroke-width:2;"
+       d="M396,228 C396,308 148,308  148,228"
+       id="path6" />
+    <polyline
+       style="fill:#ffffff;stroke:#333333;stroke-width:2;fill-opacity:0;"
+       points="160,243 148,228 140,246"
+       id="polyline8" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #333333;"
+       y="240"
+       x="163"
+       id="text10" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: start; font-family: arial,helvetica; fill: #333333;"
+       y="288"
+       x="272"
+       id="text12" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #333333;"
+       y="242"
+       x="382"
+       id="text14" />
+  </g>
+  <g
+     transform="translate(0,0)"
+     id="g16">
+    <rect
+       style="fill: #ffffff;fill-opacity: 1;stroke-opacity:0;stroke-width: 1;stroke:%stroke%;"
+       rx="4"
+       height="13"
+       width="74"
+       y="270"
+       x="272"
+       id="rect18" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: start; font-family: arial,helvetica; fill: #333333;"
+       y="270"
+       x="272"
+       id="text20">
+      <tspan
+         alignment-baseline="before-edge"
+         x="272"
+         id="tspan22">upload sketch</tspan>
+    </text>
+  </g>
+  <g
+     transform="translate(0,0)"
+     id="g32">
+    <g
+       transform="matrix(1,0,0,1,331,96)"
+       id="g34">
+      <path
+         style="fill:rgb(255,153,0);stroke:rgb(229,137,0);stroke-width:3.0;"
+         d="m14.533577497381046,20.811968070517413c26.719425931804363,-38.01800204278025 110.98700294992324,-22.372599671393935 115.10228949544017,35.770536192067574c4.107303448435418,58.14096439887145 -41.10696264695059,89.45326664108569 -88.38286356363581,64.85078998215857c-47.26791781960372,-24.58532208866564 -50.405274972636015,-66.91389848917511 -26.719425931804363,-100.62132617422616z"
+         id="path36" />
+    </g>
+    <text
+       style="font-weight:bold; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #333333;"
+       y="165"
+       x="396"
+       id="text38">Sketchboard.io</text>
+  </g>
+  <g
+     transform="translate(0,0)"
+     id="g60">
+    <path
+       style="fill:none;stroke:#333333;stroke-width:2;"
+       d="M463,121 C533,121 535,192  465,192"
+       id="path62" />
+    <polyline
+       style="fill:#ffffff;stroke:#333333;stroke-width:2;fill-opacity:0;"
+       points="481,181 465,192 482,201"
+       id="polyline64" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #333333;"
+       y="176"
+       x="478"
+       id="text66" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: start; font-family: arial,helvetica; fill: #333333;"
+       y="156"
+       x="516"
+       id="text68" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: middle; font-family: arial,helvetica; fill: #333333;"
+       y="135"
+       x="478"
+       id="text70" />
+  </g>
+  <g
+     transform="translate(0,0)"
+     id="g72">
+    <rect
+       style="fill: #000000;fill-opacity: 0;stroke-opacity:0;stroke-width: 1;stroke:%stroke%;"
+       rx="4"
+       height="51"
+       width="100"
+       y="136"
+       x="520"
+       id="rect74" />
+    <text
+       style="font-weight:Normal; font-size: 12px; text-anchor: start; font-family: arial,helvetica; fill: #333333;"
+       y="157"
+       x="520"
+       id="text76">
+      <tspan
+         x="520"
+         id="tspan78">Edit together</tspan>
+      <tspan
+         dy="17"
+         x="520"
+         id="tspan80">in real-time</tspan>
+    </text>
+  </g>
+</svg>
