@@ -130,7 +130,7 @@ app.controller('TestimonialsCtrl', ['$scope', '$timeout', function TestimonialsC
 				$scope.show($scope.testimonials[next])
 			}
 			loop()
-		}, 7000)
+		}, 10000)
 	}
 
 	loop()
