@@ -71,10 +71,19 @@ ul li:before {
 }
 
 a {
-	color: blue;
+	color: #bc223f;
 }
-a:hover {
+/*a:hover {
   color: #1398FF;
+}
+*/
+a:hover {
+	color: #bc223f;
+  background: rgba(188,34,63, 0.13);
+}
+a.no-highlight {
+	color: #bc223f;
+  background: none;
 }
 
 
