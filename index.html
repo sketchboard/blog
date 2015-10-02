@@ -1157,9 +1157,14 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
 <script src="/js/122b3f29e2eb2114286de004c6605852-header.min.js"></script>
 <script>
 
-function _track(event, data) {
-  _gaq.push(['_trackEvent', event, data.category, data.label]);
-  _track(event, data);
+var _track = function(event, data) {
+  if (typeof _gaq !== 'undefined') {
+    _gaq.push(['_trackEvent', event, data.category, data.label]);
+  }
+
+  if (typeof mixpanel !== 'undefined') {
+    mixpanel.track(event, data);
+  }
 }
 
   $(document).ready(function() {
