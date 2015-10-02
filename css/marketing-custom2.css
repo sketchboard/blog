@@ -845,11 +845,24 @@ text-transform: none;
 .footer-table {
 	display: table;
 	margin: 0 auto;
+	width: 100%;
 }
 .footer-box {
 	display: table-cell;
 	height: 300px;
 	vertical-align: middle;
+	min-width: 100%;
+}
+.mixpanel-ad {
+	position: relative;
+	height: 300px;
+	/*width: 300px;*/
+	/*float: right;*/
+}
+.mixpanel-inner {
+	position: absolute;
+	right: 10px;
+	top: 50%;
 }
 .debug {
 	border: 1px solid red;

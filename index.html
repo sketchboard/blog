@@ -70,6 +70,9 @@
     })();
   </script>
 
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
 </head>
 <body>
 
@@ -238,7 +241,7 @@
  -->
         <div class="call-action">
 
-          <a href="https://sketchboard.me/" class="pure-button pure-button-primary font-xlarge cta" onClick="_gaq.push(['_trackEvent', 'sketch-now', 'landing', '']);">Sketch something</a>
+          <a href="https://sketchboard.me/" class="pure-button pure-button-primary font-xlarge cta" onClick="_track('sketch-now', {category:'mainaction', label:'landing'})">Sketch something</a>
         </div>
 
       </div> <!-- splash -->
@@ -248,7 +251,7 @@
 
 <div class="content-wrapper">
     <div class="content">
-        <h2 class="content-head is-center">Over <strong>34,000 users</strong> solve problems together visually</h2>
+        <h2 class="content-head is-center">Over <strong>40,000 users</strong> solve problems together visually</h2>
 
         <div class="b-demo demo-wrapper" ng-controller='DemoController'>
           <div class="b-browser" show-on='replay' hide-on='video-ended-features'>
@@ -906,6 +909,13 @@
                 <a href="http://twitter.com/#!/sketchboardme" target="_blank">Twitter</a>
                 <a href="tos.html" target="_blank">Terms of Service</a>
             </div>
+
+            <div class='mixpanel-ad'>
+              <div class='mixpanel-inner'>
+                <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a>
+              </div>
+            </div>
+
         </div>
     </div>
 
@@ -1144,6 +1154,12 @@
 <!-- <script src="/js/header.js"></script> -->
 <script src="/js/122b3f29e2eb2114286de004c6605852-header.min.js"></script>
 <script>
+
+function _track(event, data) {
+  _gaq.push(['_trackEvent', event, data.category, data.label]);
+  _track(event, data);
+}
+
   $(document).ready(function() {
     var $root = $('html, body')
     var smooth = function(id) {
