@@ -675,7 +675,8 @@ body {
 }
 */
 .call-action {
-	margin-top: 40px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 .header {
@@ -704,7 +705,7 @@ body {
 	margin: 0;
 }
 .splash-container h2 {
-	margin: 10px 0 53px 0;
+	margin: 10px 0 24px 0;
 }
 
 .splash {
