@@ -854,6 +854,9 @@ text-transform: none;
 	vertical-align: middle;
 	min-width: 100%;
 }
+.footer-logo {
+	margin: 0 0 10px 0;
+}
 .mixpanel-ad {
 	position: relative;
 	height: 300px;

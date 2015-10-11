@@ -1,0 +1,22 @@
+body {
+	font-family: 'PT Serif', georgia, serif;
+}
+
+.top-line {
+	background-color: #C01B39;
+	min-height: 12px;
+}
+
+section.content {
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+section.content li {
+	margin: 10px 0 0 0;
+}
+
+section.content .sublist li {
+	margin: 5px 0 0 0;
+}
