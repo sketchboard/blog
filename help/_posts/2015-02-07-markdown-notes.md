@@ -48,3 +48,19 @@ Escaping
 When you want to show characters used in formatting, those needs to be
 escaped with \\.
 ![Note Escaping](/img/note-escaping.png)
+
+
+Indentation/Code Block
+======================
+
+Sketchboard supports e.g. JSON or small code examples by keeping indentation
+and not converting anything inside the block to markdown.
+
+Wrap content with \`\`\` to keep indentation as in following JSON example.
+
+![Bold and Italic](/help/images/help-json-code-block.png)
+
+Rendered
+
+![Bold and Italic](/help/images/help-json-example.png)
+
