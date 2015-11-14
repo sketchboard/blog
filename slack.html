@@ -1,7 +1,260 @@
-<html>
-<body>
+<!doctype html>
+<html lang="en" ng-app='ngApp'>
+<head profile="http://www.w3.org/2005/10/profile">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whiteboard for HipChat</title>
+  <link rel="icon" type="image/png" href="/sketchboard.io/img/sketchboard-icon.png">
+  <!-- <link rel="stylesheet" href="/css/hipchat.css"> -->
+  <link rel="stylesheet" href="/css/4528de73836d6fa64aa398dfd80037ab-hipchat.min.css">
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/knlJYOP33pE?rel=0" frameborder="0" allowfullscreen></iframe>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push([ '_setAccount', 'UA-26995893-1' ]);
+    _gaq.push([ '_trackPageview' ]);
+
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www')
+      + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+<body>
+  <div id="main">
+    <header>
+      <div class="inner">
+        <h1>
+          <a href='/' title='Sketchboard.io'></a>
+        </h1>
+        <nav>
+          <ul class='links'>
+            <li><a href='/#pricing'>Pricing</a></li>
+            <li><a href='/help'>Help</a></li>
+            <li><a href='/blog'>Blog</a></li>
+            <li><a href='https://gallery.sketchboard.me' target="_blank">Examples</a></li>
+            <li><a href="https://sketchboard.me/service/signup" target="_blank">Sign Up</a></li>
+            <li><a href="https://sketchboard.me/service/login" target="_blank">Log In</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id='main-content'>
+      <section id='animation'>
+
+        <section class="slide start-end" data-delay-next='3000' data-translate-start-x='-350' data-duration='700' data-easing='easeInCubic'>
+          <table class='hipchat-integration'>
+            <tr>
+              <td>
+              	<img src='https://s3-eu-west-1.amazonaws.com/pub.sketchboard.io/img/sketchboard-sketch-integration.png' height='85'>
+              </td>
+						</tr>
+          </table>
+          <div class='step slack-integration' data-translate-start-y='100' data-scale='.6' data-duration='500' data-delay-next='3000'>
+            <!-- <h1>Start Team Sketching</h1> -->
+            <h1>Whiteboard for Slack</h1>
+            <h2>Extend chat with team real-time digital whiteboard</h2>
+          </div>
+        </section>
+
+        <section class='slide' data-easing='easeInOutCubic' data-scale='1' data-translate-start-y='40'>
+          <div class='slide-info' data-type-writer='true' data-translate-start-y='-40' data-duration='500'>
+            <h1 class='letter-effect'>Neatly integrated.</h1>
+            <p class='letter-effect'>/sketch command starts team sketching</p>
+          </div>
+
+          <div class='hipchat slack'>
+            <img src='/sketchboard.io/img/slack/slack-bg.png' style="width:100%;">
+            <span class='step sketch-command slack-command' data-delay='2000' data-type-writer='true' data-hide-after='500'>/sketch Awesome Idea</span>
+          </div>
+
+          <div class='hipchat hipchat-content slack-content'>
+        		<table class='step first-msg' data-hide-after2='1000'>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/slack-user1a.png'></td>
+        				<td class='message'>
+        					<div><strong>saiki</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>/sketch Awesome Idea</div>
+        				</td>
+        			</tr>
+        		</table>
+
+        		<table class='step second-msg'>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/slack-user1a.png'></td>
+        				<td class='message'>
+        					<div><strong>saiki</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>/sketch Awesome Idea</div>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/sketchboard-bot.png'></td>
+        				<td class='message'>
+        					<div><strong>sketchboard</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>Join to sketch <a class='hipchat-link'>Awesome Idea</a></div>
+        				</td>
+        			</tr>
+        		</table>
+            <img id='slack-cursor' class='step' src='/img/cursor.svg' width='20' data-translate-y='-25' data-translate-x='-165' data-duration='500' data-delay='500'>
+            <span id='slack-click' class='step' data-click='true' data-delay='100' data-duration='700'></span>
+          </div>
+        </section>
+
+        <section class='slide' data-duration='1000' data-translate-start-y='40' data-easing='easeInOutCubic' data-scale='1'>
+          <div class='slide-info'>
+            <h1 class='letter-effect'>Team Sketching.</h1>
+            <p class='letter-effect'>Solve problems or create ideas by sketching.</p>
+          </div>
+
+          <div class='hipchat'>
+            <div class="anim-bg"></div>
+            <div class="anim-board">
+              <img id='user1' src='/sketchboard.io/img/anim/user1.png' class='step clip-circle' data-duration='300' data-translate-start-y='-40' data-translate-start-x='-40'>
+              <img class='step' id='sketchboard' src='/sketchboard.io/img/slack/slack-sketchboard-user1.svg' style="width:100%;" data-duration='300' data-scale-start='0.8' data-translate-start-x='-40'>
+              <img id='user2' src='/sketchboard.io/img/anim/user2.png' class='step clip-circle' data-duration='300' data-translate-start-y='-40' data-translate-start-x='40'>
+              <img class='step' id='sketchboard' src='/sketchboard.io/img/hipchat/hipchat-sketchboard-user2.svg' style="width:100%;" data-duration='300' data-scale-start='0.8'>
+            </div>
+
+            <a class='pure-button share-in-hipchat step' data-delay='1000'><img id='hipchat-icon' src='/sketchboard.io/img/hipchat/hipchat-icon.svg' width='20'>Share in Slack</a>
+
+            <a class='pure-button share-in-hipchat step pure-button-press' data-delay='0' data-duration='100' data-delay-next='200'><img id='hipchat-icon' src='/sketchboard.io/img/hipchat/hipchat-icon.svg' width='20'>Share in Slack</a>
+
+            <a class='pure-button share-in-hipchat step' data-delay='0' data-duration='100' data-delay-next='200'><img id='hipchat-icon' src='/sketchboard.io/img/hipchat/hipchat-icon.svg' width='20'>Share in Slack</a>
+
+            <div id='share-dialog' class='step' data-delay='100'>
+              <h1>Share in Slack</h1>
+              <p><span class='step' data-type-writer='true' data-delay='0' data-delay-next='1000'>What do you think?</span></p>
+              <a class='pure-button pure-button-primary send-hipchat'>Send</a>
+              <a class='step pure-button pure-button-primary send-hipchat pure-button-press' data-delay='0' data-duration='100' data-delay-next='200'>Send</a>
+              <a class='step pure-button pure-button-primary send-hipchat' data-delay='0' data-duration='100'>Send</a>
+            </div>
+
+          </div>
+        </section>
+
+        <section class='slide test-slide' data-duration='1000' data-translate-start-y='40' data-easing='easeInOutCubic' data-scale='1'>
+          <div class='slide-info'>
+            <h1 class='letter-effect'>Continue discussion on Slack.</h1>
+            <p class='letter-effect'>Sketch is uploaded to a channel of your choice.</p>
+          </div>
+
+          <div class='hipchat'>
+            <img src='/sketchboard.io/img/slack/slack-bg.png' style="width:100%;">
+          </div>
+
+          <div class='hipchat hipchat-content slack-content'>
+
+        		<table id='first-message' class='second-msg'>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/slack-user1a.png'></td>
+        				<td class='message'>
+        					<div><strong>saiki</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>/sketch Awesome Idea</div>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/sketchboard-bot.png'></td>
+        				<td class='message'>
+        					<div><strong>sketchboard</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>Join to sketch <a class='hipchat-link'>Awesome Idea</a></div>
+        				</td>
+        			</tr>
+        		</table>
+
+        		<table class='step second-msg' data-delay='2000' data-duration='500' data-delay-next='2500' data-on-show='hideFirstMessage'>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/slack-user1a.png'></td>
+        				<td class='message'>
+        					<div><strong>saiki</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>/sketch Awesome Idea</div>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/sketchboard-bot.png'></td>
+        				<td class='message'>
+        					<div><strong>sketchboard</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>Join to sketch <a class='hipchat-link'>Awesome Idea</a></div>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td><img src='/sketchboard.io/img/slack/slack-user1a.png'></td>
+        				<td class='message'>
+        					<div><strong>sketchboard</strong> <span class='timestamp'>5:32 PM</span></div>
+        					<div>
+        						<img src='/sketchboard.io/img/slack/slack-sketchboard.svg' style="height:140px;width:auto;">
+        					</div>
+        					<div>
+        						What do you think?
+        					</div>
+        				</td>
+        			</tr>
+        		</table>
+
+          </div>
+        </section>
+
+        <section class="slide test-slide start-end" data-duration='1000' data-translate-start-y='40' data-easing='easeInOutCubic' data-scale='1' style='margin-top:60px;'>
+          <div>
+          	<img src='https://s3-eu-west-1.amazonaws.com/pub.sketchboard.io/img/sketchboard-sketch-integration.png' height='85'>
+
+            <h1 style='margin-top:20px;'>Sketchboard for Slack</h1>
+            <!-- <h2>Bring Sketching Power for Your HipChat Team.</h2> -->
+            <h2>Power Your Slack Team with Visual Communication</h2>
+            <div id="call-to-action">
+              <h2><a href='/help/2015/02/17/hipchat-integration.html'><i class='fa fa-arrow-circle-right'></i> Documentation</a></h2>
+              <a href="https://marketplace.atlassian.com/plugins/io.sketchboard.hipchat.addon" class="pure-button cta">Install Integration.</a>
+            </div>
+          </div>
+        </section>
+
+      </section> <!-- animation -->
+
+      <section id="details" class="nav-animation-element slide-1-1 hidden">
+        <ul class="inner-col">
+          <li>
+            <strong><i class='fa fa-arrow-circle-o-right'></i> Simple Integration</strong>
+            <p>
+              Use /sketch command to start whiteboard sharing.
+            </p>
+          </li>
+          <li>
+            <strong><i class='fa fa-users'></i> Team Sketching</strong>
+            <p>
+              See in real-time what teammates are drawing like in Google Docs.
+             </p> 
+          </li>
+          <li>
+            <strong><i class='fa fa-comments-o'></i> Continue Discussion</strong>
+            <p>
+              Upload sketch to Slack channel to discuss more about the idea.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+    </div> <!-- main-content -->
+
+  </div> <!-- main -->
+
+  <script src="/js/animate.min.js"></script>
+  <!-- <script src="http://localhost:8081/aslides.js"></script> -->
+  <script src="/js/4fcbdff0b7426d8dadf54b2f00797c72-aslides.min.js"></script>
+  <script>
+  	function hideFirstMessage() {
+  		var fmsg = document.getElementById('first-message')
+  		fmsg.style.display = 'none'
+  	}
+  </script>
 
 </body>
 </html>
