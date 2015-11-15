@@ -2,6 +2,7 @@
 layout: pure-post
 title: "Slack Integration"
 categories: 
+cat: "slack"
 permalink: /help/slack.html
 ---
 
