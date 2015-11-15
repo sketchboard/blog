@@ -21,7 +21,7 @@ The <strong>email address</strong> for your Sketchboard team must match the one 
 </p>
 </aside>
 
-In case your Slack account email address does not exists on Sketchboard, integration return URL directs you to Sketchboard sign up.
+In case your Slack account email address does not exist on Sketchboard, integration return URL directs you to Sketchboard sign up.
 
 Usage Guide
 -----------
