@@ -1302,3 +1302,11 @@ ul.testimonial-ul {
 	padding: 0px 20px !important;
 	margin: 0;
 }
+
+.integrations-first {
+	margin-bottom: 30px;
+}
+
+.integrations-first a {
+	margin-right: 15px;
+}
