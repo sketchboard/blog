@@ -42,7 +42,7 @@ Type the following commands on Slack to use the Sketchboard integration:
 
 <aside>
 <p>
-Please note: When using **add** command you must be team admin in Sketchboard. Only team admins can add new teammates.
+Please note: When using <strong>add</strong> command you must be team admin in Sketchboard. Only team admins can add new teammates.
 </p>
 </aside>
 
