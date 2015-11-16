@@ -26,6 +26,7 @@ In case your Slack account email address does not exist on Sketchboard, integrat
 Usage Guide
 -----------
 
+### From Slack
 Here's a quick guide on how to use the Sketchboard integration.
 
 Type the following commands on Slack to use the Sketchboard integration:
@@ -45,6 +46,15 @@ Type the following commands on Slack to use the Sketchboard integration:
 Please note: When using <strong>add</strong> command you must be team admin in Sketchboard. Only team admins can add new teammates.
 </p>
 </aside>
+
+### From Sketchboard
+
+Select shapes to be uploaded to Slack. Unselect all to upload a whole sketch.
+
+<img src='/help/images/slack-share.png' width='500'>
+
+You will be first asked to give Sketchboard a right to upload snapshot image to Slack. After you have authorized image upload you can pick channel to send the snapshot with an initial message.
+
 
 
 <h2 id='install'>Installation</h2>
