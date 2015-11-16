@@ -6,7 +6,9 @@ cat: "slack"
 permalink: /help/slack.html
 ---
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/knlJYOP33pE?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class='embed-container'>
+	<iframe src="https://www.youtube.com/embed/knlJYOP33pE?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Description
 -----------
@@ -51,7 +53,7 @@ Please note: When using <strong>add</strong> command you must be team admin in S
 
 Select shapes to be uploaded to Slack. Unselect all to upload a whole sketch.
 
-<img src='/help/images/slack-share.png' width='500'>
+<img src='/help/images/slack-share.png' style='width:500px;max-width:100%;'>
 
 You will be first asked to give Sketchboard a right to upload snapshot image to Slack. After you have authorized image upload you can pick channel to send the snapshot with an initial message.
 
@@ -61,7 +63,7 @@ You will be first asked to give Sketchboard a right to upload snapshot image to 
 
 Sketchboard for Slack installation is initiated from Sketchboard. Go to <strong>Team Settings</strong> from the menu.
 
-<img alt='Slack Menu' src='/help/images/slack-menu.png' width='350px'>
+<img alt='Slack Menu' src='/help/images/slack-menu.png' style='width:350px;max-width:100%;'>
 
 Select <strong>Add to Slack</strong> to start the installation. <strong>NOTE</strong> Slack Integration is a premium feature and on free plan starts a 14 day trial.
 
