@@ -7,7 +7,7 @@ permalink: /help/slack.html
 ---
 
 <div class='embed-container'>
-	<iframe src="https://www.youtube.com/embed/knlJYOP33pE?rel=0" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/BRjqu6k_GuM?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Description
