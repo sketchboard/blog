@@ -21,4 +21,4 @@ Sketchboard allows innovators, software designers, programmers, engineers, stude
 
 Sketchboard is still under development, but a second place on [Product Hunt](http://www.producthunt.com/tech/sketchboard) reinforced our belief that we’re headed in the right direction. We’re hard at work at making Sketchboard a tool users love.
 
-Wanna help us? <a href='mailto:ernesto@sketchboard.io'>Write us</a> a line or two on your thoughts. Also check out our [blog](http://sketchboard.io/blog) and follow us on [Twitter](http://twitter.com/#!/sketchboardme) to stay tuned to Sketchboard’s latest developments.
+Wanna help us? <a href='mailto:ernesto@sketchboard.io'>Write us</a> a line or two on your thoughts. Also check out our [blog](http://sketchboard.io/blog) and follow us on [Twitter](http://twitter.com/#!/sketchboardio) to stay tuned to Sketchboard’s latest developments.
