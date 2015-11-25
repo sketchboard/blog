@@ -1,5 +1,7 @@
 body {
 	font-weight: 300;
+	background-color: #ECE8E6;
+	color: #333333;
 }
 
 .main {
@@ -1135,6 +1137,17 @@ strong {
 	border-top-right-radius: 3px;
 }
 
+.mini-browser3 {
+	width: 346px;
+	border: 1px solid #dedede;
+	-webkit-border-radius-top: 3px;
+	-moz-border-radius-top: 3px;
+	-ms-border-radius-top: 3px;
+	-o-border-radius-top: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
 .b-browser .b-url {
 	position: absolute;
 	left: 50%;
@@ -1309,4 +1322,71 @@ ul.testimonial-ul {
 
 .integrations-first a {
 	margin-right: 15px;
+}
+
+.feature-highlights {
+	width: 1024px;
+	margin: 10px auto 0 auto;
+	padding: 60px 0;
+	border-bottom: 1px solid #6B6653;
+}
+
+.feature-highlights h2 {
+	margin: 0;
+	padding: 0;
+	color: #6B6653;
+}
+.feature-text {
+	font-size: 15px;
+}
+.feature-text p {
+	margin-right: 45px;
+}
+.feature-text-right {
+	font-size: 14px;
+}
+.feature-text-right {
+	padding-left: 45px;
+}
+.feature-still {
+	width: 750px;
+}
+
+.mobile-video {
+	display: none;
+}
+
+@media screen and (max-width: 64em) {
+
+	.feature-highlights {
+		width: 48em;
+	}
+
+	.mini-browser3 {
+		width: 260px;
+	}
+
+}
+
+@media screen and (max-width: 48em) {
+	.feature-highlights {
+  	max-width: 48em;
+	}
+
+	.mini-browser3 {
+		width: 298px;
+	}
+
+}
+
+@media screen and (max-width: 35.5em) {
+
+	.feature-highlights {
+  	max-width: 35.5em;
+	}
+
+	.mini-browser3 {
+		width: 220px;
+	}
+
 }

@@ -6,7 +6,7 @@
     <title>Sketchboard.io - Visual Remote Teamwork</title>
     <link rel="icon" type="image/png" href="/sketchboard.io/img/logo-favicon.png">
     <link rel="stylesheet" href="/css/pre.css">
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <link rel="stylesheet" href="/css/0.5.0-pure-min.css">
 
 
 
@@ -17,7 +17,7 @@
 <![endif]-->
 <!--[if gt IE 8]><!-->
   
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="/css/0.5.0-grids-responsive-min.css">
   
 <!--<![endif]-->
 
@@ -29,8 +29,8 @@
     <![endif]-->
     <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="/css/marketing.css">
-    <!-- <link rel="stylesheet" href="/css/marketing-custom2.css"> -->
-    <link rel="stylesheet" href="/css/7c383310f8e804c3a705c3d67c53c3d4-marketing-custom2.min.css">
+    <link rel="stylesheet" href="/css/marketing-custom2.css">
+    <!-- <link rel="stylesheet" href="/css/7c383310f8e804c3a705c3d67c53c3d4-marketing-custom2.min.css"> -->
     <!-- <link rel="stylesheet" href="/css/marketing-anim-webkit.css"> -->
     <link rel="stylesheet" href="/css/9761077635ae3b9539857b8f0431919f-marketing-webkit.min.css">
     <link rel="stylesheet" href="/sketchboard.io/plans.css">
@@ -119,7 +119,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
             Collaborative Real-time Sketching + Multiple Mouse Cursors + Chrystal Clear Drawings
         </p> -->
         
-        <h2 class="splash-subhead">Solve problems and create ideas on endless whiteboard with your teammates by sketching.</h2>
+        <h2 class="splash-subhead">Solve problems and create ideas on infinite whiteboard with your teammates by sketching.</h2>
 
         <div class="call-action">
 
@@ -127,7 +127,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
 
         </div>
 
-        <a href='/slack.html' style='display:block;'>
+<!--         <a href='/slack.html' style='display:block;'>
         <div>
           <div>
             Get Sketchboard for Slack.
@@ -137,7 +137,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
           </div>
         </div>
         </a>
-
+ -->
 
         <div class="anim">
           <div class="anim-bg"></div>
@@ -269,7 +269,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
         <h2 class="content-head is-center" style='margin-bottom:0;'>Over <strong>40,000 users</strong> in 130 countries</h2>
         <h2 class="content-head is-center" style='margin-top:15px;'>solve problems together visually</h2>
 
-        <div class="b-demo demo-wrapper" ng-controller='DemoController'>
+<!--         <div class="b-demo demo-wrapper" ng-controller='DemoController'>
           <div class="b-browser" show-on='replay' hide-on='video-ended-features'>
             <div>
               <img src='sketchboard.io/img/browser.png' class="b-browser2">
@@ -355,7 +355,6 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
           <div class="features-wrapper">
             <ul id="feature-controls" class="feature-controls">
               <li class="add-shapes" show-on='replay' hide-on='video-ended-features'>
-                <!-- <a href="#"> -->
                   <div class="icon">
                     <i class="fa fa-plus"></i>
                   </div>
@@ -364,7 +363,6 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
                     <div>Double click background</div>
                     <div>Drag & drop shapes from the library</div>
                   </div>
-                <!-- </a> -->
               </li>
               <li class="create-connections hide" show-on='video-ended-features' hide-on='video-end-connect'>
                 <a href="#">
@@ -399,7 +397,6 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
                 </a>
               </li>
               <li class="share hide" show-on='video-end-freehand' hide-on='replay'>
-                <!-- <a href="#"> -->
                   <div class="icon">
                     <i class="fa fa-users"></i>
                   </div>
@@ -407,76 +404,16 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
                   <div>
                     Share with teammates and simplify complex problems without email.
                   </div>
-                <!-- </a> -->
               </li>
             </ul>  
           </div>
-          <!-- <div class="pure-g">
-            <div class="pure-u-4-5 video-container">
-              <div class="" hide-on='video-ended-features' show-on='replay'>
-                <div class="video-replay" show-on='video-ended-share' hide-on='replay'>
-                  <a class="pure-button font-large" ng-click='replay()'>Replay</a>
-                </div>
-
-                <div class="browser">
-                  <img src='sketchboard.io/img/browser.png' width="100%">
-                </div>
-                <div class="browser-url">https://sketchboard.me/abcdefghij</div>
-                <video features-video class="video-feature">
-                  <source type="video/webm" src="/videos/intro-features.webm" type="video/webm">
-                  <source type="video/mp4" src="/videos/intro-features2.mp4" type="video/mp4">
-                  
-                Your browser does not support the video tag.
-                <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
-                </video>
-              </div>
-
-              <div class="hide" show-on='video-ended-features' hide-on='replay'>
-                <div class="browser-users">
-                  <div class="mini-browser mini-browser-left browser-user">
-                    Saiki@Helsinki
-                  </div>
-                  <div class="mini-browser browser-user">
-                    Rita@Denver
-                  </div>
-                </div>
-                <div class="browser2">
-                  <div class="mini-browser mini-browser-left">
-                    <img src='sketchboard.io/img/browser.png' width="100%">
-                  </div>
-
-                  <div class="mini-browser">
-                    <img src='sketchboard.io/img/browser.png' width="100%">
-                  </div>
-                </div>
-                <video share-video class="video-feature pure-img">
-                  <source type="video/webm" src="/videos/intro-share-white.webm" type="video/webm">
-                  <source type="video/mp4" src="/videos/intro-share-white2.mp4" type="video/mp4">
-                  
-                Your browser does not support the video tag.
-                <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
-                </video>
-              </div>
-            </div>
-            <div class="pure-u-1-5">
-              <div class="video-steps">
-                <div class="step step-active">
-                  <h2>Add Shapes</h2>
-                  <h2>Create Connection</h2>
-                  <h2>Add Images</h2>
-                  <h2>Draw Freehand</h2>
-                  <h2>Share in real-time with teammates</h2>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
+        </div> -->
 
 
 
         <!-- <img src="sketchboard.io/img/image1.png" class="pure-img centered-img"> -->
 
-        <div style="clear: both;">
+<!--         <div style="clear: both;">
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
               <h3 class="content-subhead">
@@ -516,18 +453,82 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
             </p>
 
             </div>
-<!--             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    <i class="fa fa-check-square-o"></i>
-                    Plays Nice
-                </h3>
-                <p>
-                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                </p>
-            </div> -->
         </div>
+        </div> -->
+
+
+        <div class='pure-g feature-highlights'>
+          <div class='pure-u-1 pure-u-md-7-24 feature-text'>
+            <h2>Real-time Team Visual Collaboration</h2>
+
+            <p>
+              Edit board together at the same time. See teammates' mouse where they are on a board. 
+            </p>
+
+            <p>
+              Attach comments on shapes. Comments are like mini chats. Share private boards securely with teammates.
+            </p>
+          </div>
+
+          <div class='pure-u-1 pure-u-md-17-24'>
+            <div>
+              <img src='sketchboard.io/img/browser.png' class="mini-browser3" style="float: left;">
+              <img src='sketchboard.io/img/browser.png' class="mini-browser3" style="float: right;">
+            </div>
+
+            <video width="100%" class="b-feature-video" loop>
+              <source type="video/webm" src="/img/features/real-time-demo-2015-11-24.webm" type="video/webm">
+              <source type="video/mp4" src="/img/features/real-time-demo-2015-11-24-h.mp4" type="video/mp4">
+            </video>
+
+            <img class='mobile-video' data-src='/img/features/real-time-demo-2015-11-24.gif' width="100%">
+
+            <!-- <img src='/img/features/real-time-demo.png' class='feature-still'> -->
+            <!-- <img src='/img/features/real-time-demo.gif'> -->
+          </div>
         </div>
 
+        <div class='pure-g feature-highlights'>
+
+          <div class='pure-u-1 pure-u-md-17-24'>
+            <div>
+              <img src='sketchboard.io/img/browser.png' class="mini-browser3" style="float: left;">
+              <img src='sketchboard.io/img/browser.png' class="mini-browser3" style="float: right;">
+            </div>
+
+            <video width="100%" class="b-feature-video" loop>
+              <source type="video/webm" src="/img/features/real-time-presentation-demo.webm" type="video/webm">
+              <source type="video/mp4" src="/img/features/real-time-presentation-demo-h.mp4" type="video/mp4">
+              <img src='/img/features/real-time-presentation-demo.gif'>
+            </video>
+
+            <img class='mobile-video' data-src='/img/features/real-time-presentation-demo.gif' width="100%">
+
+            <!-- <img src='/img/features/real-time-demo.png' class='feature-still'> -->
+            <!-- <img src='/img/features/real-time-demo.gif'> -->
+          </div>
+
+          <div class='pure-u-1 pure-u-md-7-24 feature-text-right'>
+            <h2>Remote Presentation</h2>
+            <p>
+              Stop spending time to create slides for internal meetings. Reuse your sketches and just give them an order how you would like to present those.
+            </p>
+
+            <p>
+              Slides are changed at the same for all no matter where they are.
+            </p>
+          </div>
+
+        </div>
+
+        <div class='feature-highlights'>
+          <h2>Slack Integration</h2>
+          Use your favorite communication platform and add digital team whiteboard on it. Sketchboard for Slack integrates smoothly by using slash command. <a href='/slack'>Learn more</a>.
+
+          <code>
+            /sketch Awesome Idea
+          </code>
+        </div>
 
         <div class="pure-g" hidden>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
@@ -569,7 +570,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
             </div> -->
         </div>
 
-        <h2 class="content-head is-center">Combine diagrams, freehand and images on endless board</h2>
+        <h2 class="content-head is-center">Combine diagrams, freehand and images on infinite board</h2>
         <h3 class="is-center">More examples on <a href="https://gallery.sketchboard.me">Sketch Gallery</a></h3>
         <img src="sketchboard.io/img/image1.png" class="pure-img centered-img">
         <img src="sketchboard.io/img/image3.png" class="pure-img centered-img">
@@ -1195,6 +1196,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
 
 <script src="/js/animate.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<!-- <script src="/js/isInViewport.min.js"></script>  -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.5/angular.min.js"></script>
 <script src="/javascripts/app.js"></script>
 <!-- <script src="/js/header.js"></script> -->
@@ -1239,7 +1241,70 @@ var _track = function(event, data) {
         $('#plan-details').css('display', 'none')
       }
     })
+
+    function isElementInViewport (el) {
+
+        //special bonus for those using jQuery
+        if (typeof jQuery === "function" && el instanceof jQuery) {
+            el = el[0];
+        }
+
+        var rect = el.getBoundingClientRect();
+
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)// && /*or $(window).height() */
+            //rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+        );
+    }    
+
+    function onVisibilityChange (el, callback) {
+        return function () {
+            // /*your code here*/ console.log('visibility ' + isElementInViewport(el));
+          if (isElementInViewport(el)) {
+            if (isMobile) {
+              $(el).attr('src', el.dataset.src)
+            } else {
+              el.play()
+            }
+          } else {
+            if (!isMobile) {
+              el.pause()
+            }
+          }
+        }
+    }
+
+    if (isMobile) {
+      $('video').css('display', 'none')
+      $('.mobile-video').each(function() {
+        $(this).css('display', 'inline-block')
+        var handler = onVisibilityChange(this);
+        //jQuery
+        $(window).on('DOMContentLoaded load resize scroll', handler);
+      })
+    } else {
+      $('video').each(function() {
+        var handler = onVisibilityChange(this);
+        //jQuery
+        $(window).on('DOMContentLoaded load resize scroll', handler);
+      })
+    }
+
+
+    // if (!isMobile) {
+    //   window.addEventListener('scroll', checkScroll, false);
+    //   window.addEventListener('resize', checkScroll, false);
+
+    //   checkScroll()
+    // }
   })
+
+var isMobile = false; //initiate as false
+// device detection
+if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
+    || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4))) isMobile = true;  
 </script>
 
 
