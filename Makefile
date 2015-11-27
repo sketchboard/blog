@@ -33,5 +33,6 @@ build: blog
 	cleancss css/header.css -o css/header.min.css
 	@echo `md5 -q css/header.min.css`-header.min.css
 	mv css/header.min.css css/`md5 -q css/header.min.css`-header.min.css
+	bundle exec jekyll build
 	
 .PHONY: blog

@@ -3,6 +3,8 @@ Run Jekyll Locally
 
 bundle exec jekyll serve -w
 
+bundle exec jekyll build
+
 
 New Post
 --------

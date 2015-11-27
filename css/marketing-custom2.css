@@ -1316,6 +1316,24 @@ ul.testimonial-ul {
 	margin: 0;
 }
 
+a.get-sb-slack {
+	color: #222;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+a.get-sb-slack:hover {
+  background: rgba(188,34,63,.13);
+}
+
+.get-sb-slack h2 {
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
 .integrations-first {
 	margin-bottom: 30px;
 }
