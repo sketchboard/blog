@@ -1389,6 +1389,11 @@ a.get-sb-slack:hover {
 	margin: 10px 0;
 }
 
+.pure-button-purple {
+	background-color: #ED4073;
+	color: #fff;
+}
+
 @media screen and (max-width: 64em) {
 
 	.feature-highlights {
