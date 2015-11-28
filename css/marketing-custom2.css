@@ -1352,6 +1352,9 @@ a.get-sb-slack:hover {
 	padding: 60px 0;
 	border-bottom: 1px solid #6B6653;
 }
+.feature-highlights.last {
+	border-bottom: none;
+}
 
 .feature-highlights h2 {
 	margin: 0;
