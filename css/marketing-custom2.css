@@ -1389,6 +1389,9 @@ a.get-sb-slack:hover {
 .feature-image {
 	margin: 0 0 50px 0;
 }
+.feature-image img {
+	border-radius: 4px;
+}
 
 .pure-button-purple {
 	background-color: #ED4073;
