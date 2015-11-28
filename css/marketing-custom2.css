@@ -1362,19 +1362,46 @@ a.get-sb-slack:hover {
 	color: #6B6653;
 }
 .feature-text {
+	padding-top: 55px;
 	font-size: 15px;
 }
 .feature-text p {
 	margin-right: 45px;
 }
 .feature-text-right {
+	padding-top: 55px;
 	font-size: 14px;
-}
-.feature-text-right {
 	padding-left: 45px;
 }
 .feature-still {
 	width: 750px;
+}
+
+.two-browsers {
+	text-align: center;
+	line-height: 0;
+}
+.two-browsers .user {
+	color: #6B6653;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.two-browsers .user img {
+/*  -webkit-clip-path: circle(17px at center);
+  clip-path: circle(17px at center);*/
+  border: 3px solid #57B357;
+  border-radius: 23px;
+  padding: 3px;
+  margin: 0 10px 10px 0;
+}
+
+.first-browser {
+	float: left;
+}
+.second-browser {
+	float: right;
 }
 
 .mobile-video {
