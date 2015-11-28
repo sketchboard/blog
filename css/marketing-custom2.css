@@ -773,6 +773,10 @@ background: none;
 	color: #454545;
 }
 
+.content-white {
+	background-color: #fff;
+}
+
 /*.content a {
 	color: #DB3838 !important;
 }
@@ -1372,6 +1376,14 @@ a.get-sb-slack:hover {
 
 .mobile-video {
 	display: none;
+}
+
+.feature-images {
+	max-width: 750px;
+	margin: 0 auto;
+}
+.feature-images img {
+	margin: 10px 0;
 }
 
 @media screen and (max-width: 64em) {
