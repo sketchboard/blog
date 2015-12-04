@@ -5,7 +5,7 @@ categories:
 permalink: /blog/forget-post-its.html
 ---
 
-![Sketch](http://pub.sketchboard.io/images/7a808127-3402-461f-8d98-4a636b8350be.png?updated=1444042411323)
+![Sketch](https://s3-eu-west-1.amazonaws.com/pub.sketchboard.io/images/7a808127-3402-461f-8d98-4a636b8350be.png?updated=1444042411323)
 
 Anyone who has ever taken part in an ideation or prototyping workshop of some sorts will be very familiar with [post-it](https://en.wikipedia.org/wiki/Post-it_note) notes. A wonderful innovation that was born out of a failed attempt to create a super-strong adhesive. This invention first conceived in 1968 by Dr Spencer Silver, a scientist at 3M, and further developed by Arthur Fry in the 1970s still remains in broad use. And for a reason. 
 
