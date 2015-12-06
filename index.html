@@ -267,7 +267,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
   <table style='margin: 30px auto 10px auto;';>
     <tr>
       <td>
-        <a style='color:#D85637;' href='https://www.producthunt.com/tech/sketchboard' target="_blank"><span style='margin:0 10px 0 0;'>Featured on</span> <img style='vertical-align:middle;' src='/img/features/product-hunt-horizontal-logo-red.png' width='150'></a>
+        <a style='color:#D85637;' href='https://www.producthunt.com/tech/sketchboard' target="_blank" onClick="_track('ph', {category:'ref', label:''})"><span style='margin:0 10px 0 0;'>Featured on</span> <img style='vertical-align:middle;' src='/img/features/product-hunt-horizontal-logo-red.png' width='150'></a>
       </td>
     </tr>
   </table>
@@ -439,7 +439,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
             </p>
 
             <p>
-              <a class='pure-button pure-button-purple' href='https://sketchboard.me/service/signup' target="_blank" onClick="_track('sketch-now', {category:'video', label:'sketch-together'})">Forget Emails and Sketch</a>
+              <a class='pure-button pure-button-purple' href='https://sketchboard.me/service/signup' target="_blank" onClick="_track('sketch-together', {category:'sketch-together', label:'video'})">Forget Emails and Sketch</a>
             </p>
           </div>
 
@@ -515,7 +515,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
             </p>
 
             <p>
-              <a class='pure-button pure-button-purple' href='https://sketchboard.me/service/signup' target="_blank" onClick="_track('sketch-now', {category:'video', label:'presentation'})">Simplify Team Presentation</a>
+              <a class='pure-button pure-button-purple' href='https://sketchboard.me/service/signup' target="_blank" onClick="_track('presentation', {category:'presentation', label:'video'})">Simplify Team Presentation</a>
             </p>
 
           </div>
@@ -617,7 +617,7 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
         </div>
 
         <div class='text-center'>
-          <a class='pure-button font-xlarge pure-button-purple' href='https://sketchboard.me/service/signup' target="_blank" onClick="_track('sketch-now', {category:'video', label:'presentation'})">Start Creating Brilliant Ideas Together</a>
+          <a class='pure-button font-xlarge pure-button-purple' href='https://sketchboard.me/service/signup' target="_blank" onClick="_track('sign-up', {category:'start-creating', label:'text'})">Start Creating Brilliant Ideas Together</a>
         </div>
 
       </div>
