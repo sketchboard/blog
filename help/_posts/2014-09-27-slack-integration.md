@@ -25,6 +25,22 @@ The <strong>email address</strong> for your Sketchboard team must match the one 
 
 In case your Slack account email address does not exist on Sketchboard, integration return URL directs you to Sketchboard sign up.
 
+
+<h2 id='install'>Installation</h2>
+
+First you need to <a href='https://sketchboard.me/service/signup' target="_blank">sign up</a> on Sketchboard using the same email address as you are using on your Slack team.
+
+Sketchboard for Slack installation is initiated from Sketchboard. Go to <strong>Team Settings</strong> from the menu.
+
+<img alt='Slack Menu' src='/help/images/slack-menu.png' style='width:350px;max-width:100%;'>
+
+Select <strong>Add to Slack</strong> to start the installation. <strong>NOTE</strong> Slack Integration is a premium feature and on free plan starts a 14 day trial.
+
+<img alt='Slack Installation' src='/help/images/slack-installation.png' width='100%'>
+
+Contact <a href='mailto:support@sketchboard.io'>support</a> if any questions.
+
+
 Usage Guide
 -----------
 
@@ -56,15 +72,3 @@ Select shapes to be uploaded to Slack. Unselect all to upload a whole sketch.
 <img src='/help/images/slack-share.png' style='width:500px;max-width:100%;'>
 
 You will be first asked to give Sketchboard a right to upload snapshot image to Slack. After you have authorized image upload you can pick channel to send the snapshot with an initial message.
-
-
-
-<h2 id='install'>Installation</h2>
-
-Sketchboard for Slack installation is initiated from Sketchboard. Go to <strong>Team Settings</strong> from the menu.
-
-<img alt='Slack Menu' src='/help/images/slack-menu.png' style='width:350px;max-width:100%;'>
-
-Select <strong>Add to Slack</strong> to start the installation. <strong>NOTE</strong> Slack Integration is a premium feature and on free plan starts a 14 day trial.
-
-<img alt='Slack Installation' src='/help/images/slack-installation.png' width='100%'>
