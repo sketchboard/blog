@@ -1425,6 +1425,80 @@ a.get-sb-slack:hover {
 	color: #fff;
 }
 
+.org-plan {
+	margin: 0 auto;
+	width: 290px;
+}
+.plan-table {
+  border: 1px solid #ddd;
+  margin: 0 .5em 2em;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  position: relative;
+  min-height: 450px;
+}
+.plan-table-header {
+  background: #fff;
+  color: #000;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.plan-table-header h2 {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: #ED4073;
+}
+.plan-price {
+  font-size: 1.7em;
+}
+.plan-interval-unit {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.plan-main-difference {
+  color: #333;
+  padding: 7px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+.plan-features {
+  background-color: #f8f8f8;
+  padding: 0 0 0 0;
+  text-align: left;
+  font-size: 13px;
+}
+.plan-features ul {
+  padding: 0;
+  margin: 20px 0 10px 25px;  
+  font-size: 12px;
+  text-align: left;
+  width: auto;
+}
+.plan-features li {
+  margin-bottom: 6px;
+	line-height: 20px;
+}
+.plan-select {
+  margin: 30px 0 20px 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.plan-select a {
+  display: block;
+  padding: 11px;
+  font-size: 16px;
+  margin: 0 15px 0 15px;
+}
+
 @media screen and (max-width: 64em) {
 
 	.feature-highlights {
