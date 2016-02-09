@@ -60,7 +60,7 @@ font-weight: 300;
 }
 
 ul {
-	list-style: none;
+	/*list-style: none;*/
   list-style-image: none;
 }
 
@@ -68,9 +68,10 @@ ul {
 	content: none;
 }
 ul li:before {
-	content: "»";
+	list-style-type: disc;
+/*	content: "»";
 	padding-right: 5px;
-	margin-left: -20px;
+	margin-left: -20px;*/
 }
 
 a {
