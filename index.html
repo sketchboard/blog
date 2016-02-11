@@ -33,7 +33,7 @@
     <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="/css/marketing.css">
     <!-- <link rel="stylesheet" href="/css/marketing-custom2.css"> -->
-    <link rel="stylesheet" href="/css/c26151a254fc9baaa612a88bf34a7c5e-marketing-custom2.min.css">
+    <link rel="stylesheet" href="/css/886ceed7bd3793e8c7dde265db9e9a2d-marketing-custom2.min.css">
     <!-- <link rel="stylesheet" href="/css/marketing-anim-webkit.css"> -->
     <link rel="stylesheet" href="/css/9761077635ae3b9539857b8f0431919f-marketing-webkit.min.css">
     <link rel="stylesheet" href="/sketchboard.io/plans.css">
@@ -278,9 +278,10 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
 </div> <!-- main -->
 
 <div class="content-wrapper">
-    <div class="content">
-        <h2 class="content-head is-center" style='margin-bottom:0;'>Over <strong>50,000 users</strong> in 130 countries</h2>
-        <h2 class="content-head is-center" style='margin-top:15px;'>solve problems together visually</h2>
+    <div class="content" ng-controller='CountController' id='CountController'>
+        <h2 class="content-head is-center counter" style='margin-bottom:0;' ng-bind-html='userCount | counter'></h2>
+        <h2 class="content-head is-center" style='margin-top:20px;'>users solve problems together visually</h2>
+        <!-- <h2 class="content-head is-center" style='margin-top:15px;'>solve problems together visually</h2> -->
 
 <!--         <div class="b-demo demo-wrapper" ng-controller='DemoController'>
           <div class="b-browser" show-on='replay' hide-on='video-ended-features'>
@@ -1330,7 +1331,8 @@ mixpanel.init("2767c34336070742b46e3a37c5789b52");</script><!-- end Mixpanel -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
 <!-- <script src="/js/isInViewport.min.js"></script>  -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.5/angular.min.js"></script>
-<script src="/javascripts/app.js"></script>
+<!-- <script src="/javascripts/app.js"></script> -->
+<script src="/js/cbd99a655ad68888bcd4b96190fb2675-app.min.js"></script>
 <!-- <script src="/js/header.js"></script> -->
 <script src="/js/122b3f29e2eb2114286de004c6605852-header.min.js"></script>
 <script>

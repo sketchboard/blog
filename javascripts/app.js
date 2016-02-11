@@ -93,6 +93,27 @@ app.directive('hideOn', ['$rootScope', function hideOn($rootScope) {
 	}
 }])
 
+function sketchboardIOJSON(data) {
+	var scope = angular.element('#CountController').scope()
+	scope.applyJson(data)
+}
+
+app.controller('CountController', ['$scope', '$http', function CountController($scope, $http) {
+
+	// load without cors
+	var url = "https://s3-eu-west-1.amazonaws.com/pub.sketchboard.io/json/sketchboardio.json?callback=JSON_CALLBACK"
+	// var url = "https://s3-eu-west-1.amazonaws.com/dev-sketchboard-public/json/sketchboardio.json?callback=JSON_CALLBACK"
+
+	$http.jsonp(url)
+
+
+	$scope.applyJson = function(data) {
+		$scope.userCount = data.user_count
+		$scope.$digest()
+	}
+
+}])
+
 app.controller('TestimonialsCtrl', ['$scope', '$timeout', function TestimonialsCtrl($scope, $timeout) {
 	var currentIndex = 0
 	$scope.testimonials = []
@@ -135,6 +156,31 @@ app.controller('TestimonialsCtrl', ['$scope', '$timeout', function TestimonialsC
 
 	loop()
 }])
+
+
+app.filter('counter', ['$sce', function($sce) {
+	return function(value) {
+		if (!value) {
+			return ''
+		}
+
+		var chars = value.toString().split('')
+
+		var result = ''
+
+		for (var i = 0; i < chars.length; ++i) {
+			if ((i + 1) % 3 == 0) {
+				result += '<span class="counter-number-sep">,</span>'
+			}
+			result += '<span class="counter-number">' + chars[i] + '</span>'
+		}
+
+
+
+		return $sce.trustAsHtml(result)
+	}
+}])
+
 
 app.directive('testimonial', function testimonial() {
 	return function(scope, elem, attr) {
