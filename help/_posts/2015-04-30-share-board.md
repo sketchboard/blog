@@ -20,8 +20,8 @@ You can find team boards from the boards menu.
 <img alt="Team Boards Filter" src="/help/images/team-boards2.png" width="100%">
 
 
-Share Private Board Outside your Team
--------------------------------------
+Share Private Board Outside of Your Team
+----------------------------------------
 
 Password sharing can be used to share private personal or team board outside of your team. You need to share password separately to correct stakeholders. Note that anyone with the password and URL can edit the board. Sketchboard support password sharing up to 3 simultaneous user per board. 
 
