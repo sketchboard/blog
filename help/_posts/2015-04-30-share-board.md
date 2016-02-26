@@ -17,7 +17,24 @@ You can find team boards from the boards menu.
 <img alt="Boards Menu" src="/help/images/board-menu.png" width="300px">
 
 **Team Boards filter** shows board that are shared by you or someone from your team. Shared with Me filter shows only boards that are shared by someone else than you.
-<img alt="Team Boards Filter" src="/help/images/team-boards.png" width="100%">
+<img alt="Team Boards Filter" src="/help/images/team-boards2.png" width="100%">
+
+
+Share Private Board Outside your Team
+-------------------------------------
+
+Password sharing can be used to share private personal or team board outside of your team. You need to share password separately to correct stakeholders. Note that anyone with the password and URL can edit the board. Sketchboard support password sharing up to 3 simultaneous user per board. 
+
+Set password for a board from:
+
+<img alt='Share private personal or team board with a password' src='/help/images/share-board-passwd.png' width='400px;' style='display: block; margin: 0 auto;'>
+
+
+Find all password shared boards from the Menu => Boards (Cmd+P or Ctrl+P) and select "Password Shared" filter.
+
+<img alt='Share private personal or team board with a password' src='/help/images/share-board-passwd-find.png' width='100%'>
+
+
 
 Share Public Board
 ------------------
